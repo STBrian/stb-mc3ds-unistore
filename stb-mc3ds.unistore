@@ -1,0 +1,51 @@
+{
+    "storeInfo": {
+        "title": "STB-MC3DS",
+        "author": "STBUniverse",
+        "description": "STB MC3DS - A store to find things made by me for the MC 3DS Edition",
+        "file": "stb-mc3ds.unistore",
+        "url": "",
+        "sheet": "stb-mc3ds.t3x",
+        "sheetURL": "",
+        "version": 3,
+        "revision": 1
+    },
+    "storeContent": [
+        {
+            "info": {
+                "title": "New Minecraft Textures",
+                "author": "STBUniverse",
+                "version": "v0.0.1",
+                "category": ["texture pack"],
+                "console": ["3DS"],
+                "description": "Port of the textures from recent versions of the game",
+                "license": "none",
+                "icon_index": -1,
+                "sheet_index": 0,
+                "last_updated": "2023-08-01 at 23:40 (UTC)"
+            },
+            "New Minecraft Textures (USA)": [
+                {
+                    "type": "mkdir",
+                    "directory": "sdmc:/luma/titles/00040000001B8700/romfs/atlas/"
+                },
+                {
+                    "type": "downloadFile",
+                    "file": "",
+                    "message": "Downloading texture...",
+                    "output": "sdmc:/new-minecraft-textures.zip"
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/new-minecraft-textures.zip",
+                    "input": "atlas/",
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/atlas/"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/new-minecraft-textures.zip"
+                }
+            ]
+        }
+    ]
+}
