@@ -8,7 +8,7 @@
         "sheet": "stb-mc3ds.t3x",
         "sheetURL": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/spritesheet.t3x",
         "version": 3,
-        "revision": 2
+        "revision": 3
     },
     "storeContent": [
         {
@@ -22,7 +22,7 @@
                 "license": "none",
                 "icon_index": 0,
                 "sheet_index": 0,
-                "last_updated": "2023-08-01 at 23:40 (UTC)",
+                "last_updated": "2023-08-03 at 22:42 (UTC)",
                 "releasenotes": "Test"
             },
             "New Minecraft Textures (USA)": [
