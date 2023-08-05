@@ -8,21 +8,21 @@
         "sheet": "stb-mc3ds.t3x",
         "sheetURL": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/spritesheet.t3x",
         "version": 3,
-        "revision": 4
+        "revision": 5
     },
     "storeContent": [
         {
             "info": {
                 "title": "New Minecraft Textures",
                 "author": "STBUniverse",
-                "version": "v0.0.3",
+                "version": "v0.0.4",
                 "category": ["texture pack"],
                 "console": ["3DS"],
                 "description": "Port of the textures from recent versions of the game",
                 "license": "none",
                 "icon_index": 0,
                 "sheet_index": 0,
-                "last_updated": "2023-08-04 at 05:22 (UTC)",
+                "last_updated": "2023-08-05 at 03:30 (UTC)",
                 "releasenotes": "Test"
             },
             "New Minecraft Textures (USA)": [
@@ -37,6 +37,12 @@
                     "file": "sdmc:/new-minecraft-textures.zip",
                     "input": "atlas/",
                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/atlas/"
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/new-minecraft-textures.zip",
+                    "input" "blocks/",
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/blocks"
                 },
                 {
                     "type": "deleteFile",
