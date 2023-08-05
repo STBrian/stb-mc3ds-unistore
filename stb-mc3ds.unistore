@@ -15,14 +15,14 @@
             "info": {
                 "title": "New Minecraft Textures",
                 "author": "STBUniverse",
-                "version": "v0.0.4",
+                "version": "v0.0.5",
                 "category": ["texture pack"],
                 "console": ["3DS"],
                 "description": "Port of the textures from recent versions of the game",
                 "license": "none",
                 "icon_index": 0,
                 "sheet_index": 0,
-                "last_updated": "2023-08-05 at 03:30 (UTC)",
+                "last_updated": "2023-08-05 at 04:23 (UTC)",
                 "releasenotes": "Test"
             },
             "New Minecraft Textures (USA)": [
