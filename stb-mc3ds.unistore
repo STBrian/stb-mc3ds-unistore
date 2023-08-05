@@ -39,6 +39,12 @@
                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/atlas/"
                 },
                 {
+                    "type": "extractFile",
+                    "file": "sdmc:/new-minecraft-textures.zip",
+                    "input" "blocks/",
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/blocks"
+                },
+                {
                     "type": "deleteFile",
                     "file": "sdmc:/new-minecraft-textures.zip"
                 }
