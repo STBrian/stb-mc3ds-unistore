@@ -8,45 +8,39 @@
         "sheet": "stb-mc3ds.t3x",
         "sheetURL": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/spritesheet.t3x",
         "version": 3,
-        "revision": 7
+        "revision": 8
     },
     "storeContent": [
         {
             "info": {
                 "title": "New Minecraft Textures",
                 "author": "STBUniverse",
-                "version": "v0.0.5",
+                "version": "v0.1.0",
                 "category": ["texture pack"],
                 "console": ["3DS"],
                 "description": "Port of the textures from recent versions of the game",
                 "license": "none",
                 "icon_index": 0,
                 "sheet_index": 0,
-                "last_updated": "2023-08-05 at 04:23 (UTC)",
-                "releasenotes": "Test"
+                "last_updated": "2023-08-06 at 20:32 (UTC)",
+                "releasenotes": "Finally the texture pack finished its development phase. From now on the updates will add more and more changes to the blocks and items until all the textures of these have been updated according to the textures of 1.20\n\nMeanwhile some textures have already been changed like netherworld blocks, mineral blocks, doors and some inventory items."
             },
             "New Minecraft Textures (USA)": [
                 {
                     "type": "downloadFile",
                     "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/textures/new-minecraft-textures.zip",
                     "message": "Downloading texture...",
-                    "output": "sdmc:/new-minecraft-textures.zip"
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/new-minecraft-textures.zip"
                 },
                 {
                     "type": "extractFile",
-                    "file": "sdmc:/new-minecraft-textures.zip",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/new-minecraft-textures.zip",
                     "input": "atlas/",
                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/atlas/"
                 },
                 {
-                    "type": "extractFile",
-                    "file": "sdmc:/new-minecraft-textures.zip",
-                    "input": "blocks/",
-                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/blocks/"
-                },
-                {
                     "type": "deleteFile",
-                    "file": "sdmc:/new-minecraft-textures.zip"
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/new-minecraft-textures.zip"
                 }
             ]
         }
