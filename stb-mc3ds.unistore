@@ -8,21 +8,21 @@
         "sheet": "stb-mc3ds.t3x",
         "sheetURL": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/spritesheet.t3x",
         "version": 3,
-        "revision": 8
+        "revision": 9
     },
     "storeContent": [
         {
             "info": {
                 "title": "New Minecraft Textures",
                 "author": "STBUniverse",
-                "version": "v0.1.0",
+                "version": "v0.1.1",
                 "category": ["texture pack"],
                 "console": ["3DS"],
                 "description": "Port of the textures from recent versions of the game",
                 "license": "none",
                 "icon_index": 0,
                 "sheet_index": 0,
-                "last_updated": "2023-08-06 at 20:32 (UTC)",
+                "last_updated": "2023-08-08 at 05:51 (UTC)",
                 "releasenotes": "Finally the texture pack finished its development phase. From now on the updates will add more and more changes to the blocks and items until all the textures of these have been updated according to the textures of 1.20\n\nMeanwhile some textures have already been changed like netherworld blocks, mineral blocks, doors and some inventory items."
             },
             "New Minecraft Textures (USA)": [
