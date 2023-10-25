@@ -8,7 +8,7 @@
         "sheet": "stb-mc3ds.t3x",
         "sheetURL": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/spritesheet.t3x",
         "version": 3,
-        "revision": 10
+        "revision": 11
     },
     "storeContent": [
         {
@@ -23,7 +23,7 @@
                 "icon_index": 0,
                 "sheet_index": 0,
                 "last_updated": "2023-10-25 at 21:24 (UTC)",
-                "releasenotes": "Finally the texture pack finished its development phase. From now on the updates will add more and more changes to the blocks and items until all the textures of these have been updated according to the textures of 1.20\n\nMeanwhile some textures have already been changed like netherworld blocks, mineral blocks, doors and some inventory items."
+                "releasenotes": "This texture pack will be updated slowly until it contains the new textures according to version 1.20"
             },
             "New Minecraft Textures (USA)": [
                 {
