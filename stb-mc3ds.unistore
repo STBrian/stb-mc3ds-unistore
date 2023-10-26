@@ -28,7 +28,7 @@
             "New Minecraft Textures (USA)": [
                 {
                     "type": "downloadFile",
-                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/textures/new-minecraft-textures.zip",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/new-minecraft-textures.zip",
                     "message": "Downloading texture...",
                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/new-minecraft-textures.zip"
                 },
@@ -56,9 +56,28 @@
                 "icon_index": 1,
                 "sheet_index": 0,
                 "last_updated": "2023-10-26 at 04:23 (UTC)",
-                "releasenotes": "This resource pack changes the emeralds in the game to look like rubies. Not only changing its appearance, but also its name in the game for a better experience. \n\nSome things may still refer to emeralds like in achievements, which will be updated soon. \n\nChanging the game's language files is in experimental phase and may cause unexpected crashes."
+                "releasenotes": "This resource pack changes the emeralds in the game to look like rubies. Not only changing its appearance, but also its name in the game for a better experience. \n\nSome things may still refer to emeralds like in achievements, which will be updated soon. \n\nChanging the game's language files is in experimental phase and may cause unexpected crashes.",
+                "screenshots": [
+                    {
+                        "description": "Ruby textures",
+                        "url": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/screenshots/ruby_0.png"
+                    },
+                    {
+                        "description": "Items in inventory",
+                        "url": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/screenshots/ruby_1.png"
+                    },
+                    {
+                        "description": "Villager trading interface",
+                        "url": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/screenshots/ruby_2.png"
+                    }
+                ]
             },
-
+            "Ruby Instead of Emerald (USA)": [
+                {
+                    "type": "downloadFile",
+                    "file": "",
+                }
+            ]
         }
     ]
 }
