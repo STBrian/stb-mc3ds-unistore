@@ -29,7 +29,7 @@
                 {
                     "type": "downloadFile",
                     "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/new-minecraft-textures.zip",
-                    "message": "Downloading texture...",
+                    "message": "Downloading texture pack...",
                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/new-minecraft-textures.zip"
                 },
                 {
@@ -75,7 +75,25 @@
             "Ruby Instead of Emerald (USA)": [
                 {
                     "type": "downloadFile",
-                    "file": "",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/resource_packs/ruby-mod.zip",
+                    "message": "Downloading resource pack...",
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/ruby-mod.zip"
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/ruby-mod.zip",
+                    "input": "atlas/"
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/atlas/"
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/ruby-mod.zip",
+                    "input": "loc/"
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/loc/"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/ruby-mod.zip"
                 }
             ]
         }
