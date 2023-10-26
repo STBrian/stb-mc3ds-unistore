@@ -43,6 +43,22 @@
                     "file": "sdmc:/luma/titles/00040000001B8700/romfs/new-minecraft-textures.zip"
                 }
             ]
+        },
+        {
+            "info": {
+                "title": "Ruby Instead of Emerald",
+                "author": "STBUniverse",
+                "version": "v0.1.0",
+                "category": ["resource pack", "mod"],
+                "console": ["3DS],
+                "description": "Change the emeralds in the game for the classic ruby",
+                "license": "none",
+                "icon_index": 1,
+                "sheet_index": 0,
+                "last_updated": "2023-10-26 at 04:23 (UTC)",
+                "releasenotes": "This resource pack changes the emeralds in the game to look like rubies. Not only changing its appearance, but also its name in the game for a better experience. \n\nSome things may still refer to emeralds like in achievements, which will be updated soon. \n\nChanging the game's language files is in experimental phase and may cause unexpected crashes."
+            },
+
         }
     ]
 }
