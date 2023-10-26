@@ -49,7 +49,7 @@
                 "title": "Ruby Instead of Emerald",
                 "author": "STBUniverse",
                 "version": "v0.1.0",
-                "category": ["resource pack", "mod"],
+                "category": ["resource pack"],
                 "console": ["3DS"],
                 "description": "Change the emeralds in the game for the classic ruby",
                 "license": "none",
@@ -94,6 +94,49 @@
                 {
                     "type": "deleteFile",
                     "file": "sdmc:/luma/titles/00040000001B8700/romfs/ruby-mod.zip"
+                }
+            ]
+        },
+        {
+            "info": {
+                "title": "Chaos Emeralds Texture",
+                "author": "STBUniverse",
+                "version": "v1.0.0",
+                "category": ["texture pack"],
+                "console": ["3DS"],
+                "description": "Changes the appearance of some minerals to be the Chaos Emeralds",
+                "license": "none",
+                "icon_index": 2,
+                "sheet_index": 0,
+                "last_updated": "2023-10-26 at 21:22 (UTC)",
+                "releasenotes": "This texture pack changes the appearance of some minerals to look like Chaos Emeralds. \n\nThis pack only changes the textures of the items but not the names of the minerals in the game.\n\nRedstone - Red\nDiamond - Cyan\nEmerald - Green\nIron Ingot - Silver\nGold Ingot - Yellow\nQuartz - Purple\nLapislazuli - Blue",
+                "screenshots": [
+                    {
+                        "description": "Items with the texture",
+                        "url": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/screenshots/chaos_texture_0.png"
+                    },
+                    {
+                        "description": "Items without the texture",
+                        "url": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/screenshots/chaos_texture_1.png"
+                    }
+                ]
+            },
+            "Chaos Emeralds Texture (USA)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/chaos-emeralds.zip",
+                    "message": "Downloading texture pack...",
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/chaos-emeralds.zip"
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/chaos-emeralds.zip",
+                    "input": "atlas/",
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/atlas/"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/chaos-emeralds.zip"
                 }
             ]
         }
