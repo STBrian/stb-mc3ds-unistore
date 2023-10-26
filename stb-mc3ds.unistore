@@ -50,7 +50,7 @@
                 "author": "STBUniverse",
                 "version": "v0.1.0",
                 "category": ["resource pack", "mod"],
-                "console": ["3DS],
+                "console": ["3DS"],
                 "description": "Change the emeralds in the game for the classic ruby",
                 "license": "none",
                 "icon_index": 1,
@@ -82,13 +82,13 @@
                 {
                     "type": "extractFile",
                     "file": "sdmc:/luma/titles/00040000001B8700/romfs/ruby-mod.zip",
-                    "input": "atlas/"
+                    "input": "atlas/",
                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/atlas/"
                 },
                 {
                     "type": "extractFile",
                     "file": "sdmc:/luma/titles/00040000001B8700/romfs/ruby-mod.zip",
-                    "input": "loc/"
+                    "input": "loc/",
                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/loc/"
                 },
                 {
