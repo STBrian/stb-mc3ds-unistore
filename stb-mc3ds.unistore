@@ -8,7 +8,7 @@
         "sheet": "stb-mc3ds.t3x",
         "sheetURL": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/spritesheet.t3x",
         "version": 3,
-        "revision": 12
+        "revision": 13
     },
     "storeContent": [
         {
@@ -22,7 +22,7 @@
                 "license": "none",
                 "icon_index": 0,
                 "sheet_index": 0,
-                "last_updated": "2023-10-25 at 21:24 (UTC)",
+                "last_updated": "2023-10-26 at 19:19 (UTC)",
                 "releasenotes": "This texture pack will be updated slowly until it contains the new textures according to version 1.20"
             },
             "New Minecraft Textures (USA)": [
