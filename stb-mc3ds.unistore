@@ -8,7 +8,7 @@
         "sheet": "stb-mc3ds.t3x",
         "sheetURL": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/spritesheet.t3x",
         "version": 3,
-        "revision": 15
+        "revision": 16
     },
     "storeContent": [
         {
@@ -137,6 +137,55 @@
                 {
                     "type": "deleteFile",
                     "file": "sdmc:/luma/titles/00040000001B8700/romfs/chaos-emeralds.zip"
+                }
+            ]
+        },
+        {
+            "info": {
+                "title": "Bat 1.21 Model",
+                "author": "STBUniverse",
+                "version": "v1.0.0",
+                "category": ["resource pack"],
+                "console": ["3DS"],
+                "description": "Changes the bat model to the new model introduced in snapshot 23w43a",
+                "license": "none",
+                "icon_index": 3,
+                "sheet_index": 0,
+                "last_updated": "2023-10-30 at 22:48 (UTC)",
+                "releasenotes": "This resource pack attempts to recreate the new bat model introduced in snapshot 23w43a which looks nice!\n\nChanging entity models is experimental and can cause unexpected crashes. \n\n(In my experience, crashes usually occur while loading a world but it does not corrupt any world and usually works fine afterwards, you just have to try again. Still use at your own risk)",
+                "screenshots": [
+                    {
+                        "description": "New model",
+                        "url": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/screenshots/bat_model_1_21_0.png"
+                    },
+                    {
+                        "description": "Original model",
+                        "url": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/screenshots/bat_model_1_21_1.png"
+                    }
+                ]
+            },
+            "Bat 1.21 Model (USA)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/resource_packs/bat-model-1-21.zip",
+                    "message": "Downloading resource pack...",
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/bat-model-1-21.zip"
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/bat-model-1-21.zip",
+                    "input": "vanilla/client/models/",
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/models/"
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/bat-model-1-21.zip",
+                    "input": "vanilla/client/textures/entity/",
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/entity/"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/bat-model-1-21.zip"
                 }
             ]
         }
