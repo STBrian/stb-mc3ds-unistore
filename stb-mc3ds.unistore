@@ -8,7 +8,7 @@
         "sheet": "stb-mc3ds.t3x",
         "sheetURL": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/spritesheet.t3x",
         "version": 3,
-        "revision": 17
+        "revision": 18
     },
     "storeContent": [
         {
@@ -109,7 +109,7 @@
                 "icon_index": 2,
                 "sheet_index": 0,
                 "last_updated": "2023-10-26 at 21:22 (UTC)",
-                "releasenotes": "This texture pack changes the appearance of some minerals to look like Chaos Emeralds. \n\nThis pack only changes the textures of the items but not the names of the minerals in the game.\n\nRedstone - Red\nDiamond - Cyan\nEmerald - Green\nIron Ingot - Silver\nGold Ingot - Yellow\nQuartz - Purple\nLapislazuli - Blue",
+                "releasenotes": "This texture pack changes the appearance of some minerals to look like Chaos Emeralds. \n\nThis pack only changes the textures of the items but not the names of the minerals in the game.\n\nRedstone - Red\nDiamond - Cyan\nEmerald - Green\nIron Ingot - Silver\nGold Ingot - Yellow\nQuartz - Purple\nLapislazuli - Blue\n\nPort of: https://www.planetminecraft.com/texture-pack/chaos-emeralds/",
                 "screenshots": [
                     {
                         "description": "Items with the texture",
