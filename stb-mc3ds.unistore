@@ -8,7 +8,7 @@
         "sheet": "stb-mc3ds.t3x",
         "sheetURL": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/spritesheet.t3x",
         "version": 3,
-        "revision": 18
+        "revision": 19
     },
     "storeContent": [
         {
@@ -144,15 +144,15 @@
             "info": {
                 "title": "Bat 1.21 Model",
                 "author": "STBUniverse",
-                "version": "v1.1.0",
+                "version": "v1.1.1",
                 "category": ["resource pack"],
                 "console": ["3DS"],
                 "description": "Changes the bat model to the new model introduced in snapshot 23w43a",
                 "license": "none",
                 "icon_index": 3,
                 "sheet_index": 0,
-                "last_updated": "2023-11-01 at 02:14 (UTC)",
-                "releasenotes": "This resource pack attempts to recreate the new bat model introduced in snapshot 23w43a which looks nice!\n\nChanging entity models is experimental and can cause unexpected crashes. \n\n(In my experience, crashes usually occur while loading a world but it does not corrupt any world and usually works fine afterwards, you just have to try again. Still use at your own risk)\n\nv1.1.0:\nImproved model",
+                "last_updated": "2023-11-01 at 02:41 (UTC)",
+                "releasenotes": "This resource pack attempts to recreate the new bat model introduced in snapshot 23w43a which looks nice!\n\nChanging entity models is experimental and can cause unexpected crashes. \n\n(In my experience, crashes usually occur while loading a world but it does not corrupt any world and usually works fine afterwards, you just have to try again. Still use at your own risk)\n\nv1.1.0:\nImproved model\n\nv1.1.1:\nUpdated texture",
                 "screenshots": [
                     {
                         "description": "New model",
