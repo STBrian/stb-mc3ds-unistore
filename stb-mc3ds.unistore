@@ -8,7 +8,7 @@
         "sheet": "stb-mc3ds.t3x",
         "sheetURL": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/spritesheet.t3x",
         "version": 3,
-        "revision": 19
+        "revision": 20
     },
     "storeContent": [
         {
@@ -186,6 +186,114 @@
                 {
                     "type": "deleteFile",
                     "file": "sdmc:/luma/titles/00040000001B8700/romfs/bat-model-1-21.zip"
+                }
+            ]
+        },
+        {
+            "info": {
+                "title": "Aquatic Update Panorama Collection",
+                "author": "STBUniverse",
+                "version": "v1.0.0",
+                "category": ["texture pack"],
+                "console": ["3DS"],
+                "description": "A collection of the java and bedrock menu panoramas that appeared in the aquatic update",
+                "license": "none",
+                "icon_index": 4,
+                "sheet_index": 0,
+                "last_updated": "2023-11-02 at 02:28 (UTC)",
+                "releasenotes": "A collection of the java and bedrock menu panoramas that appeared in the aquatic update.\n\nChoose the combination you want for both the upper and lower panoramas.\n\nSee the screenshots for some examples.",
+                "screenshots": [
+                    {
+                        "description": "Upper Bedrock",
+                        "url": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/screenshots/new_panoramas/aquatic_update/upperbedrock.png"
+                    },
+                    {
+                        "description": "Upper Bedrock + Bottom Java",
+                        "url": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/screenshots/new_panoramas/aquatic_update/upperbedrock_bottomjava.png"
+                    },
+                    {
+                        "description": "Upper Java + Bottom Bedrock",
+                        "url": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/screenshots/new_panoramas/aquatic_update/upperjava_bottombedrock.png"
+                    }
+                ]
+            },
+            "Upper Bedrock (USA)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/new_panoramas/aquatic-update.zip",
+                    "message": "Downloading texture pack...",
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/aquatic-update.zip"
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/aquatic-update.zip",
+                    "input": "upperBedrock/",
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background/"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/aquatic-update.zip"
+                }
+            ],
+            "Bottom Bedrock (USA)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/new_panoramas/aquatic-update.zip",
+                    "message": "Downloading texture pack...",
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/aquatic-update.zip"
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/aquatic-update.zip",
+                    "input": "bottomBedrock/",
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background/"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/aquatic-update.zip"
+                }
+            ],
+            "Upper Java (USA)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/new_panoramas/aquatic-update.zip",
+                    "message": "Downloading texture pack...",
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/aquatic-update.zip"
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/aquatic-update.zip",
+                    "input": "upperJava/",
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background/"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/aquatic-update.zip"
+                }
+            ],
+            "Bottom Java (USA)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/new_panoramas/aquatic-update.zip",
+                    "message": "Downloading texture pack...",
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/aquatic-update.zip"
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/aquatic-update.zip",
+                    "input": "bottomJava/",
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background/"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/aquatic-update.zip"
+                }
+            ],
+            "Remove content (USA)": [
+                {
+                    "type": "rmdir",
+                    "directory": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background",
+                    "required": false
                 }
             ]
         }
