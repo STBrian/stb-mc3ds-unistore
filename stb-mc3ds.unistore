@@ -8,7 +8,7 @@
         "sheet": "stb-mc3ds.t3x",
         "sheetURL": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/spritesheet.t3x",
         "version": 3,
-        "revision": 20
+        "revision": 21
     },
     "storeContent": [
         {
@@ -217,7 +217,7 @@
                     }
                 ]
             },
-            "Upper Bedrock (USA)": [
+            "Bedrock Upper (USA)": [
                 {
                     "type": "downloadFile",
                     "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/new_panoramas/aquatic-update.zip",
@@ -235,7 +235,7 @@
                     "file": "sdmc:/luma/titles/00040000001B8700/romfs/aquatic-update.zip"
                 }
             ],
-            "Bottom Bedrock (USA)": [
+            "Bedrock Bottom (USA)": [
                 {
                     "type": "downloadFile",
                     "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/new_panoramas/aquatic-update.zip",
@@ -253,7 +253,7 @@
                     "file": "sdmc:/luma/titles/00040000001B8700/romfs/aquatic-update.zip"
                 }
             ],
-            "Upper Java (USA)": [
+            "Java Upper (USA)": [
                 {
                     "type": "downloadFile",
                     "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/new_panoramas/aquatic-update.zip",
@@ -271,7 +271,7 @@
                     "file": "sdmc:/luma/titles/00040000001B8700/romfs/aquatic-update.zip"
                 }
             ],
-            "Bottom Java (USA)": [
+            "Java Bottom (USA)": [
                 {
                     "type": "downloadFile",
                     "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/new_panoramas/aquatic-update.zip",
