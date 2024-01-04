@@ -8,7 +8,7 @@
         "sheet": "stb-mc3ds.t3x",
         "sheetURL": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/spritesheet.t3x",
         "version": 3,
-        "revision": 25
+        "revision": 26
     },
     "storeContent": [
         {
@@ -48,15 +48,15 @@
             "info": {
                 "title": "Ruby Instead of Emerald",
                 "author": "STBUniverse",
-                "version": "v0.1.0",
+                "version": "v0.1.5",
                 "category": ["resource pack"],
                 "console": ["3DS"],
                 "description": "Change the emeralds in the game for the classic ruby",
                 "license": "none",
                 "icon_index": 1,
                 "sheet_index": 0,
-                "last_updated": "2023-10-26 at 04:23 (UTC)",
-                "releasenotes": "This resource pack changes the emeralds in the game to look like rubies. Not only changing its appearance, but also its name in the game for a better experience. \n\nSome things may still refer to emeralds like in achievements, which will be updated soon. \n\nChanging the game's language files is in experimental phase and may cause unexpected crashes.",
+                "last_updated": "2024-01-04 at 00:57 (UTC)",
+                "releasenotes": "This resource pack changes the emeralds in the game to look like rubies. Not only changing its appearance, but also its name in the game for a better experience. \n\nSome things may still refer to emeralds like in achievements, which will be updated soon. \n\nChanging the game's language files is in experimental phase and may cause unexpected crashes.\n\nChangelog v0.1.5:\n\n-Bug with file format probably fixed",
                 "screenshots": [
                     {
                         "description": "Ruby textures",
@@ -220,7 +220,7 @@
             "Bedrock Top (USA)": [
                 {
                     "type": "downloadFile",
-                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/new_panoramas/aquatic-update.zip",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/aquatic-update-panorama.zip",
                     "message": "Downloading texture pack...",
                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/aquatic-update.zip"
                 },
@@ -238,7 +238,7 @@
             "Bedrock Bottom (USA)": [
                 {
                     "type": "downloadFile",
-                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/new_panoramas/aquatic-update.zip",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/aquatic-update-panorama.zip",
                     "message": "Downloading texture pack...",
                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/aquatic-update.zip"
                 },
@@ -256,7 +256,7 @@
             "Java Top (USA)": [
                 {
                     "type": "downloadFile",
-                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/new_panoramas/aquatic-update.zip",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/aquatic-update-panorama.zip",
                     "message": "Downloading texture pack...",
                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/aquatic-update.zip"
                 },
@@ -274,7 +274,7 @@
             "Java Bottom (USA)": [
                 {
                     "type": "downloadFile",
-                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/new_panoramas/aquatic-update.zip",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/aquatic-update-panorama.zip",
                     "message": "Downloading texture pack...",
                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/aquatic-update.zip"
                 },
