@@ -8,7 +8,7 @@
         "sheet": "stb-mc3ds.t3x",
         "sheetURL": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/spritesheet.t3x",
         "version": 3,
-        "revision": 28
+        "revision": 29
     },
     "storeContent": [
         {
@@ -203,12 +203,17 @@
                 "last_updated": "2024-01-21 at 01:17 (UTC)",
                 "releasenotes": "Bedrock menu panoramas that appeared in the aquatic update.\n\nPorted from Planet Minecraft: https://www.planetminecraft.com/texture-pack/minecraft-panorama-pack/ \nMade by: TheLogicalMine \nPorted by: STBUniverse"
             },
-            "Top Screen (USA)": [
+            "Bedrock Aquatic Panorama (USA)": [
                 {
                     "type": "downloadFile",
                     "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/bedrockaquatic.zip",
                     "message": "Downloading texture pack...",
                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockaquatic.zip"
+                },
+                {
+                    "type": "promptMessage",
+                    "message": "Would you like to install it in TOP SCREEN?",
+                    "count": 1
                 },
                 {
                     "type": "extractFile",
@@ -217,16 +222,9 @@
                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background/"
                 },
                 {
-                    "type": "deleteFile",
-                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockaquatic.zip"
-                }
-            ],
-            "Bottom Screen (USA)": [
-                {
-                    "type": "downloadFile",
-                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/bedrockaquatic.zip",
-                    "message": "Downloading texture pack...",
-                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockaquatic.zip"
+                    "type": "promptMessage",
+                    "message": "Would you like to install it in BOTTOM SCREEN?",
+                    "count": 1
                 },
                 {
                     "type": "extractFile",
@@ -261,12 +259,17 @@
                 "last_updated": "2024-01-21 at 02:34 (UTC)",
                 "releasenotes": "Bedrock bees menu panoramas.\n\nPorted from Planet Minecraft: https://www.planetminecraft.com/texture-pack/minecraft-panorama-pack/ \nMade by: TheLogicalMine \nPorted by: STBUniverse"
             },
-            "Top Screen (USA)": [
+            "Bedrock Bees Panorama (USA)": [
                 {
                     "type": "downloadFile",
                     "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/bedrockbees.zip",
                     "message": "Downloading texture pack...",
                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockbees.zip"
+                },
+                {
+                    "type": "promptMessage",
+                    "message": "Would you like to install it in TOP SCREEN?",
+                    "count": 1
                 },
                 {
                     "type": "extractFile",
@@ -275,16 +278,9 @@
                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background/"
                 },
                 {
-                    "type": "deleteFile",
-                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockbees.zip"
-                }
-            ],
-            "Bottom Screen (USA)": [
-                {
-                    "type": "downloadFile",
-                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/bedrockbees.zip",
-                    "message": "Downloading texture pack...",
-                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockbees.zip"
+                    "type": "promptMessage",
+                    "message": "Would you like to install it in BOTTOM SCREEN?",
+                    "count": 1
                 },
                 {
                     "type": "extractFile",
@@ -319,12 +315,17 @@
                 "last_updated": "2024-01-21 at 02:39 (UTC)",
                 "releasenotes": "Bedrock beta menu panoramas.\n\nPorted from Planet Minecraft: https://www.planetminecraft.com/texture-pack/minecraft-panorama-pack/ \nMade by: TheLogicalMine \nPorted by: STBUniverse"
             },
-            "Top Screen (USA)": [
+            "Bedrock Beta Panorama (USA)": [
                 {
                     "type": "downloadFile",
                     "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/bedrockbeta.zip",
                     "message": "Downloading texture pack...",
                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockbeta.zip"
+                },
+                {
+                    "type": "promptMessage",
+                    "message": "Would you like to install it in TOP SCREEN?",
+                    "count": 1
                 },
                 {
                     "type": "extractFile",
@@ -333,16 +334,9 @@
                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background/"
                 },
                 {
-                    "type": "deleteFile",
-                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockbeta.zip"
-                }
-            ],
-            "Bottom Screen (USA)": [
-                {
-                    "type": "downloadFile",
-                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/bedrockbeta.zip",
-                    "message": "Downloading texture pack...",
-                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockbeta.zip"
+                    "type": "promptMessage",
+                    "message": "Would you like to install it in BOTTOM SCREEN?",
+                    "count": 1
                 },
                 {
                     "type": "extractFile",
@@ -377,12 +371,17 @@
                 "last_updated": "2024-01-21 at 02:40 (UTC)",
                 "releasenotes": "Bedrock Better Together menu panoramas.\n\nPorted from Planet Minecraft: https://www.planetminecraft.com/texture-pack/minecraft-panorama-pack/ \nMade by: TheLogicalMine \nPorted by: STBUniverse"
             },
-            "Top Screen (USA)": [
+            "Bedrock Better Panorama (USA)": [
                 {
                     "type": "downloadFile",
                     "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/bedrockbetter.zip",
                     "message": "Downloading texture pack...",
                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockbetter.zip"
+                },
+                {
+                    "type": "promptMessage",
+                    "message": "Would you like to install it in TOP SCREEN?",
+                    "count": 1
                 },
                 {
                     "type": "extractFile",
@@ -391,16 +390,9 @@
                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background/"
                 },
                 {
-                    "type": "deleteFile",
-                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockbetter.zip"
-                }
-            ],
-            "Bottom Screen (USA)": [
-                {
-                    "type": "downloadFile",
-                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/bedrockbetter.zip",
-                    "message": "Downloading texture pack...",
-                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockbetter.zip"
+                    "type": "promptMessage",
+                    "message": "Would you like to install it in BOTTOM SCREEN?",
+                    "count": 1
                 },
                 {
                     "type": "extractFile",
@@ -435,12 +427,17 @@
                 "last_updated": "2024-01-21 at 02:40 (UTC)",
                 "releasenotes": "Bedrock Cat Sand Pandas menu panoramas.\n\nPorted from Planet Minecraft: https://www.planetminecraft.com/texture-pack/minecraft-panorama-pack/ \nMade by: TheLogicalMine \nPorted by: STBUniverse"
             },
-            "Top Screen (USA)": [
+            "Bedrock Cat Sand Pandas Panorama (USA)": [
                 {
                     "type": "downloadFile",
                     "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/bedrockcatsandpandas.zip",
                     "message": "Downloading texture pack...",
                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockcatsandpandas.zip"
+                },
+                {
+                    "type": "promptMessage",
+                    "message": "Would you like to install it in TOP SCREEN?",
+                    "count": 1
                 },
                 {
                     "type": "extractFile",
@@ -449,16 +446,9 @@
                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background/"
                 },
                 {
-                    "type": "deleteFile",
-                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockcatsandpandas.zip"
-                }
-            ],
-            "Bottom Screen (USA)": [
-                {
-                    "type": "downloadFile",
-                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/bedrockcatsandpandas.zip",
-                    "message": "Downloading texture pack...",
-                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockcatsandpandas.zip"
+                    "type": "promptMessage",
+                    "message": "Would you like to install it in BOTTOM SCREEN?",
+                    "count": 1
                 },
                 {
                     "type": "extractFile",
@@ -493,12 +483,17 @@
                 "last_updated": "2024-01-21 at 02:43 (UTC)",
                 "releasenotes": "Bedrock Classic menu panoramas.\n\nPorted from Planet Minecraft: https://www.planetminecraft.com/texture-pack/minecraft-panorama-pack/ \nMade by: TheLogicalMine \nPorted by: STBUniverse"
             },
-            "Top Screen (USA)": [
+            "Bedrock Classic Panorama (USA)": [
                 {
                     "type": "downloadFile",
                     "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/bedrockclassic.zip",
                     "message": "Downloading texture pack...",
                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockclassic.zip"
+                },
+                {
+                    "type": "promptMessage",
+                    "message": "Would you like to install it in TOP SCREEN?",
+                    "count": 1
                 },
                 {
                     "type": "extractFile",
@@ -507,16 +502,9 @@
                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background/"
                 },
                 {
-                    "type": "deleteFile",
-                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockclassic.zip"
-                }
-            ],
-            "Bottom Screen (USA)": [
-                {
-                    "type": "downloadFile",
-                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/bedrockclassic.zip",
-                    "message": "Downloading texture pack...",
-                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockclassic.zip"
+                    "type": "promptMessage",
+                    "message": "Would you like to install it in BOTTOM SCREEN?",
+                    "count": 1
                 },
                 {
                     "type": "extractFile",
@@ -551,12 +539,17 @@
                 "last_updated": "2024-01-21 at 02:44 (UTC)",
                 "releasenotes": "Bedrock Halloween 2021 menu panoramas.\n\nPorted from Planet Minecraft: https://www.planetminecraft.com/texture-pack/minecraft-panorama-pack/ \nMade by: TheLogicalMine \nPorted by: STBUniverse"
             },
-            "Top Screen (USA)": [
+            "Bedrock Halloween 2021 Panorama (USA)": [
                 {
                     "type": "downloadFile",
                     "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/bedrockhalloween2021.zip",
                     "message": "Downloading texture pack...",
                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockhalloween2021.zip"
+                },
+                {
+                    "type": "promptMessage",
+                    "message": "Would you like to install it in TOP SCREEN?",
+                    "count": 1
                 },
                 {
                     "type": "extractFile",
@@ -565,16 +558,9 @@
                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background/"
                 },
                 {
-                    "type": "deleteFile",
-                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockhalloween2021.zip"
-                }
-            ],
-            "Bottom Screen (USA)": [
-                {
-                    "type": "downloadFile",
-                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/bedrockhalloween2021.zip",
-                    "message": "Downloading texture pack...",
-                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockhalloween2021.zip"
+                    "type": "promptMessage",
+                    "message": "Would you like to install it in BOTTOM SCREEN?",
+                    "count": 1
                 },
                 {
                     "type": "extractFile",
@@ -609,12 +595,17 @@
                 "last_updated": "2024-01-21 at 02:45 (UTC)",
                 "releasenotes": "Bedrock Halloween 2022 menu panoramas.\n\nPorted from Planet Minecraft: https://www.planetminecraft.com/texture-pack/minecraft-panorama-pack/ \nMade by: TheLogicalMine \nPorted by: STBUniverse"
             },
-            "Top Screen (USA)": [
+            "Bedrock Halloween 2022 Panorama (USA)": [
                 {
                     "type": "downloadFile",
                     "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/bedrockhalloween2022.zip",
                     "message": "Downloading texture pack...",
                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockhalloween2022.zip"
+                },
+                {
+                    "type": "promptMessage",
+                    "message": "Would you like to install it in TOP SCREEN?",
+                    "count": 1
                 },
                 {
                     "type": "extractFile",
@@ -623,16 +614,9 @@
                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background/"
                 },
                 {
-                    "type": "deleteFile",
-                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockhalloween2022.zip"
-                }
-            ],
-            "Bottom Screen (USA)": [
-                {
-                    "type": "downloadFile",
-                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/bedrockhalloween2022.zip",
-                    "message": "Downloading texture pack...",
-                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockhalloween2022.zip"
+                    "type": "promptMessage",
+                    "message": "Would you like to install it in BOTTOM SCREEN?",
+                    "count": 1
                 },
                 {
                     "type": "extractFile",
@@ -667,12 +651,17 @@
                 "last_updated": "2024-01-21 at 02:46 (UTC)",
                 "releasenotes": "Bedrock Preview menu panoramas.\n\nPorted from Planet Minecraft: https://www.planetminecraft.com/texture-pack/minecraft-panorama-pack/ \nMade by: TheLogicalMine \nPorted by: STBUniverse"
             },
-            "Top Screen (USA)": [
+            "Bedrock Preview Panorama (USA)": [
                 {
                     "type": "downloadFile",
                     "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/bedrockpreview.zip",
                     "message": "Downloading texture pack...",
                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockpreview.zip"
+                },
+                {
+                    "type": "promptMessage",
+                    "message": "Would you like to install it in TOP SCREEN?",
+                    "count": 1
                 },
                 {
                     "type": "extractFile",
@@ -681,16 +670,9 @@
                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background/"
                 },
                 {
-                    "type": "deleteFile",
-                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockpreview.zip"
-                }
-            ],
-            "Bottom Screen (USA)": [
-                {
-                    "type": "downloadFile",
-                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/bedrockpreview.zip",
-                    "message": "Downloading texture pack...",
-                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockpreview.zip"
+                    "type": "promptMessage",
+                    "message": "Would you like to install it in BOTTOM SCREEN?",
+                    "count": 1
                 },
                 {
                     "type": "extractFile",
@@ -725,12 +707,17 @@
                 "last_updated": "2024-01-21 at 02:49 (UTC)",
                 "releasenotes": "Bedrock menu panoramas from the Village and Pillage Update.\n\nPorted from Planet Minecraft: https://www.planetminecraft.com/texture-pack/minecraft-panorama-pack/ \nMade by: TheLogicalMine \nPorted by: STBUniverse"
             },
-            "Top Screen (USA)": [
+            "Bedrock Village Panorama (USA)": [
                 {
                     "type": "downloadFile",
                     "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/bedrockvillage.zip",
                     "message": "Downloading texture pack...",
                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockvillage.zip"
+                },
+                {
+                    "type": "promptMessage",
+                    "message": "Would you like to install it in TOP SCREEN?",
+                    "count": 1
                 },
                 {
                     "type": "extractFile",
@@ -739,16 +726,9 @@
                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background/"
                 },
                 {
-                    "type": "deleteFile",
-                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockvillage.zip"
-                }
-            ],
-            "Bottom Screen (USA)": [
-                {
-                    "type": "downloadFile",
-                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/bedrockvillage.zip",
-                    "message": "Downloading texture pack...",
-                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockvillage.zip"
+                    "type": "promptMessage",
+                    "message": "Would you like to install it in BOTTOM SCREEN?",
+                    "count": 1
                 },
                 {
                     "type": "extractFile",
@@ -783,12 +763,17 @@
                 "last_updated": "2024-01-21 at 02:50 (UTC)",
                 "releasenotes": "Education 1.12.2 menu panoramas.\n\nPorted from Planet Minecraft: https://www.planetminecraft.com/texture-pack/minecraft-panorama-pack/ \nMade by: TheLogicalMine \nPorted by: STBUniverse"
             },
-            "Top Screen (USA)": [
+            "Education 1.12.2 Panorama (USA)": [
                 {
                     "type": "downloadFile",
                     "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/education1_12_2.zip",
                     "message": "Downloading texture pack...",
                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/education1_12_2.zip"
+                },
+                {
+                    "type": "promptMessage",
+                    "message": "Would you like to install it in TOP SCREEN?",
+                    "count": 1
                 },
                 {
                     "type": "extractFile",
@@ -797,16 +782,9 @@
                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background/"
                 },
                 {
-                    "type": "deleteFile",
-                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/education1_12_2.zip"
-                }
-            ],
-            "Bottom Screen (USA)": [
-                {
-                    "type": "downloadFile",
-                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/education1_12_2.zip",
-                    "message": "Downloading texture pack...",
-                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/education1_12_2.zip"
+                    "type": "promptMessage",
+                    "message": "Would you like to install it in BOTTOM SCREEN?",
+                    "count": 1
                 },
                 {
                     "type": "extractFile",
@@ -841,12 +819,17 @@
                 "last_updated": "2024-01-21 at 02:51 (UTC)",
                 "releasenotes": "Education 1.12.2bw menu panoramas.\n\nPorted from Planet Minecraft: https://www.planetminecraft.com/texture-pack/minecraft-panorama-pack/ \nMade by: TheLogicalMine \nPorted by: STBUniverse"
             },
-            "Top Screen (USA)": [
+            "Education 1.12.2bw Panorama (USA)": [
                 {
                     "type": "downloadFile",
                     "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/education1_12_2bw.zip",
                     "message": "Downloading texture pack...",
                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/education1_12_2bw.zip"
+                },
+                {
+                    "type": "promptMessage",
+                    "message": "Would you like to install it in TOP SCREEN?",
+                    "count": 1
                 },
                 {
                     "type": "extractFile",
@@ -855,16 +838,9 @@
                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background/"
                 },
                 {
-                    "type": "deleteFile",
-                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/education1_12_2bw.zip"
-                }
-            ],
-            "Bottom Screen (USA)": [
-                {
-                    "type": "downloadFile",
-                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/education1_12_2bw.zip",
-                    "message": "Downloading texture pack...",
-                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/education1_12_2bw.zip"
+                    "type": "promptMessage",
+                    "message": "Would you like to install it in BOTTOM SCREEN?",
+                    "count": 1
                 },
                 {
                     "type": "extractFile",
@@ -899,12 +875,17 @@
                 "last_updated": "2024-01-21 at 02:53 (UTC)",
                 "releasenotes": "Education 1.14.31 menu panoramas.\n\nPorted from Planet Minecraft: https://www.planetminecraft.com/texture-pack/minecraft-panorama-pack/ \nMade by: TheLogicalMine \nPorted by: STBUniverse"
             },
-            "Top Screen (USA)": [
+            "Education 1.14.31 Panorama (USA)": [
                 {
                     "type": "downloadFile",
                     "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/education1_14_31.zip",
                     "message": "Downloading texture pack...",
                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/education1_14_31.zip"
+                },
+                {
+                    "type": "promptMessage",
+                    "message": "Would you like to install it in TOP SCREEN?",
+                    "count": 1
                 },
                 {
                     "type": "extractFile",
@@ -913,16 +894,9 @@
                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background/"
                 },
                 {
-                    "type": "deleteFile",
-                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/education1_14_31.zip"
-                }
-            ],
-            "Bottom Screen (USA)": [
-                {
-                    "type": "downloadFile",
-                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/education1_14_31.zip",
-                    "message": "Downloading texture pack...",
-                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/education1_14_31.zip"
+                    "type": "promptMessage",
+                    "message": "Would you like to install it in BOTTOM SCREEN?",
+                    "count": 1
                 },
                 {
                     "type": "extractFile",
@@ -957,12 +931,17 @@
                 "last_updated": "2024-01-21 at 02:55 (UTC)",
                 "releasenotes": "Education 1.14.40 menu panoramas.\n\nPorted from Planet Minecraft: https://www.planetminecraft.com/texture-pack/minecraft-panorama-pack/ \nMade by: TheLogicalMine \nPorted by: STBUniverse"
             },
-            "Top Screen (USA)": [
+            "Education 1.14.40 Panorama (USA)": [
                 {
                     "type": "downloadFile",
                     "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/education1_14_40.zip",
                     "message": "Downloading texture pack...",
                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/education1_14_40.zip"
+                },
+                {
+                    "type": "promptMessage",
+                    "message": "Would you like to install it in TOP SCREEN?",
+                    "count": 1
                 },
                 {
                     "type": "extractFile",
@@ -971,16 +950,9 @@
                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background/"
                 },
                 {
-                    "type": "deleteFile",
-                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/education1_14_40.zip"
-                }
-            ],
-            "Bottom Screen (USA)": [
-                {
-                    "type": "downloadFile",
-                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/education1_14_40.zip",
-                    "message": "Downloading texture pack...",
-                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/education1_14_40.zip"
+                    "type": "promptMessage",
+                    "message": "Would you like to install it in BOTTOM SCREEN?",
+                    "count": 1
                 },
                 {
                     "type": "extractFile",
@@ -1015,12 +987,17 @@
                 "last_updated": "2024-01-21 at 02:56 (UTC)",
                 "releasenotes": "Education Caves and Cliff Part 1 menu panoramas.\n\nPorted from Planet Minecraft: https://www.planetminecraft.com/texture-pack/minecraft-panorama-pack/ \nMade by: TheLogicalMine \nPorted by: STBUniverse"
             },
-            "Top Screen (USA)": [
+            "Education C&C Part 1 Panorama (USA)": [
                 {
                     "type": "downloadFile",
                     "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/educationcavesandcliffspart1.zip",
                     "message": "Downloading texture pack...",
                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/educationcavesandcliffspart1.zip"
+                },
+                {
+                    "type": "promptMessage",
+                    "message": "Would you like to install it in TOP SCREEN?",
+                    "count": 1
                 },
                 {
                     "type": "extractFile",
@@ -1029,16 +1006,9 @@
                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background/"
                 },
                 {
-                    "type": "deleteFile",
-                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/educationcavesandcliffspart1.zip"
-                }
-            ],
-            "Bottom Screen (USA)": [
-                {
-                    "type": "downloadFile",
-                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/educationcavesandcliffspart1.zip",
-                    "message": "Downloading texture pack...",
-                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/educationcavesandcliffspart1.zip"
+                    "type": "promptMessage",
+                    "message": "Would you like to install it in BOTTOM SCREEN?",
+                    "count": 1
                 },
                 {
                     "type": "extractFile",
@@ -1073,12 +1043,17 @@
                 "last_updated": "2024-01-21 at 02:59 (UTC)",
                 "releasenotes": "Education Caves and Cliff Part 2 menu panoramas.\n\nPorted from Planet Minecraft: https://www.planetminecraft.com/texture-pack/minecraft-panorama-pack/ \nMade by: TheLogicalMine \nPorted by: STBUniverse"
             },
-            "Top Screen (USA)": [
+            "Education C&C Part 2 Panorama (USA)": [
                 {
                     "type": "downloadFile",
                     "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/educationcavesandcliffspart2.zip",
                     "message": "Downloading texture pack...",
                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/educationcavesandcliffspart2.zip"
+                },
+                {
+                    "type": "promptMessage",
+                    "message": "Would you like to install it in TOP SCREEN?",
+                    "count": 1
                 },
                 {
                     "type": "extractFile",
@@ -1087,16 +1062,9 @@
                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background/"
                 },
                 {
-                    "type": "deleteFile",
-                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/educationcavesandcliffspart2.zip"
-                }
-            ],
-            "Bottom Screen (USA)": [
-                {
-                    "type": "downloadFile",
-                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/educationcavesandcliffspart2.zip",
-                    "message": "Downloading texture pack...",
-                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/educationcavesandcliffspart2.zip"
+                    "type": "promptMessage",
+                    "message": "Would you like to install it in BOTTOM SCREEN?",
+                    "count": 1
                 },
                 {
                     "type": "extractFile",
@@ -1131,12 +1099,17 @@
                 "last_updated": "2024-01-21 at 03:00 (UTC)",
                 "releasenotes": "Education China menu panoramas.\n\nPorted from Planet Minecraft: https://www.planetminecraft.com/texture-pack/minecraft-panorama-pack/ \nMade by: TheLogicalMine \nPorted by: STBUniverse"
             },
-            "Top Screen (USA)": [
+            "Education China Panorama (USA)": [
                 {
                     "type": "downloadFile",
                     "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/educationchina.zip",
                     "message": "Downloading texture pack...",
                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/educationchina.zip"
+                },
+                {
+                    "type": "promptMessage",
+                    "message": "Would you like to install it in TOP SCREEN?",
+                    "count": 1
                 },
                 {
                     "type": "extractFile",
@@ -1145,16 +1118,9 @@
                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background/"
                 },
                 {
-                    "type": "deleteFile",
-                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/educationchina.zip"
-                }
-            ],
-            "Bottom Screen (USA)": [
-                {
-                    "type": "downloadFile",
-                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/educationchina.zip",
-                    "message": "Downloading texture pack...",
-                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/educationchina.zip"
+                    "type": "promptMessage",
+                    "message": "Would you like to install it in BOTTOM SCREEN?",
+                    "count": 1
                 },
                 {
                     "type": "extractFile",
@@ -1189,12 +1155,17 @@
                 "last_updated": "2024-01-21 at 03:01 (UTC)",
                 "releasenotes": "Education Demo menu panoramas.\n\nPorted from Planet Minecraft: https://www.planetminecraft.com/texture-pack/minecraft-panorama-pack/ \nMade by: TheLogicalMine \nPorted by: STBUniverse"
             },
-            "Top Screen (USA)": [
+            "Education Demo Panorama (USA)": [
                 {
                     "type": "downloadFile",
                     "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/educationdemo.zip",
                     "message": "Downloading texture pack...",
                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/educationdemo.zip"
+                },
+                {
+                    "type": "promptMessage",
+                    "message": "Would you like to install it in TOP SCREEN?",
+                    "count": 1
                 },
                 {
                     "type": "extractFile",
@@ -1203,16 +1174,9 @@
                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background/"
                 },
                 {
-                    "type": "deleteFile",
-                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/educationdemo.zip"
-                }
-            ],
-            "Bottom Screen (USA)": [
-                {
-                    "type": "downloadFile",
-                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/educationdemo.zip",
-                    "message": "Downloading texture pack...",
-                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/educationdemo.zip"
+                    "type": "promptMessage",
+                    "message": "Would you like to install it in BOTTOM SCREEN?",
+                    "count": 1
                 },
                 {
                     "type": "extractFile",
@@ -1247,12 +1211,17 @@
                 "last_updated": "2024-01-21 at 03:03 (UTC)",
                 "releasenotes": "Java menu panoramas from the Aquatic Update.\n\nPorted from Planet Minecraft: https://www.planetminecraft.com/texture-pack/minecraft-panorama-pack/ \nMade by: TheLogicalMine \nPorted by: STBUniverse"
             },
-            "Top Screen (USA)": [
+            "Java Aquatic Panorama (USA)": [
                 {
                     "type": "downloadFile",
                     "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/javaaquatic.zip",
                     "message": "Downloading texture pack...",
                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/javaaquatic.zip"
+                },
+                {
+                    "type": "promptMessage",
+                    "message": "Would you like to install it in TOP SCREEN?",
+                    "count": 1
                 },
                 {
                     "type": "extractFile",
@@ -1261,16 +1230,9 @@
                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background/"
                 },
                 {
-                    "type": "deleteFile",
-                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/javaaquatic.zip"
-                }
-            ],
-            "Bottom Screen (USA)": [
-                {
-                    "type": "downloadFile",
-                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/javaaquatic.zip",
-                    "message": "Downloading texture pack...",
-                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/javaaquatic.zip"
+                    "type": "promptMessage",
+                    "message": "Would you like to install it in BOTTOM SCREEN?",
+                    "count": 1
                 },
                 {
                     "type": "extractFile",
@@ -1305,12 +1267,17 @@
                 "last_updated": "2024-01-21 at 03:05 (UTC)",
                 "releasenotes": "Java menu panoramas from the 1.15 update.\n\nPorted from Planet Minecraft: https://www.planetminecraft.com/texture-pack/minecraft-panorama-pack/ \nMade by: TheLogicalMine \nPorted by: STBUniverse"
             },
-            "Top Screen (USA)": [
+            "Java Bees Panorama (USA)": [
                 {
                     "type": "downloadFile",
                     "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/javabees.zip",
                     "message": "Downloading texture pack...",
                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/javabees.zip"
+                },
+                {
+                    "type": "promptMessage",
+                    "message": "Would you like to install it in TOP SCREEN?",
+                    "count": 1
                 },
                 {
                     "type": "extractFile",
@@ -1319,16 +1286,9 @@
                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background/"
                 },
                 {
-                    "type": "deleteFile",
-                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/javabees.zip"
-                }
-            ],
-            "Bottom Screen (USA)": [
-                {
-                    "type": "downloadFile",
-                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/javabees.zip",
-                    "message": "Downloading texture pack...",
-                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/javabees.zip"
+                    "type": "promptMessage",
+                    "message": "Would you like to install it in BOTTOM SCREEN?",
+                    "count": 1
                 },
                 {
                     "type": "extractFile",
@@ -1363,12 +1323,17 @@
                 "last_updated": "2024-01-21 at 03:06 (UTC)",
                 "releasenotes": "The Classic Java menu panorama.\n\nPorted from Planet Minecraft: https://www.planetminecraft.com/texture-pack/minecraft-panorama-pack/ \nMade by: TheLogicalMine \nPorted by: STBUniverse"
             },
-            "Top Screen (USA)": [
+            "Java Classic Panorama (USA)": [
                 {
                     "type": "downloadFile",
                     "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/javaclassic.zip",
                     "message": "Downloading texture pack...",
                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/javaclassic.zip"
+                },
+                {
+                    "type": "promptMessage",
+                    "message": "Would you like to install it in TOP SCREEN?",
+                    "count": 1
                 },
                 {
                     "type": "extractFile",
@@ -1377,16 +1342,9 @@
                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background/"
                 },
                 {
-                    "type": "deleteFile",
-                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/javaclassic.zip"
-                }
-            ],
-            "Bottom Screen (USA)": [
-                {
-                    "type": "downloadFile",
-                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/javaclassic.zip",
-                    "message": "Downloading texture pack...",
-                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/javaclassic.zip"
+                    "type": "promptMessage",
+                    "message": "Would you like to install it in BOTTOM SCREEN?",
+                    "count": 1
                 },
                 {
                     "type": "extractFile",
@@ -1421,12 +1379,17 @@
                 "last_updated": "2024-01-21 at 03:07 (UTC)",
                 "releasenotes": "Java menu panorama from the Village and Pillage Update.\n\nPorted from Planet Minecraft: https://www.planetminecraft.com/texture-pack/minecraft-panorama-pack/ \nMade by: TheLogicalMine \nPorted by: STBUniverse"
             },
-            "Top Screen (USA)": [
+            "Java Village Panorama (USA)": [
                 {
                     "type": "downloadFile",
                     "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/javavillage.zip",
                     "message": "Downloading texture pack...",
                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/javavillage.zip"
+                },
+                {
+                    "type": "promptMessage",
+                    "message": "Would you like to install it in TOP SCREEN?",
+                    "count": 1
                 },
                 {
                     "type": "extractFile",
@@ -1435,16 +1398,9 @@
                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background/"
                 },
                 {
-                    "type": "deleteFile",
-                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/javavillage.zip"
-                }
-            ],
-            "Bottom Screen (USA)": [
-                {
-                    "type": "downloadFile",
-                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/javavillage.zip",
-                    "message": "Downloading texture pack...",
-                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/javavillage.zip"
+                    "type": "promptMessage",
+                    "message": "Would you like to install it in BOTTOM SCREEN?",
+                    "count": 1
                 },
                 {
                     "type": "extractFile",
@@ -1479,12 +1435,17 @@
                 "last_updated": "2024-01-21 at 03:09 (UTC)",
                 "releasenotes": "The menu panorama from Caves & Cliff Part 1.\n\nPorted from Planet Minecraft: https://www.planetminecraft.com/texture-pack/minecraft-panorama-pack/ \nMade by: TheLogicalMine \nPorted by: STBUniverse"
             },
-            "Top Screen (USA)": [
+            "Caves & Cliff Part 1 Panorama (USA)": [
                 {
                     "type": "downloadFile",
                     "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/panoramacavesandcliffspart1.zip",
                     "message": "Downloading texture pack...",
                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/panoramacavesandcliffspart1.zip"
+                },
+                {
+                    "type": "promptMessage",
+                    "message": "Would you like to install it in TOP SCREEN?",
+                    "count": 1
                 },
                 {
                     "type": "extractFile",
@@ -1493,16 +1454,9 @@
                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background/"
                 },
                 {
-                    "type": "deleteFile",
-                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/panoramacavesandcliffspart1.zip"
-                }
-            ],
-            "Bottom Screen (USA)": [
-                {
-                    "type": "downloadFile",
-                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/panoramacavesandcliffspart1.zip",
-                    "message": "Downloading texture pack...",
-                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/panoramacavesandcliffspart1.zip"
+                    "type": "promptMessage",
+                    "message": "Would you like to install it in BOTTOM SCREEN?",
+                    "count": 1
                 },
                 {
                     "type": "extractFile",
@@ -1537,12 +1491,17 @@
                 "last_updated": "2024-01-21 at 03:10 (UTC)",
                 "releasenotes": "The menu panorama from Caves & Cliff Part 1 (Original).\n\nPorted from Planet Minecraft: https://www.planetminecraft.com/texture-pack/minecraft-panorama-pack/ \nMade by: TheLogicalMine \nPorted by: STBUniverse"
             },
-            "Top Screen (USA)": [
+            "Caves & Cliff Part 1 Alt Panorama (USA)": [
                 {
                     "type": "downloadFile",
                     "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/panoramacavesandcliffspart1original.zip",
                     "message": "Downloading texture pack...",
                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/panoramacavesandcliffspart1original.zip"
+                },
+                {
+                    "type": "promptMessage",
+                    "message": "Would you like to install it in TOP SCREEN?",
+                    "count": 1
                 },
                 {
                     "type": "extractFile",
@@ -1551,16 +1510,9 @@
                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background/"
                 },
                 {
-                    "type": "deleteFile",
-                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/panoramacavesandcliffspart1original.zip"
-                }
-            ],
-            "Bottom Screen (USA)": [
-                {
-                    "type": "downloadFile",
-                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/panoramacavesandcliffspart1original.zip",
-                    "message": "Downloading texture pack...",
-                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/panoramacavesandcliffspart1original.zip"
+                    "type": "promptMessage",
+                    "message": "Would you like to install it in BOTTOM SCREEN?",
+                    "count": 1
                 },
                 {
                     "type": "extractFile",
@@ -1595,12 +1547,17 @@
                 "last_updated": "2024-01-21 at 03:11 (UTC)",
                 "releasenotes": "The menu panorama from Caves & Cliff Part 2.\n\nPorted from Planet Minecraft: https://www.planetminecraft.com/texture-pack/minecraft-panorama-pack/ \nMade by: TheLogicalMine \nPorted by: STBUniverse"
             },
-            "Top Screen (USA)": [
+            "Caves & Cliff Part 2 Panorama (USA)": [
                 {
                     "type": "downloadFile",
                     "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/panoramacavesandcliffspart2.zip",
                     "message": "Downloading texture pack...",
                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/panoramacavesandcliffspart2.zip"
+                },
+                {
+                    "type": "promptMessage",
+                    "message": "Would you like to install it in TOP SCREEN?",
+                    "count": 1
                 },
                 {
                     "type": "extractFile",
@@ -1609,16 +1566,9 @@
                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background/"
                 },
                 {
-                    "type": "deleteFile",
-                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/panoramacavesandcliffspart2.zip"
-                }
-            ],
-            "Bottom Screen (USA)": [
-                {
-                    "type": "downloadFile",
-                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/panoramacavesandcliffspart2.zip",
-                    "message": "Downloading texture pack...",
-                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/panoramacavesandcliffspart2.zip"
+                    "type": "promptMessage",
+                    "message": "Would you like to install it in BOTTOM SCREEN?",
+                    "count": 1
                 },
                 {
                     "type": "extractFile",
@@ -1653,12 +1603,17 @@
                 "last_updated": "2024-01-21 at 03:13 (UTC)",
                 "releasenotes": "The menu panorama from the Nether Update.\n\nPorted from Planet Minecraft: https://www.planetminecraft.com/texture-pack/minecraft-panorama-pack/ \nMade by: TheLogicalMine \nPorted by: STBUniverse"
             },
-            "Top Screen (USA)": [
+            "Nether Panorama (USA)": [
                 {
                     "type": "downloadFile",
                     "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/panoramanether.zip",
                     "message": "Downloading texture pack...",
                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/panoramanether.zip"
+                },
+                {
+                    "type": "promptMessage",
+                    "message": "Would you like to install it in TOP SCREEN?",
+                    "count": 1
                 },
                 {
                     "type": "extractFile",
@@ -1667,16 +1622,9 @@
                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background/"
                 },
                 {
-                    "type": "deleteFile",
-                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/panoramanether.zip"
-                }
-            ],
-            "Bottom Screen (USA)": [
-                {
-                    "type": "downloadFile",
-                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/panoramanether.zip",
-                    "message": "Downloading texture pack...",
-                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/panoramanether.zip"
+                    "type": "promptMessage",
+                    "message": "Would you like to install it in BOTTOM SCREEN?",
+                    "count": 1
                 },
                 {
                     "type": "extractFile",
@@ -1711,12 +1659,17 @@
                 "last_updated": "2024-01-21 at 03:15 (UTC)",
                 "releasenotes": "The menu panorama from the Wild Update.\n\nPorted from Planet Minecraft: https://www.planetminecraft.com/texture-pack/minecraft-panorama-pack/ \nMade by: TheLogicalMine \nPorted by: STBUniverse"
             },
-            "Top Screen (USA)": [
+            "The Wild Update Panorama (USA)": [
                 {
                     "type": "downloadFile",
                     "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/panoramathewildupdate.zip",
                     "message": "Downloading texture pack...",
                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/panoramathewildupdate.zip"
+                },
+                {
+                    "type": "promptMessage",
+                    "message": "Would you like to install it in TOP SCREEN?",
+                    "count": 1
                 },
                 {
                     "type": "extractFile",
@@ -1725,16 +1678,9 @@
                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background/"
                 },
                 {
-                    "type": "deleteFile",
-                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/panoramathewildupdate.zip"
-                }
-            ],
-            "Bottom Screen (USA)": [
-                {
-                    "type": "downloadFile",
-                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/panoramathewildupdate.zip",
-                    "message": "Downloading texture pack...",
-                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/panoramathewildupdate.zip"
+                    "type": "promptMessage",
+                    "message": "Would you like to install it in BOTTOM SCREEN?",
+                    "count": 1
                 },
                 {
                     "type": "extractFile",
