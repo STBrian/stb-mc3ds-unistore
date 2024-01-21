@@ -8,7 +8,7 @@
         "sheet": "stb-mc3ds.t3x",
         "sheetURL": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/spritesheet.t3x",
         "version": 3,
-        "revision": 26
+        "revision": 27
     },
     "storeContent": [
         {
@@ -191,102 +191,1560 @@
         },
         {
             "info": {
-                "title": "Aquatic Update Panorama Collection",
+                "title": "Bedrock Aquatic Panorama",
                 "author": "STBUniverse",
                 "version": "v1.0.0",
-                "category": ["texture pack"],
+                "category": ["texture pack", "panorama"],
                 "console": ["3DS"],
-                "description": "A collection of the java and bedrock menu panoramas that appeared in the aquatic update",
+                "description": "Bedrock menu panoramas that appeared in the aquatic update",
                 "license": "none",
                 "icon_index": 4,
                 "sheet_index": 0,
-                "last_updated": "2023-11-02 at 02:28 (UTC)",
-                "releasenotes": "A collection of the java and bedrock menu panoramas that appeared in the aquatic update.\n\nChoose the combination you want for both the upper and lower panoramas.\n\nSee the screenshots for some examples.",
-                "screenshots": [
-                    {
-                        "description": "Upper Bedrock",
-                        "url": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/screenshots/new_panoramas/aquatic_update/upperbedrock.png"
-                    },
-                    {
-                        "description": "Upper Bedrock + Bottom Java",
-                        "url": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/screenshots/new_panoramas/aquatic_update/upperbedrock_bottomjava.png"
-                    },
-                    {
-                        "description": "Upper Java + Bottom Bedrock",
-                        "url": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/screenshots/new_panoramas/aquatic_update/upperjava_bottombedrock.png"
-                    }
-                ]
+                "last_updated": "2024-01-21 at 01:17 (UTC)",
+                "releasenotes": "Bedrock menu panoramas that appeared in the aquatic update.",
             },
-            "Bedrock Top (USA)": [
+            "Top Screen (USA)": [
                 {
                     "type": "downloadFile",
-                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/aquatic-update-panorama.zip",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/bedrockaquatic.zip",
                     "message": "Downloading texture pack...",
-                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/aquatic-update.zip"
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockaquatic.zip"
                 },
                 {
                     "type": "extractFile",
-                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/aquatic-update.zip",
-                    "input": "upperBedrock/",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockaquatic.zip",
+                    "input": "top/",
                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background/"
                 },
                 {
                     "type": "deleteFile",
-                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/aquatic-update.zip"
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockaquatic.zip"
                 }
             ],
-            "Bedrock Bottom (USA)": [
+            "Bottom Screen (USA)": [
                 {
                     "type": "downloadFile",
-                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/aquatic-update-panorama.zip",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/bedrockaquatic.zip",
                     "message": "Downloading texture pack...",
-                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/aquatic-update.zip"
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockaquatic.zip"
                 },
                 {
                     "type": "extractFile",
-                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/aquatic-update.zip",
-                    "input": "bottomBedrock/",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockaquatic.zip",
+                    "input": "bottom/",
                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background/"
                 },
                 {
                     "type": "deleteFile",
-                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/aquatic-update.zip"
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockaquatic.zip"
                 }
             ],
-            "Java Top (USA)": [
+            "Remove content (USA)": [
+                {
+                    "type": "rmdir",
+                    "directory": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background",
+                    "required": false
+                }
+            ]
+        },
+        {
+            "info": {
+                "title": "Bedrock Bees Panorama",
+                "author": "STBUniverse",
+                "version": "v1.0.0",
+                "category": ["texture pack", "panorama"],
+                "console": ["3DS"],
+                "description": "Bedrock bees menu panoramas",
+                "license": "none",
+                "icon_index": 5,
+                "sheet_index": 0,
+                "last_updated": "2024-01-21 at 02:34 (UTC)",
+                "releasenotes": "Bedrock bees menu panoramas.",
+            },
+            "Top Screen (USA)": [
                 {
                     "type": "downloadFile",
-                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/aquatic-update-panorama.zip",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/bedrockbees.zip",
                     "message": "Downloading texture pack...",
-                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/aquatic-update.zip"
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockbees.zip"
                 },
                 {
                     "type": "extractFile",
-                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/aquatic-update.zip",
-                    "input": "upperJava/",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockbees.zip",
+                    "input": "top/",
                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background/"
                 },
                 {
                     "type": "deleteFile",
-                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/aquatic-update.zip"
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockbees.zip"
                 }
             ],
-            "Java Bottom (USA)": [
+            "Bottom Screen (USA)": [
                 {
                     "type": "downloadFile",
-                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/aquatic-update-panorama.zip",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/bedrockbees.zip",
                     "message": "Downloading texture pack...",
-                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/aquatic-update.zip"
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockbees.zip"
                 },
                 {
                     "type": "extractFile",
-                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/aquatic-update.zip",
-                    "input": "bottomJava/",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockbees.zip",
+                    "input": "bottom/",
                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background/"
                 },
                 {
                     "type": "deleteFile",
-                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/aquatic-update.zip"
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockbees.zip"
+                }
+            ],
+            "Remove content (USA)": [
+                {
+                    "type": "rmdir",
+                    "directory": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background",
+                    "required": false
+                }
+            ]
+        },
+        {
+            "info": {
+                "title": "Bedrock Beta Panorama",
+                "author": "STBUniverse",
+                "version": "v1.0.0",
+                "category": ["texture pack", "panorama"],
+                "console": ["3DS"],
+                "description": "Bedrock beta menu panoramas",
+                "license": "none",
+                "icon_index": 6,
+                "sheet_index": 0,
+                "last_updated": "2024-01-21 at 02:39 (UTC)",
+                "releasenotes": "Bedrock beta menu panoramas.",
+            },
+            "Top Screen (USA)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/bedrockbeta.zip",
+                    "message": "Downloading texture pack...",
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockbeta.zip"
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockbeta.zip",
+                    "input": "top/",
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background/"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockbeta.zip"
+                }
+            ],
+            "Bottom Screen (USA)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/bedrockbeta.zip",
+                    "message": "Downloading texture pack...",
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockbeta.zip"
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockbeta.zip",
+                    "input": "bottom/",
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background/"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockbeta.zip"
+                }
+            ],
+            "Remove content (USA)": [
+                {
+                    "type": "rmdir",
+                    "directory": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background",
+                    "required": false
+                }
+            ]
+        },
+        {
+            "info": {
+                "title": "Bedrock Better Panorama",
+                "author": "STBUniverse",
+                "version": "v1.0.0",
+                "category": ["texture pack", "panorama"],
+                "console": ["3DS"],
+                "description": "Bedrock Better menu panoramas",
+                "license": "none",
+                "icon_index": 7,
+                "sheet_index": 0,
+                "last_updated": "2024-01-21 at 02:40 (UTC)",
+                "releasenotes": "Bedrock Better menu panoramas.",
+            },
+            "Top Screen (USA)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/bedrockbetter.zip",
+                    "message": "Downloading texture pack...",
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockbetter.zip"
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockbetter.zip",
+                    "input": "top/",
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background/"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockbetter.zip"
+                }
+            ],
+            "Bottom Screen (USA)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/bedrockbetter.zip",
+                    "message": "Downloading texture pack...",
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockbetter.zip"
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockbetter.zip",
+                    "input": "bottom/",
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background/"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockbetter.zip"
+                }
+            ],
+            "Remove content (USA)": [
+                {
+                    "type": "rmdir",
+                    "directory": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background",
+                    "required": false
+                }
+            ]
+        },
+        {
+            "info": {
+                "title": "Bedrock Cat Sand Pandas Panorama",
+                "author": "STBUniverse",
+                "version": "v1.0.0",
+                "category": ["texture pack", "panorama"],
+                "console": ["3DS"],
+                "description": "Bedrock Cat Sand Pandas menu panoramas",
+                "license": "none",
+                "icon_index": 8,
+                "sheet_index": 0,
+                "last_updated": "2024-01-21 at 02:40 (UTC)",
+                "releasenotes": "Bedrock Cat Sand Pandas menu panoramas.",
+            },
+            "Top Screen (USA)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/bedrockcatsandpandas.zip",
+                    "message": "Downloading texture pack...",
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockcatsandpandas.zip"
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockcatsandpandas.zip",
+                    "input": "top/",
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background/"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockcatsandpandas.zip"
+                }
+            ],
+            "Bottom Screen (USA)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/bedrockcatsandpandas.zip",
+                    "message": "Downloading texture pack...",
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockcatsandpandas.zip"
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockcatsandpandas.zip",
+                    "input": "bottom/",
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background/"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockcatsandpandas.zip"
+                }
+            ],
+            "Remove content (USA)": [
+                {
+                    "type": "rmdir",
+                    "directory": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background",
+                    "required": false
+                }
+            ]
+        },
+        {
+            "info": {
+                "title": "Bedrock Classic Panorama",
+                "author": "STBUniverse",
+                "version": "v1.0.0",
+                "category": ["texture pack", "panorama"],
+                "console": ["3DS"],
+                "description": "Bedrock Classic menu panoramas",
+                "license": "none",
+                "icon_index": 9,
+                "sheet_index": 0,
+                "last_updated": "2024-01-21 at 02:43 (UTC)",
+                "releasenotes": "Bedrock Classic menu panoramas.",
+            },
+            "Top Screen (USA)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/bedrockclassic.zip",
+                    "message": "Downloading texture pack...",
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockclassic.zip"
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockclassic.zip",
+                    "input": "top/",
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background/"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockclassic.zip"
+                }
+            ],
+            "Bottom Screen (USA)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/bedrockclassic.zip",
+                    "message": "Downloading texture pack...",
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockclassic.zip"
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockclassic.zip",
+                    "input": "bottom/",
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background/"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockclassic.zip"
+                }
+            ],
+            "Remove content (USA)": [
+                {
+                    "type": "rmdir",
+                    "directory": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background",
+                    "required": false
+                }
+            ]
+        },
+        {
+            "info": {
+                "title": "Bedrock Halloween 2021 Panorama",
+                "author": "STBUniverse",
+                "version": "v1.0.0",
+                "category": ["texture pack", "panorama"],
+                "console": ["3DS"],
+                "description": "Bedrock Halloween 2021 menu panoramas",
+                "license": "none",
+                "icon_index": 10,
+                "sheet_index": 0,
+                "last_updated": "2024-01-21 at 02:44 (UTC)",
+                "releasenotes": "Bedrock Halloween 2021 menu panoramas.",
+            },
+            "Top Screen (USA)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/bedrockhalloween2021.zip",
+                    "message": "Downloading texture pack...",
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockhalloween2021.zip"
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockhalloween2021.zip",
+                    "input": "top/",
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background/"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockhalloween2021.zip"
+                }
+            ],
+            "Bottom Screen (USA)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/bedrockhalloween2021.zip",
+                    "message": "Downloading texture pack...",
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockhalloween2021.zip"
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockhalloween2021.zip",
+                    "input": "bottom/",
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background/"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockhalloween2021.zip"
+                }
+            ],
+            "Remove content (USA)": [
+                {
+                    "type": "rmdir",
+                    "directory": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background",
+                    "required": false
+                }
+            ]
+        },
+        {
+            "info": {
+                "title": "Bedrock Halloween 2022 Panorama",
+                "author": "STBUniverse",
+                "version": "v1.0.0",
+                "category": ["texture pack", "panorama"],
+                "console": ["3DS"],
+                "description": "Bedrock Halloween 2022 menu panoramas",
+                "license": "none",
+                "icon_index": 11,
+                "sheet_index": 0,
+                "last_updated": "2024-01-21 at 02:45 (UTC)",
+                "releasenotes": "Bedrock Halloween 2022 menu panoramas.",
+            },
+            "Top Screen (USA)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/bedrockhalloween2022.zip",
+                    "message": "Downloading texture pack...",
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockhalloween2022.zip"
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockhalloween2022.zip",
+                    "input": "top/",
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background/"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockhalloween2022.zip"
+                }
+            ],
+            "Bottom Screen (USA)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/bedrockhalloween2022.zip",
+                    "message": "Downloading texture pack...",
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockhalloween2022.zip"
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockhalloween2022.zip",
+                    "input": "bottom/",
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background/"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockhalloween2022.zip"
+                }
+            ],
+            "Remove content (USA)": [
+                {
+                    "type": "rmdir",
+                    "directory": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background",
+                    "required": false
+                }
+            ]
+        },
+        {
+            "info": {
+                "title": "Bedrock Preview Panorama",
+                "author": "STBUniverse",
+                "version": "v1.0.0",
+                "category": ["texture pack", "panorama"],
+                "console": ["3DS"],
+                "description": "Bedrock Preview menu panoramas",
+                "license": "none",
+                "icon_index": 12,
+                "sheet_index": 0,
+                "last_updated": "2024-01-21 at 02:46 (UTC)",
+                "releasenotes": "Bedrock Preview menu panoramas.",
+            },
+            "Top Screen (USA)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/bedrockpreview.zip",
+                    "message": "Downloading texture pack...",
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockpreview.zip"
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockpreview.zip",
+                    "input": "top/",
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background/"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockpreview.zip"
+                }
+            ],
+            "Bottom Screen (USA)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/bedrockpreview.zip",
+                    "message": "Downloading texture pack...",
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockpreview.zip"
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockpreview.zip",
+                    "input": "bottom/",
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background/"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockpreview.zip"
+                }
+            ],
+            "Remove content (USA)": [
+                {
+                    "type": "rmdir",
+                    "directory": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background",
+                    "required": false
+                }
+            ]
+        },
+        {
+            "info": {
+                "title": "Bedrock Village Panorama",
+                "author": "STBUniverse",
+                "version": "v1.0.0",
+                "category": ["texture pack", "panorama"],
+                "console": ["3DS"],
+                "description": "Bedrock menu panoramas from the Village and Pillage Update",
+                "license": "none",
+                "icon_index": 13,
+                "sheet_index": 0,
+                "last_updated": "2024-01-21 at 02:49 (UTC)",
+                "releasenotes": "Bedrock menu panoramas from the Village and Pillage Update.",
+            },
+            "Top Screen (USA)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/bedrockvillage.zip",
+                    "message": "Downloading texture pack...",
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockvillage.zip"
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockvillage.zip",
+                    "input": "top/",
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background/"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockvillage.zip"
+                }
+            ],
+            "Bottom Screen (USA)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/bedrockvillage.zip",
+                    "message": "Downloading texture pack...",
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockvillage.zip"
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockvillage.zip",
+                    "input": "bottom/",
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background/"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockvillage.zip"
+                }
+            ],
+            "Remove content (USA)": [
+                {
+                    "type": "rmdir",
+                    "directory": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background",
+                    "required": false
+                }
+            ]
+        },
+        {
+            "info": {
+                "title": "Education 1.12.2 Panorama",
+                "author": "STBUniverse",
+                "version": "v1.0.0",
+                "category": ["texture pack", "panorama"],
+                "console": ["3DS"],
+                "description": "Education 1.12.2 menu panoramas",
+                "license": "none",
+                "icon_index": 14,
+                "sheet_index": 0,
+                "last_updated": "2024-01-21 at 02:50 (UTC)",
+                "releasenotes": "Education 1.12.2 menu panoramas.",
+            },
+            "Top Screen (USA)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/education1_12_2.zip",
+                    "message": "Downloading texture pack...",
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/education1_12_2.zip"
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/education1_12_2.zip",
+                    "input": "top/",
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background/"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/education1_12_2.zip"
+                }
+            ],
+            "Bottom Screen (USA)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/education1_12_2.zip",
+                    "message": "Downloading texture pack...",
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/education1_12_2.zip"
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/education1_12_2.zip",
+                    "input": "bottom/",
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background/"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/education1_12_2.zip"
+                }
+            ],
+            "Remove content (USA)": [
+                {
+                    "type": "rmdir",
+                    "directory": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background",
+                    "required": false
+                }
+            ]
+        },
+        {
+            "info": {
+                "title": "Education 1.12.2bw Panorama",
+                "author": "STBUniverse",
+                "version": "v1.0.0",
+                "category": ["texture pack", "panorama"],
+                "console": ["3DS"],
+                "description": "Education 1.12.2bw menu panoramas",
+                "license": "none",
+                "icon_index": 15,
+                "sheet_index": 0,
+                "last_updated": "2024-01-21 at 02:51 (UTC)",
+                "releasenotes": "Education 1.12.2bw menu panoramas.",
+            },
+            "Top Screen (USA)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/education1_12_2bw.zip",
+                    "message": "Downloading texture pack...",
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/education1_12_2bw.zip"
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/education1_12_2bw.zip",
+                    "input": "top/",
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background/"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/education1_12_2bw.zip"
+                }
+            ],
+            "Bottom Screen (USA)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/education1_12_2bw.zip",
+                    "message": "Downloading texture pack...",
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/education1_12_2bw.zip"
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/education1_12_2bw.zip",
+                    "input": "bottom/",
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background/"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/education1_12_2bw.zip"
+                }
+            ],
+            "Remove content (USA)": [
+                {
+                    "type": "rmdir",
+                    "directory": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background",
+                    "required": false
+                }
+            ]
+        },
+        {
+            "info": {
+                "title": "Education 1.14.31 Panorama",
+                "author": "STBUniverse",
+                "version": "v1.0.0",
+                "category": ["texture pack", "panorama"],
+                "console": ["3DS"],
+                "description": "Education 1.14.31 menu panoramas",
+                "license": "none",
+                "icon_index": 16,
+                "sheet_index": 0,
+                "last_updated": "2024-01-21 at 02:53 (UTC)",
+                "releasenotes": "Education 1.14.31 menu panoramas.",
+            },
+            "Top Screen (USA)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/education1_14_31.zip",
+                    "message": "Downloading texture pack...",
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/education1_14_31.zip"
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/education1_14_31.zip",
+                    "input": "top/",
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background/"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/education1_14_31.zip"
+                }
+            ],
+            "Bottom Screen (USA)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/education1_14_31.zip",
+                    "message": "Downloading texture pack...",
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/education1_14_31.zip"
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/education1_14_31.zip",
+                    "input": "bottom/",
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background/"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/education1_14_31.zip"
+                }
+            ],
+            "Remove content (USA)": [
+                {
+                    "type": "rmdir",
+                    "directory": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background",
+                    "required": false
+                }
+            ]
+        },
+        {
+            "info": {
+                "title": "Education 1.14.40 Panorama",
+                "author": "STBUniverse",
+                "version": "v1.0.0",
+                "category": ["texture pack", "panorama"],
+                "console": ["3DS"],
+                "description": "Education 1.14.40 menu panoramas",
+                "license": "none",
+                "icon_index": 17,
+                "sheet_index": 0,
+                "last_updated": "2024-01-21 at 02:55 (UTC)",
+                "releasenotes": "Education 1.14.40 menu panoramas.",
+            },
+            "Top Screen (USA)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/education1_14_40.zip",
+                    "message": "Downloading texture pack...",
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/education1_14_40.zip"
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/education1_14_40.zip",
+                    "input": "top/",
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background/"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/education1_14_40.zip"
+                }
+            ],
+            "Bottom Screen (USA)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/education1_14_40.zip",
+                    "message": "Downloading texture pack...",
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/education1_14_40.zip"
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/education1_14_40.zip",
+                    "input": "bottom/",
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background/"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/education1_14_40.zip"
+                }
+            ],
+            "Remove content (USA)": [
+                {
+                    "type": "rmdir",
+                    "directory": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background",
+                    "required": false
+                }
+            ]
+        },
+        {
+            "info": {
+                "title": "Education C&C Part 1 Panorama",
+                "author": "STBUniverse",
+                "version": "v1.0.0",
+                "category": ["texture pack", "panorama"],
+                "console": ["3DS"],
+                "description": "Education Caves and Cliff Part 1 menu panoramas",
+                "license": "none",
+                "icon_index": 18,
+                "sheet_index": 0,
+                "last_updated": "2024-01-21 at 02:56 (UTC)",
+                "releasenotes": "Education Caves and Cliff Part 1 menu panoramas.",
+            },
+            "Top Screen (USA)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/educationcavesandcliffspart1.zip",
+                    "message": "Downloading texture pack...",
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/educationcavesandcliffspart1.zip"
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/educationcavesandcliffspart1.zip",
+                    "input": "top/",
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background/"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/educationcavesandcliffspart1.zip"
+                }
+            ],
+            "Bottom Screen (USA)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/educationcavesandcliffspart1.zip",
+                    "message": "Downloading texture pack...",
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/educationcavesandcliffspart1.zip"
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/educationcavesandcliffspart1.zip",
+                    "input": "bottom/",
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background/"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/educationcavesandcliffspart1.zip"
+                }
+            ],
+            "Remove content (USA)": [
+                {
+                    "type": "rmdir",
+                    "directory": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background",
+                    "required": false
+                }
+            ]
+        },
+        {
+            "info": {
+                "title": "Education C&C Part 2 Panorama",
+                "author": "STBUniverse",
+                "version": "v1.0.0",
+                "category": ["texture pack", "panorama"],
+                "console": ["3DS"],
+                "description": "Education Caves and Cliff Part 2 menu panoramas",
+                "license": "none",
+                "icon_index": 19,
+                "sheet_index": 0,
+                "last_updated": "2024-01-21 at 02:59 (UTC)",
+                "releasenotes": "Education Caves and Cliff Part 2 menu panoramas.",
+            },
+            "Top Screen (USA)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/educationcavesandcliffspart2.zip",
+                    "message": "Downloading texture pack...",
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/educationcavesandcliffspart2.zip"
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/educationcavesandcliffspart2.zip",
+                    "input": "top/",
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background/"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/educationcavesandcliffspart2.zip"
+                }
+            ],
+            "Bottom Screen (USA)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/educationcavesandcliffspart2.zip",
+                    "message": "Downloading texture pack...",
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/educationcavesandcliffspart2.zip"
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/educationcavesandcliffspart2.zip",
+                    "input": "bottom/",
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background/"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/educationcavesandcliffspart2.zip"
+                }
+            ],
+            "Remove content (USA)": [
+                {
+                    "type": "rmdir",
+                    "directory": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background",
+                    "required": false
+                }
+            ]
+        },
+        {
+            "info": {
+                "title": "Education China Panorama",
+                "author": "STBUniverse",
+                "version": "v1.0.0",
+                "category": ["texture pack", "panorama"],
+                "console": ["3DS"],
+                "description": "Education China menu panoramas",
+                "license": "none",
+                "icon_index": 20,
+                "sheet_index": 0,
+                "last_updated": "2024-01-21 at 03:00 (UTC)",
+                "releasenotes": "Education China menu panoramas.",
+            },
+            "Top Screen (USA)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/educationchina.zip",
+                    "message": "Downloading texture pack...",
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/educationchina.zip"
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/educationchina.zip",
+                    "input": "top/",
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background/"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/educationchina.zip"
+                }
+            ],
+            "Bottom Screen (USA)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/educationchina.zip",
+                    "message": "Downloading texture pack...",
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/educationchina.zip"
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/educationchina.zip",
+                    "input": "bottom/",
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background/"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/educationchina.zip"
+                }
+            ],
+            "Remove content (USA)": [
+                {
+                    "type": "rmdir",
+                    "directory": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background",
+                    "required": false
+                }
+            ]
+        },
+        {
+            "info": {
+                "title": "Education Demo Panorama",
+                "author": "STBUniverse",
+                "version": "v1.0.0",
+                "category": ["texture pack", "panorama"],
+                "console": ["3DS"],
+                "description": "Education Demo menu panoramas",
+                "license": "none",
+                "icon_index": 21,
+                "sheet_index": 0,
+                "last_updated": "2024-01-21 at 03:01 (UTC)",
+                "releasenotes": "Education Demo menu panoramas.",
+            },
+            "Top Screen (USA)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/educationdemo.zip",
+                    "message": "Downloading texture pack...",
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/educationdemo.zip"
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/educationdemo.zip",
+                    "input": "top/",
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background/"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/educationdemo.zip"
+                }
+            ],
+            "Bottom Screen (USA)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/educationdemo.zip",
+                    "message": "Downloading texture pack...",
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/educationdemo.zip"
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/educationdemo.zip",
+                    "input": "bottom/",
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background/"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/educationdemo.zip"
+                }
+            ],
+            "Remove content (USA)": [
+                {
+                    "type": "rmdir",
+                    "directory": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background",
+                    "required": false
+                }
+            ]
+        },
+        {
+            "info": {
+                "title": "Java Aquatic Panorama",
+                "author": "STBUniverse",
+                "version": "v1.0.0",
+                "category": ["texture pack", "panorama"],
+                "console": ["3DS"],
+                "description": "Java menu panoramas from the Aquatic Update",
+                "license": "none",
+                "icon_index": 22,
+                "sheet_index": 0,
+                "last_updated": "2024-01-21 at 03:03 (UTC)",
+                "releasenotes": "Java menu panoramas from the Aquatic Update.",
+            },
+            "Top Screen (USA)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/javaaquatic.zip",
+                    "message": "Downloading texture pack...",
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/javaaquatic.zip"
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/javaaquatic.zip",
+                    "input": "top/",
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background/"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/javaaquatic.zip"
+                }
+            ],
+            "Bottom Screen (USA)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/javaaquatic.zip",
+                    "message": "Downloading texture pack...",
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/javaaquatic.zip"
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/javaaquatic.zip",
+                    "input": "bottom/",
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background/"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/javaaquatic.zip"
+                }
+            ],
+            "Remove content (USA)": [
+                {
+                    "type": "rmdir",
+                    "directory": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background",
+                    "required": false
+                }
+            ]
+        },
+        {
+            "info": {
+                "title": "Java Bees Panorama",
+                "author": "STBUniverse",
+                "version": "v1.0.0",
+                "category": ["texture pack", "panorama"],
+                "console": ["3DS"],
+                "description": "Java menu panoramas from the 1.15 update",
+                "license": "none",
+                "icon_index": 23,
+                "sheet_index": 0,
+                "last_updated": "2024-01-21 at 03:05 (UTC)",
+                "releasenotes": "Java menu panoramas from the 1.15 update.",
+            },
+            "Top Screen (USA)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/javabees.zip",
+                    "message": "Downloading texture pack...",
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/javabees.zip"
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/javabees.zip",
+                    "input": "top/",
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background/"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/javabees.zip"
+                }
+            ],
+            "Bottom Screen (USA)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/javabees.zip",
+                    "message": "Downloading texture pack...",
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/javabees.zip"
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/javabees.zip",
+                    "input": "bottom/",
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background/"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/javabees.zip"
+                }
+            ],
+            "Remove content (USA)": [
+                {
+                    "type": "rmdir",
+                    "directory": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background",
+                    "required": false
+                }
+            ]
+        },
+        {
+            "info": {
+                "title": "Java Classic Panorama",
+                "author": "STBUniverse",
+                "version": "v1.0.0",
+                "category": ["texture pack", "panorama"],
+                "console": ["3DS"],
+                "description": "The Classic Java menu panorama",
+                "license": "none",
+                "icon_index": 24,
+                "sheet_index": 0,
+                "last_updated": "2024-01-21 at 03:06 (UTC)",
+                "releasenotes": "The Classic Java menu panorama.",
+            },
+            "Top Screen (USA)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/javaclassic.zip",
+                    "message": "Downloading texture pack...",
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/javaclassic.zip"
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/javaclassic.zip",
+                    "input": "top/",
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background/"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/javaclassic.zip"
+                }
+            ],
+            "Bottom Screen (USA)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/javaclassic.zip",
+                    "message": "Downloading texture pack...",
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/javaclassic.zip"
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/javaclassic.zip",
+                    "input": "bottom/",
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background/"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/javaclassic.zip"
+                }
+            ],
+            "Remove content (USA)": [
+                {
+                    "type": "rmdir",
+                    "directory": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background",
+                    "required": false
+                }
+            ]
+        },
+        {
+            "info": {
+                "title": "Java Village Panorama",
+                "author": "STBUniverse",
+                "version": "v1.0.0",
+                "category": ["texture pack", "panorama"],
+                "console": ["3DS"],
+                "description": "Java menu panorama from the Village and Pillage Update",
+                "license": "none",
+                "icon_index": 25,
+                "sheet_index": 0,
+                "last_updated": "2024-01-21 at 03:07 (UTC)",
+                "releasenotes": "Java menu panorama from the Village and Pillage Update.",
+            },
+            "Top Screen (USA)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/javavillage.zip",
+                    "message": "Downloading texture pack...",
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/javavillage.zip"
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/javavillage.zip",
+                    "input": "top/",
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background/"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/javavillage.zip"
+                }
+            ],
+            "Bottom Screen (USA)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/javavillage.zip",
+                    "message": "Downloading texture pack...",
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/javavillage.zip"
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/javavillage.zip",
+                    "input": "bottom/",
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background/"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/javavillage.zip"
+                }
+            ],
+            "Remove content (USA)": [
+                {
+                    "type": "rmdir",
+                    "directory": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background",
+                    "required": false
+                }
+            ]
+        },
+        {
+            "info": {
+                "title": "Caves & Cliff Part 1 Panorama",
+                "author": "STBUniverse",
+                "version": "v1.0.0",
+                "category": ["texture pack", "panorama"],
+                "console": ["3DS"],
+                "description": "The menu panorama from Caves & Cliff Part 1",
+                "license": "none",
+                "icon_index": 26,
+                "sheet_index": 0,
+                "last_updated": "2024-01-21 at 03:09 (UTC)",
+                "releasenotes": "The menu panorama from Caves & Cliff Part 1.",
+            },
+            "Top Screen (USA)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/panoramacavesandcliffspart1.zip",
+                    "message": "Downloading texture pack...",
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/panoramacavesandcliffspart1.zip"
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/panoramacavesandcliffspart1.zip",
+                    "input": "top/",
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background/"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/panoramacavesandcliffspart1.zip"
+                }
+            ],
+            "Bottom Screen (USA)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/panoramacavesandcliffspart1.zip",
+                    "message": "Downloading texture pack...",
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/panoramacavesandcliffspart1.zip"
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/panoramacavesandcliffspart1.zip",
+                    "input": "bottom/",
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background/"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/panoramacavesandcliffspart1.zip"
+                }
+            ],
+            "Remove content (USA)": [
+                {
+                    "type": "rmdir",
+                    "directory": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background",
+                    "required": false
+                }
+            ]
+        },
+        {
+            "info": {
+                "title": "Caves & Cliff Part 1 Alt Panorama",
+                "author": "STBUniverse",
+                "version": "v1.0.0",
+                "category": ["texture pack", "panorama"],
+                "console": ["3DS"],
+                "description": "The menu panorama from Caves & Cliff Part 1 (Original)",
+                "license": "none",
+                "icon_index": 27,
+                "sheet_index": 0,
+                "last_updated": "2024-01-21 at 03:10 (UTC)",
+                "releasenotes": "The menu panorama from Caves & Cliff Part 1 (Original).",
+            },
+            "Top Screen (USA)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/panoramacavesandcliffspart1original.zip",
+                    "message": "Downloading texture pack...",
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/panoramacavesandcliffspart1original.zip"
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/panoramacavesandcliffspart1original.zip",
+                    "input": "top/",
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background/"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/panoramacavesandcliffspart1original.zip"
+                }
+            ],
+            "Bottom Screen (USA)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/panoramacavesandcliffspart1original.zip",
+                    "message": "Downloading texture pack...",
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/panoramacavesandcliffspart1original.zip"
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/panoramacavesandcliffspart1original.zip",
+                    "input": "bottom/",
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background/"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/panoramacavesandcliffspart1original.zip"
+                }
+            ],
+            "Remove content (USA)": [
+                {
+                    "type": "rmdir",
+                    "directory": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background",
+                    "required": false
+                }
+            ]
+        },
+        {
+            "info": {
+                "title": "Caves & Cliff Part 2 Panorama",
+                "author": "STBUniverse",
+                "version": "v1.0.0",
+                "category": ["texture pack", "panorama"],
+                "console": ["3DS"],
+                "description": "The menu panorama from Caves & Cliff Part 2",
+                "license": "none",
+                "icon_index": 28,
+                "sheet_index": 0,
+                "last_updated": "2024-01-21 at 03:11 (UTC)",
+                "releasenotes": "The menu panorama from Caves & Cliff Part 2.",
+            },
+            "Top Screen (USA)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/panoramacavesandcliffspart2.zip",
+                    "message": "Downloading texture pack...",
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/panoramacavesandcliffspart2.zip"
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/panoramacavesandcliffspart2.zip",
+                    "input": "top/",
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background/"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/panoramacavesandcliffspart2.zip"
+                }
+            ],
+            "Bottom Screen (USA)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/panoramacavesandcliffspart2.zip",
+                    "message": "Downloading texture pack...",
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/panoramacavesandcliffspart2.zip"
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/panoramacavesandcliffspart2.zip",
+                    "input": "bottom/",
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background/"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/panoramacavesandcliffspart2.zip"
+                }
+            ],
+            "Remove content (USA)": [
+                {
+                    "type": "rmdir",
+                    "directory": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background",
+                    "required": false
+                }
+            ]
+        },
+        {
+            "info": {
+                "title": "Nether Panorama",
+                "author": "STBUniverse",
+                "version": "v1.0.0",
+                "category": ["texture pack", "panorama"],
+                "console": ["3DS"],
+                "description": "The menu panorama from the Nether Update",
+                "license": "none",
+                "icon_index": 29,
+                "sheet_index": 0,
+                "last_updated": "2024-01-21 at 03:13 (UTC)",
+                "releasenotes": "The menu panorama from the Nether Update.",
+            },
+            "Top Screen (USA)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/panoramanether.zip",
+                    "message": "Downloading texture pack...",
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/panoramanether.zip"
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/panoramanether.zip",
+                    "input": "top/",
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background/"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/panoramanether.zip"
+                }
+            ],
+            "Bottom Screen (USA)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/panoramanether.zip",
+                    "message": "Downloading texture pack...",
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/panoramanether.zip"
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/panoramanether.zip",
+                    "input": "bottom/",
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background/"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/panoramanether.zip"
+                }
+            ],
+            "Remove content (USA)": [
+                {
+                    "type": "rmdir",
+                    "directory": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background",
+                    "required": false
+                }
+            ]
+        },
+        {
+            "info": {
+                "title": "The Wild Update Panorama",
+                "author": "STBUniverse",
+                "version": "v1.0.0",
+                "category": ["texture pack", "panorama"],
+                "console": ["3DS"],
+                "description": "The menu panorama from the Wild Update",
+                "license": "none",
+                "icon_index": 30,
+                "sheet_index": 0,
+                "last_updated": "2024-01-21 at 03:15 (UTC)",
+                "releasenotes": "The menu panorama from the Wild Update.",
+            },
+            "Top Screen (USA)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/panoramathewildupdate.zip",
+                    "message": "Downloading texture pack...",
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/panoramathewildupdate.zip"
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/panoramathewildupdate.zip",
+                    "input": "top/",
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background/"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/panoramathewildupdate.zip"
+                }
+            ],
+            "Bottom Screen (USA)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/panoramathewildupdate.zip",
+                    "message": "Downloading texture pack...",
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/panoramathewildupdate.zip"
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/panoramathewildupdate.zip",
+                    "input": "bottom/",
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background/"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/panoramathewildupdate.zip"
                 }
             ],
             "Remove content (USA)": [
