@@ -8,7 +8,7 @@
         "sheet": "stb-mc3ds.t3x",
         "sheetURL": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/spritesheet.t3x",
         "version": 3,
-        "revision": 29
+        "revision": 30
     },
     "storeContent": [
         {
@@ -41,6 +41,24 @@
                 {
                     "type": "deleteFile",
                     "file": "sdmc:/luma/titles/00040000001B8700/romfs/new-minecraft-textures.zip"
+                }
+            ],
+            "New Minecraft Textures (EUR)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/new-minecraft-textures.zip",
+                    "message": "Downloading texture pack...",
+                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/new-minecraft-textures.zip"
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/new-minecraft-textures.zip",
+                    "input": "atlas/",
+                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/atlas/"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/new-minecraft-textures.zip"
                 }
             ]
         },
@@ -95,6 +113,30 @@
                     "type": "deleteFile",
                     "file": "sdmc:/luma/titles/00040000001B8700/romfs/ruby-mod.zip"
                 }
+            ],
+            "Ruby Instead of Emerald (EUR)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/resource_packs/ruby-mod.zip",
+                    "message": "Downloading resource pack...",
+                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/ruby-mod.zip"
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/ruby-mod.zip",
+                    "input": "atlas/",
+                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/atlas/"
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/ruby-mod.zip",
+                    "input": "loc/",
+                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/loc/"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/ruby-mod.zip"
+                }
             ]
         },
         {
@@ -137,6 +179,24 @@
                 {
                     "type": "deleteFile",
                     "file": "sdmc:/luma/titles/00040000001B8700/romfs/chaos-emeralds.zip"
+                }
+            ],
+            "Chaos Emeralds Texture (EUR)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/chaos-emeralds.zip",
+                    "message": "Downloading texture pack...",
+                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/chaos-emeralds.zip"
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/chaos-emeralds.zip",
+                    "input": "atlas/",
+                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/atlas/"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/chaos-emeralds.zip"
                 }
             ]
         },
@@ -186,6 +246,30 @@
                 {
                     "type": "deleteFile",
                     "file": "sdmc:/luma/titles/00040000001B8700/romfs/bat-model-1-21.zip"
+                }
+            ],
+            "Bat 1.21 Model (EUR)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/resource_packs/bat-model-1-21.zip",
+                    "message": "Downloading resource pack...",
+                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/bat-model-1-21.zip"
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/bat-model-1-21.zip",
+                    "input": "vanilla/client/models/",
+                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/models/"
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/bat-model-1-21.zip",
+                    "input": "vanilla/client/textures/entity/",
+                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/entity/"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/bat-model-1-21.zip"
                 }
             ]
         },
@@ -241,6 +325,47 @@
                 {
                     "type": "rmdir",
                     "directory": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background",
+                    "required": false
+                }
+            ],
+            "Bedrock Aquatic Panorama (EUR)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/bedrockaquatic.zip",
+                    "message": "Downloading texture pack...",
+                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/bedrockaquatic.zip"
+                },
+                {
+                    "type": "promptMessage",
+                    "message": "Would you like to install it in TOP SCREEN?",
+                    "count": 1
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/bedrockaquatic.zip",
+                    "input": "top/",
+                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/gui/background/"
+                },
+                {
+                    "type": "promptMessage",
+                    "message": "Would you like to install it in BOTTOM SCREEN?",
+                    "count": 1
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/bedrockaquatic.zip",
+                    "input": "bottom/",
+                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/gui/background/"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/bedrockaquatic.zip"
+                }
+            ],
+            "Remove content (EUR)": [
+                {
+                    "type": "rmdir",
+                    "directory": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/gui/background",
                     "required": false
                 }
             ]
@@ -299,6 +424,47 @@
                     "directory": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background",
                     "required": false
                 }
+            ],
+            "Bedrock Bees Panorama (EUR)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/bedrockbees.zip",
+                    "message": "Downloading texture pack...",
+                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/bedrockbees.zip"
+                },
+                {
+                    "type": "promptMessage",
+                    "message": "Would you like to install it in TOP SCREEN?",
+                    "count": 1
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/bedrockbees.zip",
+                    "input": "top/",
+                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/gui/background/"
+                },
+                {
+                    "type": "promptMessage",
+                    "message": "Would you like to install it in BOTTOM SCREEN?",
+                    "count": 1
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/bedrockbees.zip",
+                    "input": "bottom/",
+                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/gui/background/"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/bedrockbees.zip"
+                }
+            ],
+            "Remove content (EUR)": [
+                {
+                    "type": "rmdir",
+                    "directory": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/gui/background",
+                    "required": false
+                }
             ]
         },
         {
@@ -353,6 +519,47 @@
                 {
                     "type": "rmdir",
                     "directory": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background",
+                    "required": false
+                }
+            ],
+            "Bedrock Beta Panorama (EUR)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/bedrockbeta.zip",
+                    "message": "Downloading texture pack...",
+                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/bedrockbeta.zip"
+                },
+                {
+                    "type": "promptMessage",
+                    "message": "Would you like to install it in TOP SCREEN?",
+                    "count": 1
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/bedrockbeta.zip",
+                    "input": "top/",
+                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/gui/background/"
+                },
+                {
+                    "type": "promptMessage",
+                    "message": "Would you like to install it in BOTTOM SCREEN?",
+                    "count": 1
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/bedrockbeta.zip",
+                    "input": "bottom/",
+                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/gui/background/"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/bedrockbeta.zip"
+                }
+            ],
+            "Remove content (EUR)": [
+                {
+                    "type": "rmdir",
+                    "directory": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/gui/background",
                     "required": false
                 }
             ]
@@ -411,6 +618,47 @@
                     "directory": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background",
                     "required": false
                 }
+            ],
+            "Bedrock Better Panorama (EUR)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/bedrockbetter.zip",
+                    "message": "Downloading texture pack...",
+                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/bedrockbetter.zip"
+                },
+                {
+                    "type": "promptMessage",
+                    "message": "Would you like to install it in TOP SCREEN?",
+                    "count": 1
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/bedrockbetter.zip",
+                    "input": "top/",
+                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/gui/background/"
+                },
+                {
+                    "type": "promptMessage",
+                    "message": "Would you like to install it in BOTTOM SCREEN?",
+                    "count": 1
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/bedrockbetter.zip",
+                    "input": "bottom/",
+                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/gui/background/"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/bedrockbetter.zip"
+                }
+            ],
+            "Remove content (EUR)": [
+                {
+                    "type": "rmdir",
+                    "directory": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/gui/background",
+                    "required": false
+                }
             ]
         },
         {
@@ -465,6 +713,47 @@
                 {
                     "type": "rmdir",
                     "directory": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background",
+                    "required": false
+                }
+            ],
+            "Bedrock Cat Sand Pandas Panorama (EUR)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/bedrockcatsandpandas.zip",
+                    "message": "Downloading texture pack...",
+                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/bedrockcatsandpandas.zip"
+                },
+                {
+                    "type": "promptMessage",
+                    "message": "Would you like to install it in TOP SCREEN?",
+                    "count": 1
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/bedrockcatsandpandas.zip",
+                    "input": "top/",
+                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/gui/background/"
+                },
+                {
+                    "type": "promptMessage",
+                    "message": "Would you like to install it in BOTTOM SCREEN?",
+                    "count": 1
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/bedrockcatsandpandas.zip",
+                    "input": "bottom/",
+                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/gui/background/"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/bedrockcatsandpandas.zip"
+                }
+            ],
+            "Remove content (EUR)": [
+                {
+                    "type": "rmdir",
+                    "directory": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/gui/background",
                     "required": false
                 }
             ]
@@ -523,6 +812,47 @@
                     "directory": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background",
                     "required": false
                 }
+            ],
+            "Bedrock Classic Panorama (EUR)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/bedrockclassic.zip",
+                    "message": "Downloading texture pack...",
+                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/bedrockclassic.zip"
+                },
+                {
+                    "type": "promptMessage",
+                    "message": "Would you like to install it in TOP SCREEN?",
+                    "count": 1
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/bedrockclassic.zip",
+                    "input": "top/",
+                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/gui/background/"
+                },
+                {
+                    "type": "promptMessage",
+                    "message": "Would you like to install it in BOTTOM SCREEN?",
+                    "count": 1
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/bedrockclassic.zip",
+                    "input": "bottom/",
+                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/gui/background/"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/bedrockclassic.zip"
+                }
+            ],
+            "Remove content (EUR)": [
+                {
+                    "type": "rmdir",
+                    "directory": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/gui/background",
+                    "required": false
+                }
             ]
         },
         {
@@ -577,6 +907,47 @@
                 {
                     "type": "rmdir",
                     "directory": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background",
+                    "required": false
+                }
+            ],
+            "Bedrock Halloween 2021 Panorama (EUR)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/bedrockhalloween2021.zip",
+                    "message": "Downloading texture pack...",
+                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/bedrockhalloween2021.zip"
+                },
+                {
+                    "type": "promptMessage",
+                    "message": "Would you like to install it in TOP SCREEN?",
+                    "count": 1
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/bedrockhalloween2021.zip",
+                    "input": "top/",
+                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/gui/background/"
+                },
+                {
+                    "type": "promptMessage",
+                    "message": "Would you like to install it in BOTTOM SCREEN?",
+                    "count": 1
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/bedrockhalloween2021.zip",
+                    "input": "bottom/",
+                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/gui/background/"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/bedrockhalloween2021.zip"
+                }
+            ],
+            "Remove content (EUR)": [
+                {
+                    "type": "rmdir",
+                    "directory": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/gui/background",
                     "required": false
                 }
             ]
@@ -635,6 +1006,47 @@
                     "directory": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background",
                     "required": false
                 }
+            ],
+            "Bedrock Halloween 2022 Panorama (EUR)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/bedrockhalloween2022.zip",
+                    "message": "Downloading texture pack...",
+                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/bedrockhalloween2022.zip"
+                },
+                {
+                    "type": "promptMessage",
+                    "message": "Would you like to install it in TOP SCREEN?",
+                    "count": 1
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/bedrockhalloween2022.zip",
+                    "input": "top/",
+                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/gui/background/"
+                },
+                {
+                    "type": "promptMessage",
+                    "message": "Would you like to install it in BOTTOM SCREEN?",
+                    "count": 1
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/bedrockhalloween2022.zip",
+                    "input": "bottom/",
+                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/gui/background/"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/bedrockhalloween2022.zip"
+                }
+            ],
+            "Remove content (EUR)": [
+                {
+                    "type": "rmdir",
+                    "directory": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/gui/background",
+                    "required": false
+                }
             ]
         },
         {
@@ -689,6 +1101,47 @@
                 {
                     "type": "rmdir",
                     "directory": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background",
+                    "required": false
+                }
+            ],
+            "Bedrock Preview Panorama (EUR)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/bedrockpreview.zip",
+                    "message": "Downloading texture pack...",
+                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/bedrockpreview.zip"
+                },
+                {
+                    "type": "promptMessage",
+                    "message": "Would you like to install it in TOP SCREEN?",
+                    "count": 1
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/bedrockpreview.zip",
+                    "input": "top/",
+                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/gui/background/"
+                },
+                {
+                    "type": "promptMessage",
+                    "message": "Would you like to install it in BOTTOM SCREEN?",
+                    "count": 1
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/bedrockpreview.zip",
+                    "input": "bottom/",
+                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/gui/background/"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/bedrockpreview.zip"
+                }
+            ],
+            "Remove content (EUR)": [
+                {
+                    "type": "rmdir",
+                    "directory": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/gui/background",
                     "required": false
                 }
             ]
@@ -747,6 +1200,47 @@
                     "directory": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background",
                     "required": false
                 }
+            ],
+            "Bedrock Village Panorama (EUR)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/bedrockvillage.zip",
+                    "message": "Downloading texture pack...",
+                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/bedrockvillage.zip"
+                },
+                {
+                    "type": "promptMessage",
+                    "message": "Would you like to install it in TOP SCREEN?",
+                    "count": 1
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/bedrockvillage.zip",
+                    "input": "top/",
+                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/gui/background/"
+                },
+                {
+                    "type": "promptMessage",
+                    "message": "Would you like to install it in BOTTOM SCREEN?",
+                    "count": 1
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/bedrockvillage.zip",
+                    "input": "bottom/",
+                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/gui/background/"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/bedrockvillage.zip"
+                }
+            ],
+            "Remove content (EUR)": [
+                {
+                    "type": "rmdir",
+                    "directory": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/gui/background",
+                    "required": false
+                }
             ]
         },
         {
@@ -801,6 +1295,47 @@
                 {
                     "type": "rmdir",
                     "directory": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background",
+                    "required": false
+                }
+            ],
+            "Education 1.12.2 Panorama (EUR)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/education1_12_2.zip",
+                    "message": "Downloading texture pack...",
+                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/education1_12_2.zip"
+                },
+                {
+                    "type": "promptMessage",
+                    "message": "Would you like to install it in TOP SCREEN?",
+                    "count": 1
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/education1_12_2.zip",
+                    "input": "top/",
+                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/gui/background/"
+                },
+                {
+                    "type": "promptMessage",
+                    "message": "Would you like to install it in BOTTOM SCREEN?",
+                    "count": 1
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/education1_12_2.zip",
+                    "input": "bottom/",
+                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/gui/background/"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/education1_12_2.zip"
+                }
+            ],
+            "Remove content (EUR)": [
+                {
+                    "type": "rmdir",
+                    "directory": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/gui/background",
                     "required": false
                 }
             ]
@@ -859,6 +1394,47 @@
                     "directory": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background",
                     "required": false
                 }
+            ],
+            "Education 1.12.2bw Panorama (EUR)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/education1_12_2bw.zip",
+                    "message": "Downloading texture pack...",
+                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/education1_12_2bw.zip"
+                },
+                {
+                    "type": "promptMessage",
+                    "message": "Would you like to install it in TOP SCREEN?",
+                    "count": 1
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/education1_12_2bw.zip",
+                    "input": "top/",
+                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/gui/background/"
+                },
+                {
+                    "type": "promptMessage",
+                    "message": "Would you like to install it in BOTTOM SCREEN?",
+                    "count": 1
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/education1_12_2bw.zip",
+                    "input": "bottom/",
+                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/gui/background/"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/education1_12_2bw.zip"
+                }
+            ],
+            "Remove content (EUR)": [
+                {
+                    "type": "rmdir",
+                    "directory": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/gui/background",
+                    "required": false
+                }
             ]
         },
         {
@@ -913,6 +1489,47 @@
                 {
                     "type": "rmdir",
                     "directory": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background",
+                    "required": false
+                }
+            ],
+            "Education 1.14.31 Panorama (EUR)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/education1_14_31.zip",
+                    "message": "Downloading texture pack...",
+                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/education1_14_31.zip"
+                },
+                {
+                    "type": "promptMessage",
+                    "message": "Would you like to install it in TOP SCREEN?",
+                    "count": 1
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/education1_14_31.zip",
+                    "input": "top/",
+                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/gui/background/"
+                },
+                {
+                    "type": "promptMessage",
+                    "message": "Would you like to install it in BOTTOM SCREEN?",
+                    "count": 1
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/education1_14_31.zip",
+                    "input": "bottom/",
+                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/gui/background/"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/education1_14_31.zip"
+                }
+            ],
+            "Remove content (EUR)": [
+                {
+                    "type": "rmdir",
+                    "directory": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/gui/background",
                     "required": false
                 }
             ]
@@ -971,6 +1588,47 @@
                     "directory": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background",
                     "required": false
                 }
+            ],
+            "Education 1.14.40 Panorama (EUR)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/education1_14_40.zip",
+                    "message": "Downloading texture pack...",
+                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/education1_14_40.zip"
+                },
+                {
+                    "type": "promptMessage",
+                    "message": "Would you like to install it in TOP SCREEN?",
+                    "count": 1
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/education1_14_40.zip",
+                    "input": "top/",
+                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/gui/background/"
+                },
+                {
+                    "type": "promptMessage",
+                    "message": "Would you like to install it in BOTTOM SCREEN?",
+                    "count": 1
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/education1_14_40.zip",
+                    "input": "bottom/",
+                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/gui/background/"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/education1_14_40.zip"
+                }
+            ],
+            "Remove content (EUR)": [
+                {
+                    "type": "rmdir",
+                    "directory": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/gui/background",
+                    "required": false
+                }
             ]
         },
         {
@@ -1025,6 +1683,47 @@
                 {
                     "type": "rmdir",
                     "directory": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background",
+                    "required": false
+                }
+            ],
+            "Education C&C Part 1 Panorama (EUR)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/educationcavesandcliffspart1.zip",
+                    "message": "Downloading texture pack...",
+                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/educationcavesandcliffspart1.zip"
+                },
+                {
+                    "type": "promptMessage",
+                    "message": "Would you like to install it in TOP SCREEN?",
+                    "count": 1
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/educationcavesandcliffspart1.zip",
+                    "input": "top/",
+                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/gui/background/"
+                },
+                {
+                    "type": "promptMessage",
+                    "message": "Would you like to install it in BOTTOM SCREEN?",
+                    "count": 1
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/educationcavesandcliffspart1.zip",
+                    "input": "bottom/",
+                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/gui/background/"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/educationcavesandcliffspart1.zip"
+                }
+            ],
+            "Remove content (EUR)": [
+                {
+                    "type": "rmdir",
+                    "directory": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/gui/background",
                     "required": false
                 }
             ]
@@ -1083,6 +1782,47 @@
                     "directory": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background",
                     "required": false
                 }
+            ],
+            "Education C&C Part 2 Panorama (EUR)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/educationcavesandcliffspart2.zip",
+                    "message": "Downloading texture pack...",
+                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/educationcavesandcliffspart2.zip"
+                },
+                {
+                    "type": "promptMessage",
+                    "message": "Would you like to install it in TOP SCREEN?",
+                    "count": 1
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/educationcavesandcliffspart2.zip",
+                    "input": "top/",
+                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/gui/background/"
+                },
+                {
+                    "type": "promptMessage",
+                    "message": "Would you like to install it in BOTTOM SCREEN?",
+                    "count": 1
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/educationcavesandcliffspart2.zip",
+                    "input": "bottom/",
+                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/gui/background/"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/educationcavesandcliffspart2.zip"
+                }
+            ],
+            "Remove content (EUR)": [
+                {
+                    "type": "rmdir",
+                    "directory": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/gui/background",
+                    "required": false
+                }
             ]
         },
         {
@@ -1137,6 +1877,47 @@
                 {
                     "type": "rmdir",
                     "directory": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background",
+                    "required": false
+                }
+            ],
+            "Education China Panorama (EUR)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/educationchina.zip",
+                    "message": "Downloading texture pack...",
+                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/educationchina.zip"
+                },
+                {
+                    "type": "promptMessage",
+                    "message": "Would you like to install it in TOP SCREEN?",
+                    "count": 1
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/educationchina.zip",
+                    "input": "top/",
+                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/gui/background/"
+                },
+                {
+                    "type": "promptMessage",
+                    "message": "Would you like to install it in BOTTOM SCREEN?",
+                    "count": 1
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/educationchina.zip",
+                    "input": "bottom/",
+                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/gui/background/"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/educationchina.zip"
+                }
+            ],
+            "Remove content (EUR)": [
+                {
+                    "type": "rmdir",
+                    "directory": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/gui/background",
                     "required": false
                 }
             ]
@@ -1195,6 +1976,47 @@
                     "directory": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background",
                     "required": false
                 }
+            ],
+            "Education Demo Panorama (EUR)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/educationdemo.zip",
+                    "message": "Downloading texture pack...",
+                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/educationdemo.zip"
+                },
+                {
+                    "type": "promptMessage",
+                    "message": "Would you like to install it in TOP SCREEN?",
+                    "count": 1
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/educationdemo.zip",
+                    "input": "top/",
+                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/gui/background/"
+                },
+                {
+                    "type": "promptMessage",
+                    "message": "Would you like to install it in BOTTOM SCREEN?",
+                    "count": 1
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/educationdemo.zip",
+                    "input": "bottom/",
+                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/gui/background/"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/educationdemo.zip"
+                }
+            ],
+            "Remove content (EUR)": [
+                {
+                    "type": "rmdir",
+                    "directory": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/gui/background",
+                    "required": false
+                }
             ]
         },
         {
@@ -1249,6 +2071,47 @@
                 {
                     "type": "rmdir",
                     "directory": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background",
+                    "required": false
+                }
+            ],
+            "Java Aquatic Panorama (EUR)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/javaaquatic.zip",
+                    "message": "Downloading texture pack...",
+                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/javaaquatic.zip"
+                },
+                {
+                    "type": "promptMessage",
+                    "message": "Would you like to install it in TOP SCREEN?",
+                    "count": 1
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/javaaquatic.zip",
+                    "input": "top/",
+                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/gui/background/"
+                },
+                {
+                    "type": "promptMessage",
+                    "message": "Would you like to install it in BOTTOM SCREEN?",
+                    "count": 1
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/javaaquatic.zip",
+                    "input": "bottom/",
+                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/gui/background/"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/javaaquatic.zip"
+                }
+            ],
+            "Remove content (EUR)": [
+                {
+                    "type": "rmdir",
+                    "directory": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/gui/background",
                     "required": false
                 }
             ]
@@ -1307,6 +2170,47 @@
                     "directory": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background",
                     "required": false
                 }
+            ],
+            "Java Bees Panorama (EUR)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/javabees.zip",
+                    "message": "Downloading texture pack...",
+                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/javabees.zip"
+                },
+                {
+                    "type": "promptMessage",
+                    "message": "Would you like to install it in TOP SCREEN?",
+                    "count": 1
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/javabees.zip",
+                    "input": "top/",
+                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/gui/background/"
+                },
+                {
+                    "type": "promptMessage",
+                    "message": "Would you like to install it in BOTTOM SCREEN?",
+                    "count": 1
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/javabees.zip",
+                    "input": "bottom/",
+                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/gui/background/"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/javabees.zip"
+                }
+            ],
+            "Remove content (EUR)": [
+                {
+                    "type": "rmdir",
+                    "directory": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/gui/background",
+                    "required": false
+                }
             ]
         },
         {
@@ -1361,6 +2265,47 @@
                 {
                     "type": "rmdir",
                     "directory": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background",
+                    "required": false
+                }
+            ],
+            "Java Classic Panorama (EUR)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/javaclassic.zip",
+                    "message": "Downloading texture pack...",
+                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/javaclassic.zip"
+                },
+                {
+                    "type": "promptMessage",
+                    "message": "Would you like to install it in TOP SCREEN?",
+                    "count": 1
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/javaclassic.zip",
+                    "input": "top/",
+                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/gui/background/"
+                },
+                {
+                    "type": "promptMessage",
+                    "message": "Would you like to install it in BOTTOM SCREEN?",
+                    "count": 1
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/javaclassic.zip",
+                    "input": "bottom/",
+                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/gui/background/"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/javaclassic.zip"
+                }
+            ],
+            "Remove content (EUR)": [
+                {
+                    "type": "rmdir",
+                    "directory": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/gui/background",
                     "required": false
                 }
             ]
@@ -1419,6 +2364,47 @@
                     "directory": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background",
                     "required": false
                 }
+            ],
+            "Java Village Panorama (EUR)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/javavillage.zip",
+                    "message": "Downloading texture pack...",
+                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/javavillage.zip"
+                },
+                {
+                    "type": "promptMessage",
+                    "message": "Would you like to install it in TOP SCREEN?",
+                    "count": 1
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/javavillage.zip",
+                    "input": "top/",
+                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/gui/background/"
+                },
+                {
+                    "type": "promptMessage",
+                    "message": "Would you like to install it in BOTTOM SCREEN?",
+                    "count": 1
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/javavillage.zip",
+                    "input": "bottom/",
+                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/gui/background/"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/javavillage.zip"
+                }
+            ],
+            "Remove content (EUR)": [
+                {
+                    "type": "rmdir",
+                    "directory": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/gui/background",
+                    "required": false
+                }
             ]
         },
         {
@@ -1473,6 +2459,47 @@
                 {
                     "type": "rmdir",
                     "directory": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background",
+                    "required": false
+                }
+            ],
+            "Caves & Cliff Part 1 Panorama (EUR)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/panoramacavesandcliffspart1.zip",
+                    "message": "Downloading texture pack...",
+                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/panoramacavesandcliffspart1.zip"
+                },
+                {
+                    "type": "promptMessage",
+                    "message": "Would you like to install it in TOP SCREEN?",
+                    "count": 1
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/panoramacavesandcliffspart1.zip",
+                    "input": "top/",
+                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/gui/background/"
+                },
+                {
+                    "type": "promptMessage",
+                    "message": "Would you like to install it in BOTTOM SCREEN?",
+                    "count": 1
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/panoramacavesandcliffspart1.zip",
+                    "input": "bottom/",
+                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/gui/background/"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/panoramacavesandcliffspart1.zip"
+                }
+            ],
+            "Remove content (EUR)": [
+                {
+                    "type": "rmdir",
+                    "directory": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/gui/background",
                     "required": false
                 }
             ]
@@ -1531,6 +2558,47 @@
                     "directory": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background",
                     "required": false
                 }
+            ],
+            "Caves & Cliff Part 1 Alt Panorama (EUR)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/panoramacavesandcliffspart1original.zip",
+                    "message": "Downloading texture pack...",
+                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/panoramacavesandcliffspart1original.zip"
+                },
+                {
+                    "type": "promptMessage",
+                    "message": "Would you like to install it in TOP SCREEN?",
+                    "count": 1
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/panoramacavesandcliffspart1original.zip",
+                    "input": "top/",
+                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/gui/background/"
+                },
+                {
+                    "type": "promptMessage",
+                    "message": "Would you like to install it in BOTTOM SCREEN?",
+                    "count": 1
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/panoramacavesandcliffspart1original.zip",
+                    "input": "bottom/",
+                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/gui/background/"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/panoramacavesandcliffspart1original.zip"
+                }
+            ],
+            "Remove content (EUR)": [
+                {
+                    "type": "rmdir",
+                    "directory": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/gui/background",
+                    "required": false
+                }
             ]
         },
         {
@@ -1585,6 +2653,47 @@
                 {
                     "type": "rmdir",
                     "directory": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background",
+                    "required": false
+                }
+            ],
+            "Caves & Cliff Part 2 Panorama (EUR)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/panoramacavesandcliffspart2.zip",
+                    "message": "Downloading texture pack...",
+                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/panoramacavesandcliffspart2.zip"
+                },
+                {
+                    "type": "promptMessage",
+                    "message": "Would you like to install it in TOP SCREEN?",
+                    "count": 1
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/panoramacavesandcliffspart2.zip",
+                    "input": "top/",
+                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/gui/background/"
+                },
+                {
+                    "type": "promptMessage",
+                    "message": "Would you like to install it in BOTTOM SCREEN?",
+                    "count": 1
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/panoramacavesandcliffspart2.zip",
+                    "input": "bottom/",
+                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/gui/background/"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/panoramacavesandcliffspart2.zip"
+                }
+            ],
+            "Remove content (EUR)": [
+                {
+                    "type": "rmdir",
+                    "directory": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/gui/background",
                     "required": false
                 }
             ]
@@ -1643,6 +2752,47 @@
                     "directory": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background",
                     "required": false
                 }
+            ],
+            "Nether Panorama (EUR)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/panoramanether.zip",
+                    "message": "Downloading texture pack...",
+                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/panoramanether.zip"
+                },
+                {
+                    "type": "promptMessage",
+                    "message": "Would you like to install it in TOP SCREEN?",
+                    "count": 1
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/panoramanether.zip",
+                    "input": "top/",
+                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/gui/background/"
+                },
+                {
+                    "type": "promptMessage",
+                    "message": "Would you like to install it in BOTTOM SCREEN?",
+                    "count": 1
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/panoramanether.zip",
+                    "input": "bottom/",
+                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/gui/background/"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/panoramanether.zip"
+                }
+            ],
+            "Remove content (EUR)": [
+                {
+                    "type": "rmdir",
+                    "directory": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/gui/background",
+                    "required": false
+                }
             ]
         },
         {
@@ -1697,6 +2847,47 @@
                 {
                     "type": "rmdir",
                     "directory": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background",
+                    "required": false
+                }
+            ],
+            "The Wild Update Panorama (EUR)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/panoramathewildupdate.zip",
+                    "message": "Downloading texture pack...",
+                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/panoramathewildupdate.zip"
+                },
+                {
+                    "type": "promptMessage",
+                    "message": "Would you like to install it in TOP SCREEN?",
+                    "count": 1
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/panoramathewildupdate.zip",
+                    "input": "top/",
+                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/gui/background/"
+                },
+                {
+                    "type": "promptMessage",
+                    "message": "Would you like to install it in BOTTOM SCREEN?",
+                    "count": 1
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/panoramathewildupdate.zip",
+                    "input": "bottom/",
+                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/gui/background/"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/panoramathewildupdate.zip"
+                }
+            ],
+            "Remove content (EUR)": [
+                {
+                    "type": "rmdir",
+                    "directory": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/gui/background",
                     "required": false
                 }
             ]
