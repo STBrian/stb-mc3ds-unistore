@@ -8,57 +8,71 @@
         "sheet": "stb-mc3ds.t3x",
         "sheetURL": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/spritesheet.t3x",
         "version": 3,
-        "revision": 30
+        "revision": 31
     },
     "storeContent": [
         {
             "info": {
-                "title": "New Minecraft Textures",
+                "title": "1.20 Vanilla Texture",
                 "author": "STBUniverse",
-                "version": "v0.1.4",
-                "category": ["texture pack"],
+                "version": "v0.1.5",
+                "category": ["resource pack","texture pack"],
                 "console": ["3DS"],
-                "description": "Port of the textures from recent versions of the game",
+                "description": "Port of the textures from version 1.20 of the game",
                 "license": "none",
                 "icon_index": 0,
                 "sheet_index": 0,
-                "last_updated": "2023-12-19 at 19:12 (UTC)",
-                "releasenotes": "This texture pack will be updated slowly until it contains the new textures according to version 1.20\n\nRelease notes:\n\n- A lot of blocks textures were changed.\n- The blocks of building and decoration were almost all changed, except for grass and leaves."
+                "last_updated": "2024-03-26 at 04:27 (UTC)",
+                "releasenotes": "This texture pack will be updated slowly until it contains the new textures according to version 1.20\n\nRelease notes:\n\n- Lots of textures from items and blocks added.\n- Still remain potions, leaves, and few other things",
+                "screenshots": [
+                    {
+                        "description": "Preview all blocks 1",
+                        "url": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/screenshots/1-20_Textures_0.png"
+                    },
+                    {
+                        "description": "Preview all blocks 2",
+                        "url": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/screenshots/1-20_Textures_1.png"
+                    },
+                    {
+                        "description": "Preview all blocks 3",
+                        "url": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/screenshots/1-20_Textures_2.png"
+                    }
+                ]
             },
             "New Minecraft Textures (USA)": [
                 {
                     "type": "downloadFile",
-                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/new-minecraft-textures.zip",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/1-20_Textures_v0-1-5.zip",
                     "message": "Downloading texture pack...",
-                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/new-minecraft-textures.zip"
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/1-20_Textures_v0-1-5.zip"
                 },
                 {
                     "type": "extractFile",
-                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/new-minecraft-textures.zip",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/1-20_Textures_v0-1-5.zip",
                     "input": "atlas/",
                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/atlas/"
                 },
                 {
                     "type": "deleteFile",
-                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/new-minecraft-textures.zip"
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/1-20_Textures_v0-1-5.zip"
                 }
             ],
             "New Minecraft Textures (EUR)": [
                 {
                     "type": "downloadFile",
-                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/new-minecraft-textures.zip",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/1-20_Textures_v0-1-5.zip",
                     "message": "Downloading texture pack...",
-                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/new-minecraft-textures.zip"
+                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/1-20_Textures_v0-1-5.zip"
                 },
                 {
                     "type": "extractFile",
-                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/new-minecraft-textures.zip",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/1-20_Textures_v0-1-5.zip",
                     "input": "atlas/",
                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/atlas/"
                 },
                 {
                     "type": "deleteFile",
-                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/new-minecraft-textures.zip"
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/1-20_Textures_v0-1-5.zip"
                 }
             ]
         },
@@ -67,7 +81,7 @@
                 "title": "Ruby Instead of Emerald",
                 "author": "STBUniverse",
                 "version": "v0.1.5",
-                "category": ["resource pack"],
+                "category": ["resource pack", "mod"],
                 "console": ["3DS"],
                 "description": "Change the emeralds in the game for the classic ruby",
                 "license": "none",
@@ -144,7 +158,7 @@
                 "title": "Chaos Emeralds Texture",
                 "author": "STBUniverse",
                 "version": "v1.0.0",
-                "category": ["texture pack"],
+                "category": ["resource pack","texture pack"],
                 "console": ["3DS"],
                 "description": "Changes the appearance of some minerals to be the Chaos Emeralds",
                 "license": "none",
