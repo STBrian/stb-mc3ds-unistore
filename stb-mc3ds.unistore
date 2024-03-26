@@ -8,22 +8,22 @@
         "sheet": "stb-mc3ds.t3x",
         "sheetURL": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/spritesheet.t3x",
         "version": 3,
-        "revision": 33
+        "revision": 34
     },
     "storeContent": [
         {
             "info": {
                 "title": "1.20 Vanilla Texture",
                 "author": "STBUniverse",
-                "version": "v0.1.5",
+                "version": "v0.1.6",
                 "category": ["resource pack","texture pack"],
                 "console": ["3DS"],
-                "description": "Port of the textures from version 1.20 of the game",
+                "description": "Port of the textures from version 1.20",
                 "license": "none",
                 "icon_index": 0,
                 "sheet_index": 0,
-                "last_updated": "2024-03-26 at 04:27 (UTC)",
-                "releasenotes": "This texture pack will be updated slowly until it contains the new textures according to version 1.20\n\nRelease notes:\n\n- Lots of textures from items and blocks added.\n- Still remain potions, leaves, and few other things\n\nCredits to WaterMelon for the map Debug Mode 3D used in screenshots",
+                "last_updated": "2024-03-26 at 22:42 (UTC)",
+                "releasenotes": "This texture pack will be updated slowly until it contains the new textures according to version 1.20\n\nRelease notes:\n\n- Added texture for the foliage of the terrain (leaves, grass, fern).\n- Remain GUI and invetory items to be added\n\nCredits to WaterMelon for the map Debug Mode 3D used in screenshots",
                 "screenshots": [
                     {
                         "description": "Preview all blocks 1",
@@ -42,37 +42,37 @@
             "1.20 Vanilla Texture (USA)": [
                 {
                     "type": "downloadFile",
-                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/1-20_Textures_v0-1-5.zip",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/1-20_Textures_v0-1-6.zip",
                     "message": "Downloading texture pack...",
-                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/1-20_Textures_v0-1-5.zip"
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/1-20_Textures.zip"
                 },
                 {
                     "type": "extractFile",
-                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/1-20_Textures_v0-1-5.zip",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/1-20_Textures.zip",
                     "input": "atlas/",
                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/atlas/"
                 },
                 {
                     "type": "deleteFile",
-                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/1-20_Textures_v0-1-5.zip"
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/1-20_Textures.zip"
                 }
             ],
             "1.20 Vanilla Texture (EUR)": [
                 {
                     "type": "downloadFile",
-                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/1-20_Textures_v0-1-5.zip",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/1-20_Textures_v0-1-6.zip",
                     "message": "Downloading texture pack...",
-                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/1-20_Textures_v0-1-5.zip"
+                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/1-20_Textures.zip"
                 },
                 {
                     "type": "extractFile",
-                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/1-20_Textures_v0-1-5.zip",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/1-20_Textures.zip",
                     "input": "atlas/",
                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/atlas/"
                 },
                 {
                     "type": "deleteFile",
-                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/1-20_Textures_v0-1-5.zip"
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/1-20_Textures.zip"
                 }
             ]
         },
@@ -81,7 +81,7 @@
                 "title": "Ruby Instead of Emerald",
                 "author": "STBUniverse",
                 "version": "v0.1.5",
-                "category": ["resource pack", "mod"],
+                "category": ["resource pack"],
                 "console": ["3DS"],
                 "description": "Change the emeralds in the game for the classic ruby",
                 "license": "none",
