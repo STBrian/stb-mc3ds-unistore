@@ -8,7 +8,7 @@
         "sheet": "stb-mc3ds.t3x",
         "sheetURL": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/spritesheet.t3x",
         "version": 3,
-        "revision": 31
+        "revision": 32
     },
     "storeContent": [
         {
@@ -23,7 +23,7 @@
                 "icon_index": 0,
                 "sheet_index": 0,
                 "last_updated": "2024-03-26 at 04:27 (UTC)",
-                "releasenotes": "This texture pack will be updated slowly until it contains the new textures according to version 1.20\n\nRelease notes:\n\n- Lots of textures from items and blocks added.\n- Still remain potions, leaves, and few other things",
+                "releasenotes": "This texture pack will be updated slowly until it contains the new textures according to version 1.20\n\nRelease notes:\n\n- Lots of textures from items and blocks added.\n- Still remain potions, leaves, and few other things\n\nCredits to WaterMelon for the map Debug Mode 3D used in screenshots",
                 "screenshots": [
                     {
                         "description": "Preview all blocks 1",
@@ -39,7 +39,7 @@
                     }
                 ]
             },
-            "New Minecraft Textures (USA)": [
+            "1.20 Vanilla Texture (USA)": [
                 {
                     "type": "downloadFile",
                     "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/1-20_Textures_v0-1-5.zip",
@@ -57,7 +57,7 @@
                     "file": "sdmc:/luma/titles/00040000001B8700/romfs/1-20_Textures_v0-1-5.zip"
                 }
             ],
-            "New Minecraft Textures (EUR)": [
+            "1.20 Vanilla Texture (EUR)": [
                 {
                     "type": "downloadFile",
                     "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/1-20_Textures_v0-1-5.zip",
