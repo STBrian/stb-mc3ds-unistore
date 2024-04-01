@@ -8,7 +8,7 @@
         "sheet": "stb-mc3ds.t3x",
         "sheetURL": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/spritesheet.t3x",
         "version": 3,
-        "revision": 36
+        "revision": 37
     },
     "storeContent": [
         {
@@ -3153,15 +3153,43 @@
                 "screenshots": [
                     {
                         "description": "Preview 1",
-                        "url": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/screenshots/1-20_Textures_0.png"
+                        "url": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/screenshots/staytrue_port/staytrue_screen_0_fused.png"
                     },
                     {
                         "description": "Preview 2",
-                        "url": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/screenshots/1-20_Textures_1.png"
+                        "url": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/screenshots/staytrue_port/staytrue_screen_1_fused.png"
                     },
                     {
                         "description": "Preview 3",
-                        "url": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/screenshots/1-20_Textures_2.png"
+                        "url": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/screenshots/staytrue_port/staytrue_screen_2_fused.png"
+                    },
+                    {
+                        "description": "Preview 4",
+                        "url": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/screenshots/staytrue_port/staytrue_screen_3_fused.png"
+                    },
+                    {
+                        "description": "Preview 5",
+                        "url": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/screenshots/staytrue_port/staytrue_screen_4_fused.png"
+                    },
+                    {
+                        "description": "Preview 6",
+                        "url": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/screenshots/staytrue_port/staytrue_screen_5_fused.png"
+                    },
+                    {
+                        "description": "Preview 7",
+                        "url": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/screenshots/staytrue_port/staytrue_screen_6_fused.png"
+                    },
+                    {
+                        "description": "Preview 8",
+                        "url": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/screenshots/staytrue_port/staytrue_screen_7_fused.png"
+                    },
+                    {
+                        "description": "Preview 9",
+                        "url": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/screenshots/staytrue_port/staytrue_screen_8_fused.png"
+                    },
+                    {
+                        "description": "Preview 10",
+                        "url": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/screenshots/staytrue_port/staytrue_screen_9_fused.png"
                     }
                 ]
             },
