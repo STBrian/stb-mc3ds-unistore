@@ -8,7 +8,7 @@
         "sheet": "stb-mc3ds.t3x",
         "sheetURL": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/spritesheet.t3x",
         "version": 3,
-        "revision": 35
+        "revision": 36
     },
     "storeContent": [
         {
@@ -3134,6 +3134,107 @@
                 {
                     "type": "deleteFile",
                     "directory": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/server/loot_tables/entities/chicken.json"
+                }
+            ]
+        },
+        {
+            "info": {
+                "title": "Stay True 1.20 port",
+                "author": "STBUniverse",
+                "version": "v0.1.0",
+                "category": ["resource pack","texture pack"],
+                "console": ["3DS"],
+                "description": "Texture pack port of Stay True using 1.20 version.",
+                "license": "none",
+                "icon_index": 32,
+                "sheet_index": 0,
+                "last_updated": "2024-04-01 at 22:44 (UTC)",
+                "releasenotes": "Original Texture Pack:\nhttps://www.planetminecraft.com/texture-pack/stay-true-4447380/\nor...\nhttps://www.curseforge.com/minecraft/texture-packs/stay-true\n\nMade by:\nHaiMcFly (Planet Minecraft)\nurl: https://www.planetminecraft.com/member/haimcfly/\nhaimcyfly (CurseForge)\nurl:\n\nRetrieved from CurseForge\nPorted by: STBUniverse",
+                "screenshots": [
+                    {
+                        "description": "Preview 1",
+                        "url": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/screenshots/1-20_Textures_0.png"
+                    },
+                    {
+                        "description": "Preview 2",
+                        "url": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/screenshots/1-20_Textures_1.png"
+                    },
+                    {
+                        "description": "Preview 3",
+                        "url": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/screenshots/1-20_Textures_2.png"
+                    }
+                ]
+            },
+            "Stay True 1.20 port (USA)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/StayTruePort-v0.1.0.zip",
+                    "message": "Downloading texture pack...",
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/StayTruePort-v0.1.0.zip"
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/StayTruePort-v0.1.0.zip",
+                    "input": "pack_icon.3dst",
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/pack_icon.3dst"
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/StayTruePort-v0.1.0.zip",
+                    "input": "atlas/",
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/atlas/"
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/StayTruePort-v0.1.0.zip",
+                    "input": "keyart/",
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/keyart/"
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/StayTruePort-v0.1.0.zip",
+                    "input": "textures/",
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/StayTruePort-v0.1.0.zip"
+                }
+            ],
+            "Stay True 1.20 port (EUR)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/StayTruePort-v0.1.0.zip",
+                    "message": "Downloading texture pack...",
+                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/StayTruePort-v0.1.0.zip"
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/StayTruePort-v0.1.0.zip",
+                    "input": "pack_icon.3dst",
+                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/pack_icon.3dst"
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/StayTruePort-v0.1.0.zip",
+                    "input": "atlas/",
+                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/atlas/"
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/StayTruePort-v0.1.0.zip",
+                    "input": "keyart/",
+                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/keyart/"
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/StayTruePort-v0.1.0.zip",
+                    "input": "textures/",
+                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/StayTruePort-v0.1.0.zip"
                 }
             ]
         }
