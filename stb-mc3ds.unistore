@@ -8,7 +8,7 @@
         "sheet": "stb-mc3ds.t3x",
         "sheetURL": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/spritesheet.t3x",
         "version": 3,
-        "revision": 37
+        "revision": 38
     },
     "storeContent": [
         {
@@ -3149,7 +3149,7 @@
                 "icon_index": 32,
                 "sheet_index": 0,
                 "last_updated": "2024-04-01 at 22:44 (UTC)",
-                "releasenotes": "Original Texture Pack:\nhttps://www.planetminecraft.com/texture-pack/stay-true-4447380/\nor...\nhttps://www.curseforge.com/minecraft/texture-packs/stay-true\n\nMade by:\nHaiMcFly (Planet Minecraft)\nurl: https://www.planetminecraft.com/member/haimcfly/\nhaimcyfly (CurseForge)\nurl:\n\nRetrieved from CurseForge\nPorted by: STBUniverse",
+                "releasenotes": "Original Texture Pack:\nhttps://www.planetminecraft.com/texture-pack/stay-true-4447380/\nor...\nhttps://www.curseforge.com/minecraft/texture-packs/stay-true\n\nMade by:\nHaiMcFly (Planet Minecraft)\nurl: https://www.planetminecraft.com/member/haimcfly/\nhaimcyfly (CurseForge)\nurl:\n\nRetrieved from CurseForge\nPorted by: STBUniverse\n\nKnown bugs:\nChanging the colormap for the grass makes that the texture of the grass block side could have the wrong color",
                 "screenshots": [
                     {
                         "description": "Preview 1",
