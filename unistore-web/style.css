@@ -1,0 +1,119 @@
+body {
+    background-color: white;
+    padding: 0 0;
+    margin: 0 0;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+.barra-superior {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 5%;
+    background-color: rgba(255, 153, 0, 0.75);
+    color: white;
+    padding: 10px 0;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    z-index: 1000;
+    overflow: hidden;
+}
+
+.barra-superior a {
+    background-color: transparent;
+    border: none;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 100% 20px;
+}
+
+.barra-superior .space {
+    width: 100%;
+}
+
+.boton {
+    background-color: rgba(255, 153, 0, 1);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.boton:hover {
+    background-color: rgb(175, 96, 0);
+    color: white;
+}
+
+.encabezado {
+    position: relative;
+    margin: 0px 0px;
+    text-align: center;
+    width: 100%;
+    height: 400px;
+    display: inline-block;
+    overflow: hidden;
+    background-image: url("assets/bat_model_1_21_0.png");
+    background-size: cover;
+    background-position: top;
+}
+
+.degradar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, transparent 50%, white 100%);
+}
+
+.super-texto {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 80px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.subtitle {
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.imagen-centrada {
+    display: block;
+    margin: 0 auto;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor div {
+    display: flex;
+    margin: 10px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+}
