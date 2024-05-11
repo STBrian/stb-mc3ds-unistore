@@ -3265,6 +3265,179 @@
                     "file": "sdmc:/luma/titles/000400000017CA00/romfs/StayTruePort-v0.2.0.zip"
                 }
             ]
+        },
+        {
+            "info": {
+                "title": "Trails & Tales Title Music",
+                "author": "STBUniverse",
+                "version": "v1.0.0",
+                "category": ["resource pack"],
+                "console": ["3DS"],
+                "description": "Listen to the game menu soundtrack included in the Trails & Tales update now on your Minecraft NN3DS Edition",
+                "license": "none",
+                "icon_index": 33,
+                "sheet_index": 0,
+                "last_updated": "2024-05-10 at 21:39 (UTC)",
+                "releasenotes": "All assets provided in this pack are property of Mojang Studios respectively and its original creator Aaron Cherof. I only made the port to the current platform"
+            },
+            "Bromeliad (USA)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/resource_packs/trails-and-tales-menu-bg-music/bromeliad.7z",
+                    "message": "Downloading soundtrack...",
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/bromeliad.7z"
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/bromeliad.7z",
+                    "input": "",
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/sounds/music/menu/"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/bromeliad.7z"
+                }
+            ],
+            "Bromeliad (EUR)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/resource_packs/trails-and-tales-menu-bg-music/bromeliad.7z",
+                    "message": "Downloading soundtrack...",
+                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/bromeliad.7z"
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/bromeliad.7z",
+                    "input": "",
+                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/sounds/music/menu/"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/bromeliad.7z"
+                }
+            ],
+            "Echo in the wind (USA)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/resource_packs/trails-and-tales-menu-bg-music/echo_in_the_wind.7z",
+                    "message": "Downloading soundtrack...",
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/echo_in_the_wind.7z"
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/echo_in_the_wind.7z",
+                    "input": "",
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/sounds/music/menu/"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/echo_in_the_wind.7z"
+                }
+            ],
+            "Echo in the wind (EUR)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/resource_packs/trails-and-tales-menu-bg-music/echo_in_the_wind.7z",
+                    "message": "Downloading soundtrack...",
+                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/echo_in_the_wind.7z"
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/echo_in_the_wind.7z",
+                    "input": "",
+                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/sounds/music/menu/"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/echo_in_the_wind.7z"
+                }
+            ],
+            "Crescent dunes (USA)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/resource_packs/trails-and-tales-menu-bg-music/crescent_dunes.7z",
+                    "message": "Downloading soundtrack...",
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/crescent_dunes.7z"
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/crescent_dunes.7z",
+                    "input": "",
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/sounds/music/menu/"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/crescent_dunes.7z"
+                }
+            ],
+            "Crescent dunes (EUR)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/resource_packs/trails-and-tales-menu-bg-music/crescent_dunes.7z",
+                    "message": "Downloading soundtrack...",
+                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/crescent_dunes.7z"
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/crescent_dunes.7z",
+                    "input": "",
+                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/sounds/music/menu/"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/crescent_dunes.7z"
+                }
+            ],
+            "A familiar room (USA)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/resource_packs/trails-and-tales-menu-bg-music/a_familiar_room.7z",
+                    "message": "Downloading soundtrack...",
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/a_familiar_room.7z"
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/a_familiar_room.7z",
+                    "input": "",
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/sounds/music/menu/"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/a_familiar_room.7z"
+                }
+            ],
+            "A familiar room (EUR)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/resource_packs/trails-and-tales-menu-bg-music/a_familiar_room.7z",
+                    "message": "Downloading soundtrack...",
+                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/a_familiar_room.7z"
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/a_familiar_room.7z",
+                    "input": "",
+                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/sounds/music/menu/"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/a_familiar_room.7z"
+                }
+            ],
+            "Remove content (USA)": [
+                {
+                    "type": "rmdir",
+                    "directory": "sdmc:/luma/titles/00040000001B8700/romfs/sounds/music/menu",
+                    "required": false
+                }
+            ],
+            "Remove content (EUR)": [
+                {
+                    "type": "rmdir",
+                    "directory": "sdmc:/luma/titles/000400000017CA00/romfs/sounds/music/menu",
+                    "required": false
+                }
+            ]
         }
     ]
 }
