@@ -310,9 +310,9 @@
             "Bedrock Aquatic Panorama (USA)": [
                 {
                     "type": "downloadFile",
-                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/bedrockaquatic.zip",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/bedrockaquatic.7z",
                     "message": "Downloading texture pack...",
-                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockaquatic.zip"
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockaquatic.7z"
                 },
                 {
                     "type": "promptMessage",
@@ -321,7 +321,7 @@
                 },
                 {
                     "type": "extractFile",
-                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockaquatic.zip",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockaquatic.7z",
                     "input": "top/",
                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background/"
                 },
@@ -332,13 +332,13 @@
                 },
                 {
                     "type": "extractFile",
-                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockaquatic.zip",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockaquatic.7z",
                     "input": "bottom/",
                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background/"
                 },
                 {
                     "type": "deleteFile",
-                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockaquatic.zip"
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockaquatic.7z"
                 }
             ],
             "Remove content (USA)": [
@@ -351,9 +351,9 @@
             "Bedrock Aquatic Panorama (EUR)": [
                 {
                     "type": "downloadFile",
-                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/bedrockaquatic.zip",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/bedrockaquatic.7z",
                     "message": "Downloading texture pack...",
-                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/bedrockaquatic.zip"
+                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/bedrockaquatic.7z"
                 },
                 {
                     "type": "promptMessage",
@@ -362,7 +362,7 @@
                 },
                 {
                     "type": "extractFile",
-                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/bedrockaquatic.zip",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/bedrockaquatic.7z",
                     "input": "top/",
                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/gui/background/"
                 },
@@ -373,13 +373,13 @@
                 },
                 {
                     "type": "extractFile",
-                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/bedrockaquatic.zip",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/bedrockaquatic.7z",
                     "input": "bottom/",
                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/gui/background/"
                 },
                 {
                     "type": "deleteFile",
-                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/bedrockaquatic.zip"
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/bedrockaquatic.7z"
                 }
             ],
             "Remove content (EUR)": [
@@ -413,9 +413,9 @@
             "Bedrock Bees Panorama (USA)": [
                 {
                     "type": "downloadFile",
-                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/bedrockbees.zip",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/bedrockbees.7z",
                     "message": "Downloading texture pack...",
-                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockbees.zip"
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockbees.7z"
                 },
                 {
                     "type": "promptMessage",
@@ -424,7 +424,7 @@
                 },
                 {
                     "type": "extractFile",
-                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockbees.zip",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockbees.7z",
                     "input": "top/",
                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background/"
                 },
@@ -435,13 +435,13 @@
                 },
                 {
                     "type": "extractFile",
-                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockbees.zip",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockbees.7z",
                     "input": "bottom/",
                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background/"
                 },
                 {
                     "type": "deleteFile",
-                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockbees.zip"
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockbees.7z"
                 }
             ],
             "Remove content (USA)": [
@@ -454,9 +454,9 @@
             "Bedrock Bees Panorama (EUR)": [
                 {
                     "type": "downloadFile",
-                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/bedrockbees.zip",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/bedrockbees.7z",
                     "message": "Downloading texture pack...",
-                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/bedrockbees.zip"
+                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/bedrockbees.7z"
                 },
                 {
                     "type": "promptMessage",
@@ -465,7 +465,7 @@
                 },
                 {
                     "type": "extractFile",
-                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/bedrockbees.zip",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/bedrockbees.7z",
                     "input": "top/",
                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/gui/background/"
                 },
@@ -476,13 +476,13 @@
                 },
                 {
                     "type": "extractFile",
-                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/bedrockbees.zip",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/bedrockbees.7z",
                     "input": "bottom/",
                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/gui/background/"
                 },
                 {
                     "type": "deleteFile",
-                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/bedrockbees.zip"
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/bedrockbees.7z"
                 }
             ],
             "Remove content (EUR)": [
@@ -516,9 +516,9 @@
             "Bedrock Beta Panorama (USA)": [
                 {
                     "type": "downloadFile",
-                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/bedrockbeta.zip",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/bedrockbeta.7z",
                     "message": "Downloading texture pack...",
-                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockbeta.zip"
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockbeta.7z"
                 },
                 {
                     "type": "promptMessage",
@@ -527,7 +527,7 @@
                 },
                 {
                     "type": "extractFile",
-                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockbeta.zip",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockbeta.7z",
                     "input": "top/",
                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background/"
                 },
@@ -538,13 +538,13 @@
                 },
                 {
                     "type": "extractFile",
-                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockbeta.zip",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockbeta.7z",
                     "input": "bottom/",
                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background/"
                 },
                 {
                     "type": "deleteFile",
-                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockbeta.zip"
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockbeta.7z"
                 }
             ],
             "Remove content (USA)": [
@@ -557,9 +557,9 @@
             "Bedrock Beta Panorama (EUR)": [
                 {
                     "type": "downloadFile",
-                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/bedrockbeta.zip",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/bedrockbeta.7z",
                     "message": "Downloading texture pack...",
-                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/bedrockbeta.zip"
+                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/bedrockbeta.7z"
                 },
                 {
                     "type": "promptMessage",
@@ -568,7 +568,7 @@
                 },
                 {
                     "type": "extractFile",
-                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/bedrockbeta.zip",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/bedrockbeta.7z",
                     "input": "top/",
                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/gui/background/"
                 },
@@ -579,13 +579,13 @@
                 },
                 {
                     "type": "extractFile",
-                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/bedrockbeta.zip",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/bedrockbeta.7z",
                     "input": "bottom/",
                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/gui/background/"
                 },
                 {
                     "type": "deleteFile",
-                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/bedrockbeta.zip"
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/bedrockbeta.7z"
                 }
             ],
             "Remove content (EUR)": [
@@ -619,9 +619,9 @@
             "Bedrock Better Panorama (USA)": [
                 {
                     "type": "downloadFile",
-                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/bedrockbetter.zip",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/bedrockbetter.7z",
                     "message": "Downloading texture pack...",
-                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockbetter.zip"
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockbetter.7z"
                 },
                 {
                     "type": "promptMessage",
@@ -630,7 +630,7 @@
                 },
                 {
                     "type": "extractFile",
-                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockbetter.zip",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockbetter.7z",
                     "input": "top/",
                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background/"
                 },
@@ -641,13 +641,13 @@
                 },
                 {
                     "type": "extractFile",
-                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockbetter.zip",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockbetter.7z",
                     "input": "bottom/",
                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background/"
                 },
                 {
                     "type": "deleteFile",
-                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockbetter.zip"
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockbetter.7z"
                 }
             ],
             "Remove content (USA)": [
@@ -660,9 +660,9 @@
             "Bedrock Better Panorama (EUR)": [
                 {
                     "type": "downloadFile",
-                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/bedrockbetter.zip",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/bedrockbetter.7z",
                     "message": "Downloading texture pack...",
-                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/bedrockbetter.zip"
+                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/bedrockbetter.7z"
                 },
                 {
                     "type": "promptMessage",
@@ -671,7 +671,7 @@
                 },
                 {
                     "type": "extractFile",
-                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/bedrockbetter.zip",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/bedrockbetter.7z",
                     "input": "top/",
                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/gui/background/"
                 },
@@ -682,13 +682,13 @@
                 },
                 {
                     "type": "extractFile",
-                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/bedrockbetter.zip",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/bedrockbetter.7z",
                     "input": "bottom/",
                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/gui/background/"
                 },
                 {
                     "type": "deleteFile",
-                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/bedrockbetter.zip"
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/bedrockbetter.7z"
                 }
             ],
             "Remove content (EUR)": [
@@ -722,9 +722,9 @@
             "Bedrock Cat Sand Pandas Panorama (USA)": [
                 {
                     "type": "downloadFile",
-                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/bedrockcatsandpandas.zip",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/bedrockcatsandpandas.7z",
                     "message": "Downloading texture pack...",
-                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockcatsandpandas.zip"
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockcatsandpandas.7z"
                 },
                 {
                     "type": "promptMessage",
@@ -733,7 +733,7 @@
                 },
                 {
                     "type": "extractFile",
-                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockcatsandpandas.zip",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockcatsandpandas.7z",
                     "input": "top/",
                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background/"
                 },
@@ -744,13 +744,13 @@
                 },
                 {
                     "type": "extractFile",
-                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockcatsandpandas.zip",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockcatsandpandas.7z",
                     "input": "bottom/",
                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background/"
                 },
                 {
                     "type": "deleteFile",
-                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockcatsandpandas.zip"
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockcatsandpandas.7z"
                 }
             ],
             "Remove content (USA)": [
@@ -763,9 +763,9 @@
             "Bedrock Cat Sand Pandas Panorama (EUR)": [
                 {
                     "type": "downloadFile",
-                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/bedrockcatsandpandas.zip",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/bedrockcatsandpandas.7z",
                     "message": "Downloading texture pack...",
-                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/bedrockcatsandpandas.zip"
+                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/bedrockcatsandpandas.7z"
                 },
                 {
                     "type": "promptMessage",
@@ -774,7 +774,7 @@
                 },
                 {
                     "type": "extractFile",
-                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/bedrockcatsandpandas.zip",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/bedrockcatsandpandas.7z",
                     "input": "top/",
                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/gui/background/"
                 },
@@ -785,13 +785,13 @@
                 },
                 {
                     "type": "extractFile",
-                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/bedrockcatsandpandas.zip",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/bedrockcatsandpandas.7z",
                     "input": "bottom/",
                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/gui/background/"
                 },
                 {
                     "type": "deleteFile",
-                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/bedrockcatsandpandas.zip"
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/bedrockcatsandpandas.7z"
                 }
             ],
             "Remove content (EUR)": [
@@ -825,9 +825,9 @@
             "Bedrock Classic Panorama (USA)": [
                 {
                     "type": "downloadFile",
-                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/bedrockclassic.zip",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/bedrockclassic.7z",
                     "message": "Downloading texture pack...",
-                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockclassic.zip"
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockclassic.7z"
                 },
                 {
                     "type": "promptMessage",
@@ -836,7 +836,7 @@
                 },
                 {
                     "type": "extractFile",
-                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockclassic.zip",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockclassic.7z",
                     "input": "top/",
                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background/"
                 },
@@ -847,13 +847,13 @@
                 },
                 {
                     "type": "extractFile",
-                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockclassic.zip",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockclassic.7z",
                     "input": "bottom/",
                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background/"
                 },
                 {
                     "type": "deleteFile",
-                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockclassic.zip"
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockclassic.7z"
                 }
             ],
             "Remove content (USA)": [
@@ -866,9 +866,9 @@
             "Bedrock Classic Panorama (EUR)": [
                 {
                     "type": "downloadFile",
-                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/bedrockclassic.zip",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/bedrockclassic.7z",
                     "message": "Downloading texture pack...",
-                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/bedrockclassic.zip"
+                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/bedrockclassic.7z"
                 },
                 {
                     "type": "promptMessage",
@@ -877,7 +877,7 @@
                 },
                 {
                     "type": "extractFile",
-                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/bedrockclassic.zip",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/bedrockclassic.7z",
                     "input": "top/",
                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/gui/background/"
                 },
@@ -888,13 +888,13 @@
                 },
                 {
                     "type": "extractFile",
-                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/bedrockclassic.zip",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/bedrockclassic.7z",
                     "input": "bottom/",
                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/gui/background/"
                 },
                 {
                     "type": "deleteFile",
-                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/bedrockclassic.zip"
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/bedrockclassic.7z"
                 }
             ],
             "Remove content (EUR)": [
@@ -928,9 +928,9 @@
             "Bedrock Halloween 2021 Panorama (USA)": [
                 {
                     "type": "downloadFile",
-                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/bedrockhalloween2021.zip",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/bedrockhalloween2021.7z",
                     "message": "Downloading texture pack...",
-                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockhalloween2021.zip"
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockhalloween2021.7z"
                 },
                 {
                     "type": "promptMessage",
@@ -939,7 +939,7 @@
                 },
                 {
                     "type": "extractFile",
-                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockhalloween2021.zip",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockhalloween2021.7z",
                     "input": "top/",
                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background/"
                 },
@@ -950,13 +950,13 @@
                 },
                 {
                     "type": "extractFile",
-                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockhalloween2021.zip",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockhalloween2021.7z",
                     "input": "bottom/",
                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background/"
                 },
                 {
                     "type": "deleteFile",
-                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockhalloween2021.zip"
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockhalloween2021.7z"
                 }
             ],
             "Remove content (USA)": [
@@ -969,9 +969,9 @@
             "Bedrock Halloween 2021 Panorama (EUR)": [
                 {
                     "type": "downloadFile",
-                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/bedrockhalloween2021.zip",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/bedrockhalloween2021.7z",
                     "message": "Downloading texture pack...",
-                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/bedrockhalloween2021.zip"
+                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/bedrockhalloween2021.7z"
                 },
                 {
                     "type": "promptMessage",
@@ -980,7 +980,7 @@
                 },
                 {
                     "type": "extractFile",
-                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/bedrockhalloween2021.zip",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/bedrockhalloween2021.7z",
                     "input": "top/",
                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/gui/background/"
                 },
@@ -991,13 +991,13 @@
                 },
                 {
                     "type": "extractFile",
-                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/bedrockhalloween2021.zip",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/bedrockhalloween2021.7z",
                     "input": "bottom/",
                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/gui/background/"
                 },
                 {
                     "type": "deleteFile",
-                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/bedrockhalloween2021.zip"
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/bedrockhalloween2021.7z"
                 }
             ],
             "Remove content (EUR)": [
@@ -1031,9 +1031,9 @@
             "Bedrock Halloween 2022 Panorama (USA)": [
                 {
                     "type": "downloadFile",
-                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/bedrockhalloween2022.zip",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/bedrockhalloween2022.7z",
                     "message": "Downloading texture pack...",
-                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockhalloween2022.zip"
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockhalloween2022.7z"
                 },
                 {
                     "type": "promptMessage",
@@ -1042,7 +1042,7 @@
                 },
                 {
                     "type": "extractFile",
-                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockhalloween2022.zip",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockhalloween2022.7z",
                     "input": "top/",
                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background/"
                 },
@@ -1053,13 +1053,13 @@
                 },
                 {
                     "type": "extractFile",
-                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockhalloween2022.zip",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockhalloween2022.7z",
                     "input": "bottom/",
                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background/"
                 },
                 {
                     "type": "deleteFile",
-                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockhalloween2022.zip"
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockhalloween2022.7z"
                 }
             ],
             "Remove content (USA)": [
@@ -1072,9 +1072,9 @@
             "Bedrock Halloween 2022 Panorama (EUR)": [
                 {
                     "type": "downloadFile",
-                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/bedrockhalloween2022.zip",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/bedrockhalloween2022.7z",
                     "message": "Downloading texture pack...",
-                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/bedrockhalloween2022.zip"
+                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/bedrockhalloween2022.7z"
                 },
                 {
                     "type": "promptMessage",
@@ -1083,7 +1083,7 @@
                 },
                 {
                     "type": "extractFile",
-                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/bedrockhalloween2022.zip",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/bedrockhalloween2022.7z",
                     "input": "top/",
                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/gui/background/"
                 },
@@ -1094,13 +1094,13 @@
                 },
                 {
                     "type": "extractFile",
-                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/bedrockhalloween2022.zip",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/bedrockhalloween2022.7z",
                     "input": "bottom/",
                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/gui/background/"
                 },
                 {
                     "type": "deleteFile",
-                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/bedrockhalloween2022.zip"
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/bedrockhalloween2022.7z"
                 }
             ],
             "Remove content (EUR)": [
@@ -1134,9 +1134,9 @@
             "Bedrock Preview Panorama (USA)": [
                 {
                     "type": "downloadFile",
-                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/bedrockpreview.zip",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/bedrockpreview.7z",
                     "message": "Downloading texture pack...",
-                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockpreview.zip"
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockpreview.7z"
                 },
                 {
                     "type": "promptMessage",
@@ -1145,7 +1145,7 @@
                 },
                 {
                     "type": "extractFile",
-                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockpreview.zip",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockpreview.7z",
                     "input": "top/",
                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background/"
                 },
@@ -1156,13 +1156,13 @@
                 },
                 {
                     "type": "extractFile",
-                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockpreview.zip",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockpreview.7z",
                     "input": "bottom/",
                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background/"
                 },
                 {
                     "type": "deleteFile",
-                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockpreview.zip"
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockpreview.7z"
                 }
             ],
             "Remove content (USA)": [
@@ -1175,9 +1175,9 @@
             "Bedrock Preview Panorama (EUR)": [
                 {
                     "type": "downloadFile",
-                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/bedrockpreview.zip",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/bedrockpreview.7z",
                     "message": "Downloading texture pack...",
-                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/bedrockpreview.zip"
+                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/bedrockpreview.7z"
                 },
                 {
                     "type": "promptMessage",
@@ -1186,7 +1186,7 @@
                 },
                 {
                     "type": "extractFile",
-                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/bedrockpreview.zip",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/bedrockpreview.7z",
                     "input": "top/",
                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/gui/background/"
                 },
@@ -1197,13 +1197,13 @@
                 },
                 {
                     "type": "extractFile",
-                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/bedrockpreview.zip",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/bedrockpreview.7z",
                     "input": "bottom/",
                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/gui/background/"
                 },
                 {
                     "type": "deleteFile",
-                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/bedrockpreview.zip"
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/bedrockpreview.7z"
                 }
             ],
             "Remove content (EUR)": [
@@ -1237,9 +1237,9 @@
             "Bedrock Village Panorama (USA)": [
                 {
                     "type": "downloadFile",
-                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/bedrockvillage.zip",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/bedrockvillage.7z",
                     "message": "Downloading texture pack...",
-                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockvillage.zip"
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockvillage.7z"
                 },
                 {
                     "type": "promptMessage",
@@ -1248,7 +1248,7 @@
                 },
                 {
                     "type": "extractFile",
-                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockvillage.zip",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockvillage.7z",
                     "input": "top/",
                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background/"
                 },
@@ -1259,13 +1259,13 @@
                 },
                 {
                     "type": "extractFile",
-                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockvillage.zip",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockvillage.7z",
                     "input": "bottom/",
                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background/"
                 },
                 {
                     "type": "deleteFile",
-                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockvillage.zip"
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/bedrockvillage.7z"
                 }
             ],
             "Remove content (USA)": [
@@ -1278,9 +1278,9 @@
             "Bedrock Village Panorama (EUR)": [
                 {
                     "type": "downloadFile",
-                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/bedrockvillage.zip",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/bedrockvillage.7z",
                     "message": "Downloading texture pack...",
-                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/bedrockvillage.zip"
+                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/bedrockvillage.7z"
                 },
                 {
                     "type": "promptMessage",
@@ -1289,7 +1289,7 @@
                 },
                 {
                     "type": "extractFile",
-                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/bedrockvillage.zip",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/bedrockvillage.7z",
                     "input": "top/",
                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/gui/background/"
                 },
@@ -1300,13 +1300,13 @@
                 },
                 {
                     "type": "extractFile",
-                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/bedrockvillage.zip",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/bedrockvillage.7z",
                     "input": "bottom/",
                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/gui/background/"
                 },
                 {
                     "type": "deleteFile",
-                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/bedrockvillage.zip"
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/bedrockvillage.7z"
                 }
             ],
             "Remove content (EUR)": [
@@ -1340,9 +1340,9 @@
             "Education 1.12.2 Panorama (USA)": [
                 {
                     "type": "downloadFile",
-                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/education1_12_2.zip",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/education1_12_2.7z",
                     "message": "Downloading texture pack...",
-                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/education1_12_2.zip"
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/education1_12_2.7z"
                 },
                 {
                     "type": "promptMessage",
@@ -1351,7 +1351,7 @@
                 },
                 {
                     "type": "extractFile",
-                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/education1_12_2.zip",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/education1_12_2.7z",
                     "input": "top/",
                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background/"
                 },
@@ -1362,13 +1362,13 @@
                 },
                 {
                     "type": "extractFile",
-                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/education1_12_2.zip",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/education1_12_2.7z",
                     "input": "bottom/",
                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background/"
                 },
                 {
                     "type": "deleteFile",
-                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/education1_12_2.zip"
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/education1_12_2.7z"
                 }
             ],
             "Remove content (USA)": [
@@ -1381,9 +1381,9 @@
             "Education 1.12.2 Panorama (EUR)": [
                 {
                     "type": "downloadFile",
-                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/education1_12_2.zip",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/education1_12_2.7z",
                     "message": "Downloading texture pack...",
-                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/education1_12_2.zip"
+                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/education1_12_2.7z"
                 },
                 {
                     "type": "promptMessage",
@@ -1392,7 +1392,7 @@
                 },
                 {
                     "type": "extractFile",
-                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/education1_12_2.zip",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/education1_12_2.7z",
                     "input": "top/",
                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/gui/background/"
                 },
@@ -1403,13 +1403,13 @@
                 },
                 {
                     "type": "extractFile",
-                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/education1_12_2.zip",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/education1_12_2.7z",
                     "input": "bottom/",
                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/gui/background/"
                 },
                 {
                     "type": "deleteFile",
-                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/education1_12_2.zip"
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/education1_12_2.7z"
                 }
             ],
             "Remove content (EUR)": [
@@ -1443,9 +1443,9 @@
             "Education 1.12.2bw Panorama (USA)": [
                 {
                     "type": "downloadFile",
-                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/education1_12_2bw.zip",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/education1_12_2bw.7z",
                     "message": "Downloading texture pack...",
-                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/education1_12_2bw.zip"
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/education1_12_2bw.7z"
                 },
                 {
                     "type": "promptMessage",
@@ -1454,7 +1454,7 @@
                 },
                 {
                     "type": "extractFile",
-                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/education1_12_2bw.zip",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/education1_12_2bw.7z",
                     "input": "top/",
                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background/"
                 },
@@ -1465,13 +1465,13 @@
                 },
                 {
                     "type": "extractFile",
-                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/education1_12_2bw.zip",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/education1_12_2bw.7z",
                     "input": "bottom/",
                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background/"
                 },
                 {
                     "type": "deleteFile",
-                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/education1_12_2bw.zip"
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/education1_12_2bw.7z"
                 }
             ],
             "Remove content (USA)": [
@@ -1484,9 +1484,9 @@
             "Education 1.12.2bw Panorama (EUR)": [
                 {
                     "type": "downloadFile",
-                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/education1_12_2bw.zip",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/education1_12_2bw.7z",
                     "message": "Downloading texture pack...",
-                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/education1_12_2bw.zip"
+                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/education1_12_2bw.7z"
                 },
                 {
                     "type": "promptMessage",
@@ -1495,7 +1495,7 @@
                 },
                 {
                     "type": "extractFile",
-                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/education1_12_2bw.zip",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/education1_12_2bw.7z",
                     "input": "top/",
                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/gui/background/"
                 },
@@ -1506,13 +1506,13 @@
                 },
                 {
                     "type": "extractFile",
-                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/education1_12_2bw.zip",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/education1_12_2bw.7z",
                     "input": "bottom/",
                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/gui/background/"
                 },
                 {
                     "type": "deleteFile",
-                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/education1_12_2bw.zip"
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/education1_12_2bw.7z"
                 }
             ],
             "Remove content (EUR)": [
@@ -1546,9 +1546,9 @@
             "Education 1.14.31 Panorama (USA)": [
                 {
                     "type": "downloadFile",
-                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/education1_14_31.zip",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/education1_14_31.7z",
                     "message": "Downloading texture pack...",
-                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/education1_14_31.zip"
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/education1_14_31.7z"
                 },
                 {
                     "type": "promptMessage",
@@ -1557,7 +1557,7 @@
                 },
                 {
                     "type": "extractFile",
-                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/education1_14_31.zip",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/education1_14_31.7z",
                     "input": "top/",
                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background/"
                 },
@@ -1568,13 +1568,13 @@
                 },
                 {
                     "type": "extractFile",
-                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/education1_14_31.zip",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/education1_14_31.7z",
                     "input": "bottom/",
                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background/"
                 },
                 {
                     "type": "deleteFile",
-                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/education1_14_31.zip"
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/education1_14_31.7z"
                 }
             ],
             "Remove content (USA)": [
@@ -1587,9 +1587,9 @@
             "Education 1.14.31 Panorama (EUR)": [
                 {
                     "type": "downloadFile",
-                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/education1_14_31.zip",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/education1_14_31.7z",
                     "message": "Downloading texture pack...",
-                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/education1_14_31.zip"
+                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/education1_14_31.7z"
                 },
                 {
                     "type": "promptMessage",
@@ -1598,7 +1598,7 @@
                 },
                 {
                     "type": "extractFile",
-                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/education1_14_31.zip",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/education1_14_31.7z",
                     "input": "top/",
                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/gui/background/"
                 },
@@ -1609,13 +1609,13 @@
                 },
                 {
                     "type": "extractFile",
-                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/education1_14_31.zip",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/education1_14_31.7z",
                     "input": "bottom/",
                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/gui/background/"
                 },
                 {
                     "type": "deleteFile",
-                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/education1_14_31.zip"
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/education1_14_31.7z"
                 }
             ],
             "Remove content (EUR)": [
