@@ -3196,73 +3196,73 @@
             "Stay True 1.20 port (USA)": [
                 {
                     "type": "downloadFile",
-                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/StayTruePort-v0.2.0.zip",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/StayTruePort-v0.2.0.7z",
                     "message": "Downloading texture pack...",
-                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/StayTruePort-v0.2.0.zip"
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/StayTruePort-v0.2.0.7z"
                 },
                 {
                     "type": "extractFile",
-                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/StayTruePort-v0.2.0.zip",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/StayTruePort-v0.2.0.7z",
                     "input": "pack_icon.3dst",
                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/pack_icon.3dst"
                 },
                 {
                     "type": "extractFile",
-                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/StayTruePort-v0.2.0.zip",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/StayTruePort-v0.2.0.7z",
                     "input": "atlas/",
                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/atlas/"
                 },
                 {
                     "type": "extractFile",
-                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/StayTruePort-v0.2.0.zip",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/StayTruePort-v0.2.0.7z",
                     "input": "keyart/",
                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/keyart/"
                 },
                 {
                     "type": "extractFile",
-                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/StayTruePort-v0.2.0.zip",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/StayTruePort-v0.2.0.7z",
                     "input": "textures/",
                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/"
                 },
                 {
                     "type": "deleteFile",
-                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/StayTruePort-v0.2.0.zip"
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/StayTruePort-v0.2.0.7z"
                 }
             ],
             "Stay True 1.20 port (EUR)": [
                 {
                     "type": "downloadFile",
-                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/StayTruePort-v0.2.0.zip",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/StayTruePort-v0.2.0.7z",
                     "message": "Downloading texture pack...",
-                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/StayTruePort-v0.2.0.zip"
+                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/StayTruePort-v0.2.0.7z"
                 },
                 {
                     "type": "extractFile",
-                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/StayTruePort-v0.2.0.zip",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/StayTruePort-v0.2.0.7z",
                     "input": "pack_icon.3dst",
                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/pack_icon.3dst"
                 },
                 {
                     "type": "extractFile",
-                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/StayTruePort-v0.2.0.zip",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/StayTruePort-v0.2.0.7z",
                     "input": "atlas/",
                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/atlas/"
                 },
                 {
                     "type": "extractFile",
-                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/StayTruePort-v0.2.0.zip",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/StayTruePort-v0.2.0.7z",
                     "input": "keyart/",
                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/keyart/"
                 },
                 {
                     "type": "extractFile",
-                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/StayTruePort-v0.2.0.zip",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/StayTruePort-v0.2.0.7z",
                     "input": "textures/",
                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/"
                 },
                 {
                     "type": "deleteFile",
-                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/StayTruePort-v0.2.0.zip"
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/StayTruePort-v0.2.0.7z"
                 }
             ]
         },
