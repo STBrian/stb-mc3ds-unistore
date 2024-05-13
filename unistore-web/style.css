@@ -1,8 +1,20 @@
+.freeman-regular {
+    font-family: "Freeman", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.anton-regular {
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
 body {
     background-color: white;
     padding: 0 0;
     margin: 0 0;
-    font-family: Verdana, Tahoma, sans-serif;
+    font-family: sans-serif;
 }
 
 .barra-superior {
@@ -27,12 +39,17 @@ body {
     border: none;
     color: white;
     text-decoration: none;
-    font-weight: bold;
     padding: 100% 20px;
+    width: auto;
+    font-family: "Anton";
+}
+
+.barra-superior div {
+    width: auto;
 }
 
 .barra-superior .space {
-    width: 100%;
+    width: 50%;
 }
 
 .boton {
@@ -62,7 +79,7 @@ body {
     height: 400px;
     display: inline-block;
     overflow: hidden;
-    background-image: url("assets/bat_model_1_21_0.png");
+    background-image: url("assets/bat_model_1.20.3.png");
     background-size: cover;
     background-position: top;
 }
@@ -83,14 +100,14 @@ body {
     transform: translate(-50%, -50%);
     color: white;
     font-size: 80px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "Freeman";
     font-weight: bold;
     text-align: center;
 }
 
 .subtitle {
     font-size: 50px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "Freeman";
     font-weight: bold;
     text-align: center;
     margin-top: 40px;
