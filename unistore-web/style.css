@@ -134,3 +134,7 @@ body {
     flex-direction: column;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+.contenedor h1 {
+    font-family: "Freeman";
+}
