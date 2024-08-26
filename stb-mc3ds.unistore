@@ -2,13 +2,13 @@
     "storeInfo": {
         "title": "STB-MC3DS",
         "author": "STBUniverse",
-        "description": "STB MC3DS - A store to find things made by me for MC3DS Edition",
+        "description": "A Unistore to upload my custom content for MC3DS Edition. I'll upload more things as I work on they",
         "file": "stb-mc3ds.unistore",
         "url": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/stb-mc3ds.unistore",
         "sheet": "stb-mc3ds.t3x",
         "sheetURL": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/spritesheet.t3x",
         "version": 3,
-        "revision": 45
+        "revision": 46
     },
     "storeContent": [
         {
