@@ -8,22 +8,22 @@
         "sheet": "stb-mc3ds.t3x",
         "sheetURL": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/spritesheet.t3x",
         "version": 3,
-        "revision": 46
+        "revision": 47
     },
     "storeContent": [
         {
             "info": {
                 "title": "Vanilla 1.20 Textures",
                 "author": "STBUniverse",
-                "version": "v0.1.7",
+                "version": "v0.1.8",
                 "category": ["resource pack","texture pack"],
                 "console": ["3DS"],
                 "description": "Port of the textures from version 1.20",
                 "license": "none",
                 "icon_index": 0,
                 "sheet_index": 0,
-                "last_updated": "2024-08-23 at 01:53 (UTC)",
-                "releasenotes": "This texture pack will be updated slowly until it contains the new textures according to version 1.20\n\nRelease notes:\n\n- All blocks and items texture added.\n- Remain Entity textures but beds where added in this version\n\nCredits to WaterMelon for the map Debug Mode 3D used in screenshots",
+                "last_updated": "2024-08-27 at 00:56 (UTC)",
+                "releasenotes": "Play MC3DS with textures from game versions after 1.14. The name of the pack (1.20) comes from the fact that it is being ported directly from version 1.20 of the game.\n\nRelease notes:\n\n- Glint enchanted item\n- Armor all variants\n- Entity boat all variations\n- Entity cat all variations (includes ocelots)\n- Entity ender chest\n\nCredits to WaterMelon for the map Debug Mode 3D used in screenshots",
                 "screenshots": [
                     {
                         "description": "Preview all blocks 1",
@@ -42,7 +42,7 @@
             "Vanilla 1.20 Textures (USA)": [
                 {
                     "type": "downloadFile",
-                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/Vanilla-1.20_v0.1.7.7z",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/Vanilla-1.20_v0.1.8.7z",
                     "message": "Downloading texture pack...",
                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/Vanilla-1.20.7z"
                 },
@@ -78,7 +78,7 @@
             "Vanilla 1.20 Textures (EUR)": [
                 {
                     "type": "downloadFile",
-                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/Vanilla-1.20_v0.1.7.7z",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/Vanilla-1.20_v0.1.8.7z",
                     "message": "Downloading texture pack...",
                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/Vanilla-1.20.7z"
                 },
