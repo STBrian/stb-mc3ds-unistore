@@ -15,6 +15,8 @@ function loadModContent() {
                 return response.json();
             })
             .then(data => {
+                document.title = `${data.modTitle} - STB's MC3DS Unistore`;
+
                 document.getElementById('headerModTitle').textContent = data.modTitle;
                 document.getElementById('modTitle').textContent = data.modTitle;
                 document.getElementById('modDescription').textContent = data.modDescription;
