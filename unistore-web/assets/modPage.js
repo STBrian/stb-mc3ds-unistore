@@ -1,10 +1,5 @@
-function obtenerParam(url) {
-    const params = new URLSearchParams(url.split('?')[1]);
-    return params.get('mod');
-}
-
 function loadModContent() {
-    const param = obtenerParam(window.location.href);
+    const param = getParam(window.location.href, 'mod');
     if (param) {
         const jsonFilePath = "assets/mods-info/" + param + ".json";
         fetch(jsonFilePath)
@@ -19,7 +14,7 @@ function loadModContent() {
 
                 document.getElementById('headerModTitle').textContent = data.modTitle;
                 document.getElementById('modTitle').textContent = data.modTitle;
-                document.getElementById('modDescription').textContent = data.modDescription;
+                document.getElementById('modDescription').innerHTML = replaceLinesBreaks(data.modDescription);
                 document.getElementById('modVersion').textContent = data.modVersion;
                 document.getElementById('modIcon').src = data.modIcon;
                 document.getElementById("modBanner").style.backgroundImage = `url(${data.modBanner})`;
@@ -44,6 +39,9 @@ function loadModContent() {
                 console.error('There was an error with fetch: ', error);
                 window.location.href = "notFound.html?" + encodeURIComponent(param);
             });
+    } else {
+        console.error("No param mod found!");
+        window.location.href = "notFound.html";
     }
 }
 

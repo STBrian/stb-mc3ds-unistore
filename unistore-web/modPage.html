@@ -11,6 +11,8 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Anton&family=Freeman&display=swap" rel="stylesheet">
+
+        <script src="assets/common_functions.js"></script>
     </head>
     <body>
         <div class="barra-superior">
@@ -22,7 +24,7 @@
                 <a href="index.html">Home</a>
             </div>
             <div style="display: flex;">
-                <a href="">Resource packs</a>
+                <a class="clickable" onclick="goToPage('modsList.html', 'type', 'resource_packs')">Resource packs</a>
             </div>
             <div>
                 <a href="">Misc</a>
@@ -33,7 +35,7 @@
         </div>
 
         <div class="cuerpo">
-            <div class="mod-banner" id="modBanner">
+            <div class="banner" id="modBanner">
                 <div class="degradar"></div>
                 <div class="super-texto" id="headerModTitle">mod-title</div>
             </div>
@@ -78,8 +80,8 @@
             </div>
 
             <div class="space"></div>
-
-            <script src="assets/modPage.js"></script>
         </div>
+
+        <script src="assets/modPage.js"></script>
     </body>
 </html>

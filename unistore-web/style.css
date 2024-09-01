@@ -92,20 +92,11 @@ img {
     color: white;
 }
 
-.encabezado {
-    position: relative;
-    margin: 0px 0px;
-    text-align: center;
-    width: 100%;
-    height: 400px;
-    display: inline-block;
-    overflow: hidden;
-    background-image: url("assets/bat_model_1.20.3.png");
-    background-size: cover;
-    background-position: top;
+.clickable {
+    cursor: pointer;
 }
 
-.mod-banner {
+.banner {
     position: relative;
     margin: 0px 0px;
     text-align: center;

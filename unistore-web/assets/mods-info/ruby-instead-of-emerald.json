@@ -1,0 +1,15 @@
+{
+    "packType": "resource_pack",
+    "modTitle": "Ruby Instead of Emerald",
+    "modVersion": "v0.1.5",
+    "modShortDescription": "Replaces the emeralds in the game for the classic ruby (with a new fresh look)",
+    "modDescription": "This resource pack changes the emeralds in the game to look like rubies. Not only changing its appearance, but also its name in the game for a better experience. \n\nSome things may still refer to emeralds like in achievements, which will be updated soon. \n\nChanging the game's language files is in experimental phase and may cause unexpected crashes",
+    "modIcon": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/icons/ruby.png",
+    "modBanner": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/screenshots/ruby_0.png",
+    "downloadLink": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/resource_packs/ruby-mod.zip",
+    "screenshots": [
+        "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/screenshots/ruby_0.png",
+        "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/screenshots/ruby_1.png",
+        "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/screenshots/ruby_2.png"
+    ]
+}
