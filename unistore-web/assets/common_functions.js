@@ -7,6 +7,14 @@ function getParam(url, param) {
     return params.get(param);
 }
 
-function replaceLinesBreaks(text) {
-    return text.replace(/\n/g, '<br>');
+function formatText(text) {
+    const breakLinesPattern = /\n/g
+    var parsedText = text.replace(breakLinesPattern, '<br>');
+
+    const urlPattern = /(\b(https?|ftp):\/\/[^\s/$.?#].[^\s]*)/gi;
+    parsedText = parsedText.replace(urlPattern, (url) => {
+        return `<a href="${url}" target="_blank">${url}</a>`;
+    });
+
+    return parsedText;
 }

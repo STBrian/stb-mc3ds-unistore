@@ -1,0 +1,14 @@
+{
+    "packType": "resource_pack",
+    "modTitle": "Chaos Emeralds Texture",
+    "modVersion": "v1.0.0",
+    "modShortDescription": "Replaces the textures of some minerals to look like Chaos Emeralds",
+    "modDescription": "This texture pack changes the appearance of some minerals to look like the Chaos Emeralds. \n\nThis pack only changes the textures of the items but not the names of the minerals in the game.\n\nRedstone - Red\nDiamond - Cyan\nEmerald - Green\nIron Ingot - Silver\nGold Ingot - Yellow\nQuartz - Purple\nLapislazuli - Blue\n\nPort of: https://www.planetminecraft.com/texture-pack/chaos-emeralds/",
+    "modIcon": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/icons/chaos-emeralds.png",
+    "modBanner": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/screenshots/chaos_texture_1.png",
+    "downloadLink": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/chaos-emeralds.zip",
+    "screenshots": [
+        "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/screenshots/chaos_texture_1.png",
+        "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/screenshots/chaos_texture_0.png"
+    ]
+}

@@ -14,7 +14,7 @@ function loadModContent() {
 
                 document.getElementById('headerModTitle').textContent = data.modTitle;
                 document.getElementById('modTitle').textContent = data.modTitle;
-                document.getElementById('modDescription').innerHTML = replaceLinesBreaks(data.modDescription);
+                document.getElementById('modDescription').innerHTML = formatText(data.modDescription);
                 document.getElementById('modVersion').textContent = data.modVersion;
                 document.getElementById('modIcon').src = data.modIcon;
                 document.getElementById("modBanner").style.backgroundImage = `url(${data.modBanner})`;
