@@ -17,6 +17,10 @@ body {
     font-family: sans-serif;
 }
 
+.space {
+    height: 40px;
+}
+
 .barra-superior {
     position: fixed;
     top: 0;
@@ -52,7 +56,7 @@ body {
     width: 50%;
 }
 
-.boton {
+.button {
     background-color: rgba(255, 153, 0, 1);
     border: none;
     color: white;
@@ -66,7 +70,7 @@ body {
     border-radius: 10px;
 }
 
-.boton:hover {
+.button:hover {
     background-color: rgb(175, 96, 0);
     color: white;
 }
@@ -80,6 +84,19 @@ body {
     display: inline-block;
     overflow: hidden;
     background-image: url("assets/bat_model_1.20.3.png");
+    background-size: cover;
+    background-position: top;
+}
+
+.mod-banner {
+    position: relative;
+    margin: 0px 0px;
+    text-align: center;
+    width: 100%;
+    height: 400px;
+    display: inline-block;
+    overflow: hidden;
+    background-image: url("");
     background-size: cover;
     background-position: top;
 }
@@ -138,3 +155,13 @@ body {
 .contenedor h1 {
     font-family: "Freeman";
 }
+
+.screenshots-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+

@@ -10,6 +10,12 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Anton&family=Freeman&display=swap" rel="stylesheet">
+
+        <script>
+            function goToModPage(param) {
+                window.location.href = 'modPage.html?mod=' + encodeURIComponent(param);
+            }
+        </script>
     </head>
     <body>
         <div class="barra-superior">
@@ -21,7 +27,7 @@
                 <a href="index.html">Home</a>
             </div>
             <div style="display: flex;">
-                <a href="">Texture packs</a>
+                <a href="">Resource packs</a>
             </div>
             <div>
                 <a href="">Misc</a>
@@ -37,7 +43,7 @@
                 <div class="super-texto">STB's MC3DS Mods</div>
             </div>
 
-            <p style="text-align: center;">You shouldn't be here...</p>
+            <p style="text-align: center;">You shouldn't be here... yet</p>
 
             <div class="subtitle">Featured</div>
 
@@ -48,7 +54,7 @@
                 <div>
                     <h1>Vanilla 1.20 Textures</h1>
                     <p>Port of the Minecraft Vanilla 1.20 textures</p>
-                    <a href="" class="boton">See details</a>
+                    <button class="button" onclick='goToModPage("vanilla-1-20-textures")'>See more</a>
                 </div>
             </div>
 
@@ -59,7 +65,7 @@
                 <div>
                     <h1>Bat 1.20.3 Model</h1>
                     <p>Changes the bat model to the new model introduced in snapshot 23w43a</p>
-                    <a href="" class="boton">See details</a>
+                    <button class="button" onclick='goToModPage("bat-1-20-3-model")'>See more</a>
                 </div>
             </div>
 
@@ -70,7 +76,7 @@
                 <div>
                     <h1>Ruby Instead of Emerald</h1>
                     <p>Changes the emeralds in the game for the classic ruby (with a fresh new look)</p>
-                    <a href="" class="boton">See details</a>
+                    <button class="button" onclick='goToModPage("ruby-instead-of-emerald")'>See more</a>
                 </div>
             </div>
 
@@ -82,11 +88,11 @@
                 </div>
                 <div>
                     <h1>Universal Updater</h1>
-                    <p>You need to scan this QR Code with the Universal Updater app. Go to Settings > Select UniStore... > Click Add Button > Select QR Code Icon in the bottom</p>
-                    <a href="" class="boton">See details</a>
+                    <p style="text-align: center;">You need to scan this QR Code with the Universal Updater app. Go to Settings > Select UniStore... > Click Add Button > Select QR Code Icon in the bottom</p>
                 </div>
             </div>
 
+            <div class="space"></div>
         </div>
     </body>
 </html>
