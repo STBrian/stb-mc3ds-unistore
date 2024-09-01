@@ -17,6 +17,10 @@ body {
     font-family: sans-serif;
 }
 
+img {
+    max-width: 100%;
+}
+
 .space {
     height: 40px;
 }
