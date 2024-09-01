@@ -8,7 +8,7 @@
         "sheet": "stb-mc3ds.t3x",
         "sheetURL": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/spritesheet.t3x",
         "version": 3,
-        "revision": 48
+        "revision": 49
     },
     "storeContent": [
         {
@@ -18,7 +18,7 @@
                 "version": "v0.1.9",
                 "category": ["resource pack","texture pack"],
                 "console": ["3DS"],
-                "description": "Port of the textures from version 1.20",
+                "description": "Replaces the original textures for the post 1.14 version",
                 "license": "none",
                 "icon_index": 0,
                 "sheet_index": 0,
@@ -95,7 +95,7 @@
                 "version": "v0.1.5",
                 "category": ["resource pack"],
                 "console": ["3DS"],
-                "description": "Changes the emeralds in the game for the classic ruby (with a new fresh look)",
+                "description": "Replaces the emeralds in the game for the classic ruby (with a new fresh look)",
                 "license": "none",
                 "icon_index": 1,
                 "sheet_index": 0,
@@ -172,7 +172,7 @@
                 "version": "v1.0.0",
                 "category": ["resource pack","texture pack"],
                 "console": ["3DS"],
-                "description": "Changes the appearance of some minerals to be the Chaos Emeralds",
+                "description": "Replaces the textures of some minerals to look like Chaos Emeralds",
                 "license": "none",
                 "icon_index": 2,
                 "sheet_index": 0,
@@ -233,7 +233,7 @@
                 "version": "v1.1.1",
                 "category": ["resource pack"],
                 "console": ["3DS"],
-                "description": "Changes the bat model to the new model introduced in snapshot 23w43a",
+                "description": "Replaces the original bat model with the new one of version 1.20.3",
                 "license": "none",
                 "icon_index": 3,
                 "sheet_index": 0,
@@ -3151,17 +3151,17 @@
         },
         {
             "info": {
-                "title": "Stay True 1.20 port",
+                "title": "Stay True 1.20 Port",
                 "author": "STBUniverse",
                 "version": "v0.1.0",
                 "category": ["resource pack","texture pack"],
                 "console": ["3DS"],
-                "description": "Texture pack port of Stay True using 1.20 version.",
+                "description": "Texture pack port of Stay True 1.20 version",
                 "license": "none",
                 "icon_index": 32,
                 "sheet_index": 0,
                 "last_updated": "2024-05-10 at 21:39 (UTC)",
-                "releasenotes": "Original Texture Pack:\nhttps://www.planetminecraft.com/texture-pack/stay-true-4447380/\nor...\nhttps://www.curseforge.com/minecraft/texture-packs/stay-true\n\nMade by:\nHaiMcFly (Planet Minecraft)\nurl: https://www.planetminecraft.com/member/haimcfly/\nhaimcyfly (CurseForge)\nurl:\n\nRetrieved from CurseForge\nPorted by: STBUniverse\n\nKnown bugs:\nChanging the colormap for the grass makes that the texture of the grass block side could have the wrong color\n\n0.2.0:\n-Decided to remove the change to colormap for grass as it has weirds effects to the game",
+                "releasenotes": "Texture pack that attempts to port the Stay True texture pack to MC3DS. Some textures may be missing, but when the Vanilla Default 1.20 pack is complete a merge will be made since Stay True (the version used for this port) is intended for version 1.20. \n\nOriginal Texture Pack:\nhttps://www.planetminecraft.com/texture-pack/stay-true-4447380/ \nor...\nhttps://www.curseforge.com/minecraft/texture-packs/stay-true \n\nMade by:\nHaiMcFly (Planet Minecraft)\nurl: https://www.planetminecraft.com/member/haimcfly/ \nhaimcyfly (CurseForge)\nurl:\n\nRetrieved from CurseForge\nPorted by: STBUniverse\n\nKnown bugs:\nChanging the colormap for the grass makes that the texture of the grass block side could have the wrong color",
                 "screenshots": [
                     {
                         "description": "Preview 1",
@@ -3205,7 +3205,7 @@
                     }
                 ]
             },
-            "Stay True 1.20 port (USA)": [
+            "Stay True 1.20 Port (USA)": [
                 {
                     "type": "downloadFile",
                     "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/StayTruePort-v0.1.0.7z",
@@ -3241,7 +3241,7 @@
                     "file": "sdmc:/luma/titles/00040000001B8700/romfs/StayTruePort.7z"
                 }
             ],
-            "Stay True 1.20 port (EUR)": [
+            "Stay True 1.20 Port (EUR)": [
                 {
                     "type": "downloadFile",
                     "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/StayTruePort-v0.1.0.7z",
