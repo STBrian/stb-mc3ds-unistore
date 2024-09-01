@@ -42,7 +42,7 @@ function loadModContent() {
             })
             .catch(error => {
                 console.error('There was an error with fetch: ', error);
-                //window.location.href = "notFound.html?" + encodeURIComponent(param);
+                window.location.href = "notFound.html?" + encodeURIComponent(param);
             });
     }
 }
