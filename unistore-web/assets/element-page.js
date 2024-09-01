@@ -6,7 +6,7 @@ function obtenerParam(url) {
 function loadModContent() {
     const param = obtenerParam(window.location.href);
     if (param) {
-        const jsonFilePath = "./assets/mods-info/" + param + ".json";
+        const jsonFilePath = "assets/mods-info/" + param + ".json";
         fetch(jsonFilePath)
             .then(response => {
                 if (!response.ok) {
@@ -42,7 +42,7 @@ function loadModContent() {
             })
             .catch(error => {
                 console.error('There was an error with fetch: ', error);
-                window.location.href = "notFound.html?" + encodeURIComponent(param);
+                //window.location.href = "notFound.html?" + encodeURIComponent(param);
             });
     }
 }
