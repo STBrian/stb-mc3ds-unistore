@@ -22,6 +22,11 @@ img {
     height: auto;
 }
 
+.break-link {
+    overflow-wrap: break-word;
+    word-break: break-all;
+}
+
 .space {
     height: 40px;
 }

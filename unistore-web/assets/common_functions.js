@@ -13,7 +13,7 @@ function formatText(text) {
 
     const urlPattern = /(\b(https?|ftp):\/\/[^\s/$.?#].[^\s]*)/gi;
     parsedText = parsedText.replace(urlPattern, (url) => {
-        return `<a href="${url}" target="_blank">${url}</a>`;
+        return `<a href="${url}" target="_blank" class="break-link">${url}</a>`;
     });
 
     return parsedText;
