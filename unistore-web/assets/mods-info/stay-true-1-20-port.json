@@ -1,0 +1,22 @@
+{
+    "packType": "resource_pack",
+    "modTitle": "Stay True 1.20 Port",
+    "modVersion": "v0.1.0",
+    "modShortDescription": "Texture pack port of Stay True 1.20 version",
+    "modDescription": "Texture pack that attempts to port the Stay True texture pack to MC3DS. Some textures may be missing, but when the Vanilla Default 1.20 pack is complete a merge will be made since Stay True (the version used for this port) is intended for version 1.20. \n\nOriginal Texture Pack:\nhttps://www.planetminecraft.com/texture-pack/stay-true-4447380/ \nor...\nhttps://www.curseforge.com/minecraft/texture-packs/stay-true \n\nMade by:\nHaiMcFly (Planet Minecraft)\nurl: https://www.planetminecraft.com/member/haimcfly/ \nhaimcyfly (CurseForge)\nurl:\n\nRetrieved from CurseForge\nPorted by: STBUniverse\n\nKnown bugs:\nChanging the colormap for the grass makes that the texture of the grass block side could have the wrong color",
+    "modIcon": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/icons/staytrue_icon.png",
+    "modBanner": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/screenshots/staytrue_port/staytrue_screen_9_fused.png",
+    "downloadLink": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/StayTruePort-v0.1.0.7z",
+    "screenshots": [
+        "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/screenshots/staytrue_port/staytrue_screen_0_fused.png",
+        "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/screenshots/staytrue_port/staytrue_screen_1_fused.png",
+        "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/screenshots/staytrue_port/staytrue_screen_2_fused.png",
+        "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/screenshots/staytrue_port/staytrue_screen_3_fused.png",
+        "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/screenshots/staytrue_port/staytrue_screen_4_fused.png",
+        "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/screenshots/staytrue_port/staytrue_screen_5_fused.png",
+        "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/screenshots/staytrue_port/staytrue_screen_6_fused.png",
+        "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/screenshots/staytrue_port/staytrue_screen_7_fused.png",
+        "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/screenshots/staytrue_port/staytrue_screen_8_fused.png",
+        "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/screenshots/staytrue_port/staytrue_screen_9_fused.png"
+    ]
+}

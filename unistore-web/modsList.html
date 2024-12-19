@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="icon" type="image/x-icon" href="favicon.ico">
-        <title>Home - STB's MC3DS Mods</title>
+        <title>Loading - STB's MC3DS Mods</title>
 
         <link rel="stylesheet" href="style.css">
 
@@ -35,32 +35,16 @@
         </div>
 
         <div class="cuerpo">
-            <div class="banner" style="background-image: url('assets/bat_model_1.20.3.png');">
+            <div class="banner" id="banner">
                 <div class="degradar"></div>
-                <div class="super-texto">STB's MC3DS Mods</div>
+                <div class="super-texto" id="page-type">Loading</div>
             </div>
 
-            <p style="text-align: center;">You shouldn't be here... yet</p>
-
-            <div class="subtitle">Featured</div>
-
-            <div id="featured-mods"></div>
-
-            <div class="subtitle">Installation</div>
-
-            <div class="contenedor">
-                <div>
-                    <img src="assets/qr-code.png" class="imagen-centrada">
-                </div>
-                <div>
-                    <h1>Universal Updater</h1>
-                    <p style="text-align: center;">You need to scan this QR Code with the Universal Updater app. Go to Settings > Select UniStore... > Click Add Button > Select QR Code Icon in the bottom</p>
-                </div>
-            </div>
+            <div id="mods-box"></div>
 
             <div class="space"></div>
         </div>
 
-        <script src="assets/homePage.js"></script>
+        <script src="assets/modsList.js"></script>
     </body>
 </html>

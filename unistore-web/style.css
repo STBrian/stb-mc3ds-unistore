@@ -17,12 +17,26 @@ body {
     font-family: sans-serif;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.break-link {
+    overflow-wrap: break-word;
+    word-break: break-all;
+}
+
+.space {
+    height: 40px;
+}
+
 .barra-superior {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    height: 5%;
+    height: 40px;
     background-color: rgba(255, 153, 0, 0.75);
     color: white;
     padding: 10px 0;
@@ -31,6 +45,18 @@ body {
     text-align: center;
     display: flex;
     z-index: 1000;
+    overflow: hidden;
+}
+
+.barra-superior .logo {
+    width: auto;
+    height: 40px;
+    background-image: url("assets/logo.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 0 10px;
+    display: flex;
     overflow: hidden;
 }
 
@@ -52,7 +78,7 @@ body {
     width: 50%;
 }
 
-.boton {
+.button {
     background-color: rgba(255, 153, 0, 1);
     border: none;
     color: white;
@@ -66,12 +92,16 @@ body {
     border-radius: 10px;
 }
 
-.boton:hover {
+.button:hover {
     background-color: rgb(175, 96, 0);
     color: white;
 }
 
-.encabezado {
+.clickable {
+    cursor: pointer;
+}
+
+.banner {
     position: relative;
     margin: 0px 0px;
     text-align: center;
@@ -79,7 +109,7 @@ body {
     height: 400px;
     display: inline-block;
     overflow: hidden;
-    background-image: url("assets/bat_model_1.20.3.png");
+    background-image: url("");
     background-size: cover;
     background-position: top;
 }
@@ -138,3 +168,13 @@ body {
 .contenedor h1 {
     font-family: "Freeman";
 }
+
+.screenshots-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+

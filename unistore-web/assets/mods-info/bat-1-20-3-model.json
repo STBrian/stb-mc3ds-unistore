@@ -1,0 +1,14 @@
+{
+    "packType": "resource_pack",
+    "modTitle": "Bat 1.20.3 Model",
+    "modVersion": "v1.1.1",
+    "modShortDescription": "Replaces the original bat model with the new one of version 1.20.3",
+    "modDescription": "This resource pack attempts to recreate the new bat model introduced in snapshot 23w43a which looks nice!\n\nChanging entity models is experimental and can cause unexpected crashes. \n\n(In my experience, crashes usually occur while loading a world but it does not corrupt any world and usually works fine afterwards, you just have to try again. Still use at your own risk)\n\nv1.1.0:\nImproved model\n\nv1.1.1:\nUpdated texture",
+    "modIcon": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/icons/batIcon.png",
+    "modBanner": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/screenshots/bat_model_1_21_0.png",
+    "downloadLink": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/resource_packs/bat-model-1-21.zip",
+    "screenshots": [
+        "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/screenshots/bat_model_1_21_0.png",
+        "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/screenshots/bat_model_1_21_1.png"
+    ]
+}
