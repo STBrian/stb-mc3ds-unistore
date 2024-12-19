@@ -15,15 +15,15 @@
             "info": {
                 "title": "Vanilla 1.20 Textures",
                 "author": "STBUniverse",
-                "version": "v0.1.9",
+                "version": "v0.2.0",
                 "category": ["resource pack","texture pack"],
                 "console": ["3DS"],
                 "description": "Port of the textures from version 1.20",
                 "license": "none",
                 "icon_index": 0,
                 "sheet_index": 0,
-                "last_updated": "2024-08-27 at 01:30 (UTC)",
-                "releasenotes": "Play MC3DS with textures from game versions after 1.14. The name of the pack (1.20) comes from the fact that it is being ported directly from version 1.20 of the game.\n\nRelease notes v0.1.8:\n\n- Glint enchanted item\n- Armor all variants\n- Entity boat all variations\n- Entity cat all variations (includes ocelots)\n- Entity ender chest\n\nRelease Notes v0.1.9:\n\n- Fixed in-game waterlily texture\n- Fixed inventory leather armors texture\n\nCredits to WaterMelon for the map Debug Mode 3D used in screenshots",
+                "last_updated": "2024-12-19 at 22:56 (UTC)",
+                "releasenotes": "Play MC3DS with textures from game version 1.20.\n\nRelease notes v0.1.8:\n- Glint enchanted item\n- Armor all variants\n- Entity boat all variations\n- Entity cat all variations (includes ocelots)\n- Entity ender chest\n\nRelease Notes v0.1.9:\n- Fixed in-game waterlily texture\n- Fixed inventory leather armors texture\n\nRelease notes v0.2.0: Mobs update\n- Most of the textures for mobs have been ported (Only horses and llamas are missing)\n\nCredits to WaterMelon for the map Debug Mode 3D used in screenshots",
                 "screenshots": [
                     {
                         "description": "Preview all blocks 1",
@@ -42,7 +42,7 @@
             "Vanilla 1.20 Textures (USA)": [
                 {
                     "type": "downloadFile",
-                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/Vanilla-1.20_v0.1.9.7z",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/Vanilla-1.20_v0.2.0.7z",
                     "message": "Downloading texture pack...",
                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/Vanilla-1.20.7z"
                 },
@@ -66,7 +66,7 @@
             "Vanilla 1.20 Textures (EUR)": [
                 {
                     "type": "downloadFile",
-                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/Vanilla-1.20_v0.1.9.7z",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/Vanilla-1.20_v0.2.0.7z",
                     "message": "Downloading texture pack...",
                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/Vanilla-1.20.7z"
                 },
