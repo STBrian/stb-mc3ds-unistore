@@ -3,7 +3,7 @@
     "modTitle": "Vanilla 1.20 Textures",
     "modVersion": "v0.2.1",
     "modShortDescription": "Replaces the original textures for the 1.20 version",
-    "modDescription": "Play MC3DS with textures from game version 1.20.\n\nRelease notes v0.1.8:\n- Glint enchanted item\n- Armor all variants\n- Entity boat all variations\n- Entity cat all variations (includes ocelots)\n- Entity ender chest\n\nRelease Notes v0.1.9:\n- Fixed in-game waterlily texture\n- Fixed inventory leather armors texture\n\nRelease notes v0.2.0: Mobs update\n- Most of the textures for mobs have been ported\n\nRelease notes v0.2.1\n- Fixed wolf tamed texture\n\nCredits to WaterMelon for the map Debug Mode 3D used in screenshots",
+    "modDescription": "Play MC3DS with textures from game version 1.20.\n\nRelease notes v0.1.8:\n- Glint enchanted item\n- Armor all variants\n- Entity boat all variations\n- Entity cat all variations (includes ocelots)\n- Entity ender chest\n\nRelease Notes v0.1.9:\n- Fixed in-game waterlily texture\n- Fixed inventory leather armors texture\n\nRelease notes v0.2.0: Mobs update\n- Most of the textures for mobs have been ported\n\nRelease notes v0.2.1\n- Fixed wolf tamed texture\n\nCredits to WaterMelon for the map Debug Mode 3D used in screenshots.",
     "modIcon": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/icons/new-textures.png",
     "modBanner": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/screenshots/1-20_Textures_0.png",
     "downloadLink": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/Vanilla-1.20_v0.2.1.7z",
