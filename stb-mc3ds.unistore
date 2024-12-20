@@ -8,7 +8,7 @@
         "sheet": "stb-mc3ds.t3x",
         "sheetURL": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/spritesheet.t3x",
         "version": 3,
-        "revision": 51
+        "revision": 52
     },
     "storeContent": [
         {
@@ -18,7 +18,7 @@
                 "version": "v0.2.1",
                 "category": ["resource pack","texture pack"],
                 "console": ["3DS"],
-                "description": "Replaces the original textures for the post 1.14 version",
+                "description": "Replaces the original textures for the 1.20 version",
                 "license": "none",
                 "icon_index": 0,
                 "sheet_index": 0,
