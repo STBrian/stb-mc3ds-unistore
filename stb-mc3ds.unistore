@@ -8,7 +8,7 @@
         "sheet": "stb-mc3ds.t3x",
         "sheetURL": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/spritesheet.t3x",
         "version": 3,
-        "revision": 52
+        "revision": 53
     },
     "storeContent": [
         {
@@ -3282,15 +3282,15 @@
             "info": {
                 "title": "Trails & Tales Title Music",
                 "author": "STBUniverse",
-                "version": "v1.0.0",
+                "version": "v1.0.1",
                 "category": ["resource pack", "sound pack"],
                 "console": ["3DS"],
                 "description": "Listen to the game menu soundtrack included in the Trails & Tales update now on your Minecraft NN3DS Edition",
                 "license": "none",
                 "icon_index": 33,
                 "sheet_index": 0,
-                "last_updated": "2024-05-10 at 21:39 (UTC)",
-                "releasenotes": "All assets provided in this pack are property of Mojang Studios respectively and its original creator Aaron Cherof. I only made the port to the current platform"
+                "last_updated": "2024-12-26 at 7:24 (UTC)",
+                "releasenotes": "All assets provided in this pack are property of Mojang Studios respectively and its original creator Aaron Cherof. I only made the port to the current platform. v1.0.0\nFirst release\n\nv1.0.1\nMusic audio compressed"
             },
             "[menu1] Bromeliad (USA)": [
                 {
