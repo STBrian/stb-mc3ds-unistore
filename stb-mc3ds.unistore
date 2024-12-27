@@ -8,7 +8,7 @@
         "sheet": "stb-mc3ds.t3x",
         "sheetURL": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/spritesheet.t3x",
         "version": 3,
-        "revision": 55
+        "revision": 56
     },
     "storeContent": [
         {
@@ -3282,15 +3282,15 @@
             "info": {
                 "title": "Trails & Tales Title Music",
                 "author": "STBUniverse",
-                "version": "v1.1.0",
+                "version": "v1.1.1",
                 "category": ["resource pack", "sound pack"],
                 "console": ["3DS"],
                 "description": "Listen to the game menu soundtrack included in the Trails & Tales update now on your Minecraft NN3DS Edition",
                 "license": "none",
                 "icon_index": 33,
                 "sheet_index": 0,
-                "last_updated": "2024-12-27 at 21:35 (UTC)",
-                "releasenotes": "All assets provided in this pack are property of Mojang Studios respectively and its original creator Aaron Cherof. I only made the port to the current platform. v1.0.0\nFirst release\n\nv1.0.1\nMusic audio compressed\n\nv1.1.0\nMusic no longer replaces the original menu music, and both the original and the added music can be played"
+                "last_updated": "2024-12-27 at 21:57 (UTC)",
+                "releasenotes": "All assets provided in this pack are property of Mojang Studios respectively and its original creator Aaron Cherof. I only made the port to the current platform. v1.0.0\nFirst release\n\nv1.0.1\nMusic audio compressed\n\nv1.1.0\nMusic no longer replaces the original menu music, and both the original and the added music can be played\n\nv1.1.1\nThe added music will probably play more frequently now"
             },
             "Trails & Tales Title Music (USA)": [
                 {
