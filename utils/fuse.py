@@ -2,6 +2,8 @@ import os, math, glob
 from pathlib import Path
 from PIL import Image
 
+os.chdir(Path(os.path.realpath(__file__)).parent)
+
 export_name = input("Introduce el nombre con el que se exportarán las imágenes: ")
 while True:
     try:
@@ -15,13 +17,13 @@ while True:
 
 i = 0
 for file in glob.iglob("**/*.bmp", recursive=True):
-    if os.path.exists(file) and (file[-8:] == "_sup.bmp" or file[-8:] == "_inf.bmp"):
+    if os.path.exists(file) and (file[-8:] == "_top.bmp" or file[-8:] == "_bot.bmp"):
         filepath = Path(file)
         name = filepath.stem
         name = name[:-4]
         
-        filepath_sup = Path(os.path.join(filepath.parent, f"{name}_sup.bmp"))
-        filepath_inf = Path(os.path.join(filepath.parent, f"{name}_inf.bmp"))
+        filepath_sup = Path(os.path.join(filepath.parent, f"{name}_top.bmp"))
+        filepath_inf = Path(os.path.join(filepath.parent, f"{name}_bot.bmp"))
 
         img_sup = Image.open(filepath_sup)
         img_inf = Image.open(filepath_inf)
@@ -42,6 +44,6 @@ for file in glob.iglob("**/*.bmp", recursive=True):
 
         fused_img.save(os.path.join(filepath.parent, f"{export_name}{i}_fused.png"))
 
-        os.remove(os.path.join(filepath.parent, f"{name}_sup.bmp"))
-        os.remove(os.path.join(filepath.parent, f"{name}_inf.bmp"))
+        os.remove(os.path.join(filepath.parent, f"{name}_top.bmp"))
+        os.remove(os.path.join(filepath.parent, f"{name}_bot.bmp"))
         i += 1

@@ -8,7 +8,7 @@
         "sheet": "stb-mc3ds.t3x",
         "sheetURL": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/spritesheet.t3x",
         "version": 3,
-        "revision": 54
+        "revision": 55
     },
     "storeContent": [
         {
@@ -3282,17 +3282,33 @@
             "info": {
                 "title": "Trails & Tales Title Music",
                 "author": "STBUniverse",
-                "version": "v1.0.1",
+                "version": "v1.1.0",
                 "category": ["resource pack", "sound pack"],
                 "console": ["3DS"],
                 "description": "Listen to the game menu soundtrack included in the Trails & Tales update now on your Minecraft NN3DS Edition",
                 "license": "none",
                 "icon_index": 33,
                 "sheet_index": 0,
-                "last_updated": "2024-12-26 at 7:24 (UTC)",
-                "releasenotes": "All assets provided in this pack are property of Mojang Studios respectively and its original creator Aaron Cherof. I only made the port to the current platform. v1.0.0\nFirst release\n\nv1.0.1\nMusic audio compressed"
+                "last_updated": "2024-12-27 at 21:35 (UTC)",
+                "releasenotes": "All assets provided in this pack are property of Mojang Studios respectively and its original creator Aaron Cherof. I only made the port to the current platform. v1.0.0\nFirst release\n\nv1.0.1\nMusic audio compressed\n\nv1.1.0\nMusic no longer replaces the original menu music, and both the original and the added music can be played"
             },
             "Trails & Tales Title Music (USA)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/resource_packs/trails-and-tales-menu-bg-music/music_config.7z",
+                    "message": "Downloading soundtrack...",
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/music_config.7z"
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/music_config.7z",
+                    "input": "",
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/sounds/"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/music_config.7z"
+                },
                 {
                     "type": "downloadFile",
                     "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/resource_packs/trails-and-tales-menu-bg-music/bromeliad.7z",
@@ -3321,25 +3337,25 @@
                     "type": "extractFile",
                     "file": "sdmc:/luma/titles/00040000001B8700/romfs/bromeliad.7z",
                     "input": "",
-                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/sounds/music/menu/"
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/sounds/vr/"
                 },
                 {
                     "type": "extractFile",
                     "file": "sdmc:/luma/titles/00040000001B8700/romfs/echo_in_the_wind.7z",
                     "input": "",
-                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/sounds/music/menu/"
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/sounds/vr/"
                 },
                 {
                     "type": "extractFile",
                     "file": "sdmc:/luma/titles/00040000001B8700/romfs/crescent_dunes.7z",
                     "input": "",
-                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/sounds/music/menu/"
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/sounds/vr/"
                 },
                 {
                     "type": "extractFile",
                     "file": "sdmc:/luma/titles/00040000001B8700/romfs/a_familiar_room.7z",
                     "input": "",
-                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/sounds/music/menu/"
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/sounds/vr/"
                 },
                 {
                     "type": "deleteFile",
@@ -3359,6 +3375,22 @@
                 }
             ],
             "Trails & Tales Title Music (EUR)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/resource_packs/trails-and-tales-menu-bg-music/music_config.7z",
+                    "message": "Downloading soundtrack...",
+                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/music_config.7z"
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/music_config.7z",
+                    "input": "",
+                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/sounds/"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/music_config.7z"
+                },
                 {
                     "type": "downloadFile",
                     "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/resource_packs/trails-and-tales-menu-bg-music/bromeliad.7z",
@@ -3387,25 +3419,25 @@
                     "type": "extractFile",
                     "file": "sdmc:/luma/titles/000400000017CA00/romfs/bromeliad.7z",
                     "input": "",
-                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/sounds/music/menu/"
+                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/sounds/vr/"
                 },
                 {
                     "type": "extractFile",
                     "file": "sdmc:/luma/titles/000400000017CA00/romfs/echo_in_the_wind.7z",
                     "input": "",
-                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/sounds/music/menu/"
+                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/sounds/vr/"
                 },
                 {
                     "type": "extractFile",
                     "file": "sdmc:/luma/titles/000400000017CA00/romfs/crescent_dunes.7z",
                     "input": "",
-                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/sounds/music/menu/"
+                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/sounds/vr/"
                 },
                 {
                     "type": "extractFile",
                     "file": "sdmc:/luma/titles/000400000017CA00/romfs/a_familiar_room.7z",
                     "input": "",
-                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/sounds/music/menu/"
+                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/sounds/vr/"
                 },
                 {
                     "type": "deleteFile",
@@ -3427,14 +3459,14 @@
             "Remove content (USA)": [
                 {
                     "type": "rmdir",
-                    "directory": "sdmc:/luma/titles/00040000001B8700/romfs/sounds/music/menu",
+                    "directory": "sdmc:/luma/titles/00040000001B8700/romfs/sounds/vr",
                     "required": false
                 }
             ],
             "Remove content (EUR)": [
                 {
                     "type": "rmdir",
-                    "directory": "sdmc:/luma/titles/000400000017CA00/romfs/sounds/music/menu",
+                    "directory": "sdmc:/luma/titles/000400000017CA00/romfs/sounds/vr",
                     "required": false
                 }
             ]
@@ -3572,6 +3604,109 @@
                 {
                     "type": "rmdir",
                     "directory": "sdmc:/luma/titles/000400000017CA00/romfs/sounds/music/menu",
+                    "required": false
+                }
+            ]
+        },
+        {
+            "info": {
+                "title": "Trails & Tales Panorama",
+                "author": "STBUniverse",
+                "version": "v1.0.0",
+                "category": ["texture pack", "panorama"],
+                "console": ["3DS"],
+                "description": "The menu panorama from Trails & Tales Update",
+                "license": "none",
+                "icon_index": 35,
+                "sheet_index": 0,
+                "last_updated": "2024-12-27 at 21:22 (UTC)",
+                "releasenotes": "The menu panorama from Trails & Tales Update.\nThe content of this texture pack is made and is property of Mojang Studios\nPorted by: STBUniverse",
+                "screenshots": [
+                    {
+                        "description": "Preview",
+                        "url": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/screenshots/panoramas/trails-and-tales_fused.png"
+                    }
+                ]
+            },
+            "The Wild Update Panorama (USA)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/trails-and-tales.7z",
+                    "message": "Downloading texture pack...",
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/trails-and-tales.7z"
+                },
+                {
+                    "type": "promptMessage",
+                    "message": "Would you like to install it in TOP SCREEN?",
+                    "count": 1
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/trails-and-tales.7z",
+                    "input": "top/",
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background/"
+                },
+                {
+                    "type": "promptMessage",
+                    "message": "Would you like to install it in BOTTOM SCREEN?",
+                    "count": 1
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/trails-and-tales.7z",
+                    "input": "bottom/",
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background/"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/trails-and-tales.7z"
+                }
+            ],
+            "Remove content (USA)": [
+                {
+                    "type": "rmdir",
+                    "directory": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background",
+                    "required": false
+                }
+            ],
+            "The Wild Update Panorama (EUR)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/texture_packs/panoramas/trails-and-tales.7z",
+                    "message": "Downloading texture pack...",
+                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/trails-and-tales.7z"
+                },
+                {
+                    "type": "promptMessage",
+                    "message": "Would you like to install it in TOP SCREEN?",
+                    "count": 1
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/trails-and-tales.7z",
+                    "input": "top/",
+                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/gui/background/"
+                },
+                {
+                    "type": "promptMessage",
+                    "message": "Would you like to install it in BOTTOM SCREEN?",
+                    "count": 1
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/trails-and-tales.7z",
+                    "input": "bottom/",
+                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/gui/background/"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/trails-and-tales.7z"
+                }
+            ],
+            "Remove content (EUR)": [
+                {
+                    "type": "rmdir",
+                    "directory": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/gui/background",
                     "required": false
                 }
             ]
