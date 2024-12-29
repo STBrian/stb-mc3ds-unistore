@@ -8,7 +8,7 @@
         "sheet": "stb-mc3ds.t3x",
         "sheetURL": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/spritesheet.t3x",
         "version": 3,
-        "revision": 60
+        "revision": 61
     },
     "storeContent": [
         {
@@ -3715,15 +3715,15 @@
             "info": {
                 "title": "Let's Update Mob Models",
                 "author": "STBUniverse",
-                "version": "v1.1.0",
+                "version": "v1.1.1",
                 "category": ["resource pack"],
                 "console": ["3DS"],
                 "description": "Replaces some mob models to be the modern ones",
                 "license": "none",
                 "icon_index": 36,
                 "sheet_index": 0,
-                "last_updated": "2024-12-29 at 22:58 (UTC)",
-                "releasenotes": "This resource pack replaces some mob models with the most current ones. Some models may differ from the original ones due to game limitations.\n\nv1.0.0\nFirst release\nBat model\nVillagers model\n\nv1.1.0\nAdded Zombie Piglin model\nFixes Evoker model",
+                "last_updated": "2024-12-29 at 23:16 (UTC)",
+                "releasenotes": "This resource pack replaces some mob models with the most current ones. Some models may differ from the original ones due to game limitations.\n\nv1.0.0\nFirst release\nBat model\nVillagers model\n\nv1.1.0\nAdded Zombie Piglin model\nFixes Evoker model\n\nv1.1.1\nFixes Evoker arms UVs",
                 "screenshots": [
                     {
                         "description": "New Villager model",
