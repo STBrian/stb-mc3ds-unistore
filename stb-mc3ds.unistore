@@ -8,7 +8,7 @@
         "sheet": "stb-mc3ds.t3x",
         "sheetURL": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/spritesheet.t3x",
         "version": 3,
-        "revision": 59
+        "revision": 60
     },
     "storeContent": [
         {
@@ -3713,58 +3713,62 @@
         },
         {
             "info": {
-                "title": "Actual Models",
+                "title": "Let's Update Mob Models",
                 "author": "STBUniverse",
-                "version": "v1.0.0",
+                "version": "v1.1.0",
                 "category": ["resource pack"],
                 "console": ["3DS"],
-                "description": "Replaces the bat and villager models to the current ones",
+                "description": "Replaces some mob models to be the modern ones",
                 "license": "none",
                 "icon_index": 36,
                 "sheet_index": 0,
-                "last_updated": "2024-12-28 at 03:01 (UTC)",
-                "releasenotes": "This resource pack replaces the bat and villager models with the most current ones. Some models may differ from the original ones due to game limitations.\n\nv1.0.0\nFirst release",
+                "last_updated": "2024-12-29 at 22:58 (UTC)",
+                "releasenotes": "This resource pack replaces some mob models with the most current ones. Some models may differ from the original ones due to game limitations.\n\nv1.0.0\nFirst release\nBat model\nVillagers model\n\nv1.1.0\nAdded Zombie Piglin model\nFixes Evoker model",
                 "screenshots": [
                     {
-                        "description": "New villagers",
+                        "description": "New Villager model",
                         "url": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/screenshots/new_models_fused.png"
+                    },
+                    {
+                        "description": "New Bat model",
+                        "url": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/screenshots/bat_model_1_21_0.png"
                     }
                 ]
             },
-            "Actual Models (USA)": [
+            "Let's Update Mob Models (USA)": [
                 {
                     "type": "downloadFile",
-                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/resource_packs/actual_models.7z",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/resource_packs/lets_update_mob_models.7z",
                     "message": "Downloading resource pack...",
-                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/actual_models.7z"
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/lets_update_mob_models.7z"
                 },
                 {
                     "type": "extractFile",
-                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/actual_models.7z",
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/lets_update_mob_models.7z",
                     "input": "",
                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/"
                 },
                 {
                     "type": "deleteFile",
-                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/actual_models.7z"
+                    "file": "sdmc:/luma/titles/00040000001B8700/romfs/lets_update_mob_models.7z"
                 }
             ],
-            "Actual Models (EUR)": [
+            "Let's Update Mob Models (EUR)": [
                 {
                     "type": "downloadFile",
-                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/resource_packs/actual_models.7z",
+                    "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/resource_packs/lets_update_mob_models.7z",
                     "message": "Downloading resource pack...",
-                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/actual_models.7z"
+                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/lets_update_mob_models.7z"
                 },
                 {
                     "type": "extractFile",
-                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/actual_models.7z",
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/lets_update_mob_models.7z",
                     "input": "",
                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/"
                 },
                 {
                     "type": "deleteFile",
-                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/actual_models.7z"
+                    "file": "sdmc:/luma/titles/000400000017CA00/romfs/lets_update_mob_models.7z"
                 }
             ]
         }
