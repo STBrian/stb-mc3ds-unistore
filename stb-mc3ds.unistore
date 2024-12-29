@@ -8,7 +8,7 @@
         "sheet": "stb-mc3ds.t3x",
         "sheetURL": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/spritesheet.t3x",
         "version": 3,
-        "revision": 58
+        "revision": 59
     },
     "storeContent": [
         {
@@ -3282,15 +3282,15 @@
             "info": {
                 "title": "Trails & Tales Title Music",
                 "author": "STBUniverse",
-                "version": "v1.1.1",
+                "version": "v1.2.0",
                 "category": ["resource pack", "sound pack"],
                 "console": ["3DS"],
                 "description": "Listen to the game menu soundtrack included in the Trails & Tales update now on your Minecraft NN3DS Edition",
                 "license": "none",
                 "icon_index": 33,
                 "sheet_index": 0,
-                "last_updated": "2024-12-27 at 21:57 (UTC)",
-                "releasenotes": "All assets provided in this pack are property of Mojang Studios respectively and its original creator Aaron Cherof. I only made the port to the current platform. v1.0.0\nFirst release\n\nv1.0.1\nMusic audio compressed\n\nv1.1.0\nMusic no longer replaces the original menu music, and both the original and the added music can be played\n\nv1.1.1\nThe added music will probably play more frequently now"
+                "last_updated": "2024-12-29 at 06:14 (UTC)",
+                "releasenotes": "All assets provided in this pack are property of Mojang Studios respectively and its original creator Aaron Cherof. I only made the port to the current platform. v1.0.0\nFirst release\n\nv1.0.1\nMusic audio compressed\n\nv1.1.0\nMusic no longer replaces the original menu music, and both the original and the added music can be played\n\nv1.1.1\nThe added music will probably play more frequently now\n\nv1.2.0\nThe sounds config format changed, now music will not replace any original audio"
             },
             "Trails & Tales Title Music (USA)": [
                 {
@@ -3337,25 +3337,25 @@
                     "type": "extractFile",
                     "file": "sdmc:/luma/titles/00040000001B8700/romfs/bromeliad.7z",
                     "input": "",
-                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/sounds/vr/"
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/sounds/menu/"
                 },
                 {
                     "type": "extractFile",
                     "file": "sdmc:/luma/titles/00040000001B8700/romfs/echo_in_the_wind.7z",
                     "input": "",
-                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/sounds/vr/"
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/sounds/menu/"
                 },
                 {
                     "type": "extractFile",
                     "file": "sdmc:/luma/titles/00040000001B8700/romfs/crescent_dunes.7z",
                     "input": "",
-                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/sounds/vr/"
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/sounds/menu/"
                 },
                 {
                     "type": "extractFile",
                     "file": "sdmc:/luma/titles/00040000001B8700/romfs/a_familiar_room.7z",
                     "input": "",
-                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/sounds/vr/"
+                    "output": "sdmc:/luma/titles/00040000001B8700/romfs/sounds/menu/"
                 },
                 {
                     "type": "deleteFile",
@@ -3419,25 +3419,25 @@
                     "type": "extractFile",
                     "file": "sdmc:/luma/titles/000400000017CA00/romfs/bromeliad.7z",
                     "input": "",
-                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/sounds/vr/"
+                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/sounds/menu/"
                 },
                 {
                     "type": "extractFile",
                     "file": "sdmc:/luma/titles/000400000017CA00/romfs/echo_in_the_wind.7z",
                     "input": "",
-                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/sounds/vr/"
+                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/sounds/menu/"
                 },
                 {
                     "type": "extractFile",
                     "file": "sdmc:/luma/titles/000400000017CA00/romfs/crescent_dunes.7z",
                     "input": "",
-                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/sounds/vr/"
+                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/sounds/menu/"
                 },
                 {
                     "type": "extractFile",
                     "file": "sdmc:/luma/titles/000400000017CA00/romfs/a_familiar_room.7z",
                     "input": "",
-                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/sounds/vr/"
+                    "output": "sdmc:/luma/titles/000400000017CA00/romfs/sounds/menu/"
                 },
                 {
                     "type": "deleteFile",
@@ -3459,14 +3459,14 @@
             "Remove content (USA)": [
                 {
                     "type": "rmdir",
-                    "directory": "sdmc:/luma/titles/00040000001B8700/romfs/sounds/vr",
+                    "directory": "sdmc:/luma/titles/00040000001B8700/romfs/sounds",
                     "required": false
                 }
             ],
             "Remove content (EUR)": [
                 {
                     "type": "rmdir",
-                    "directory": "sdmc:/luma/titles/000400000017CA00/romfs/sounds/vr",
+                    "directory": "sdmc:/luma/titles/000400000017CA00/romfs/sounds",
                     "required": false
                 }
             ]
