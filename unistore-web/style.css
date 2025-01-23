@@ -31,7 +31,7 @@ img {
     height: 40px;
 }
 
-.barra-superior {
+.topnavbarclass {
     position: fixed;
     top: 0;
     left: 0;
@@ -48,7 +48,7 @@ img {
     overflow: hidden;
 }
 
-.barra-superior .logo {
+.topnavbarclass .logo {
     width: auto;
     height: 40px;
     background-image: url("assets/logo.png");
@@ -60,7 +60,7 @@ img {
     overflow: hidden;
 }
 
-.barra-superior a {
+.topnavbarclass a {
     background-color: transparent;
     border: none;
     color: white;
@@ -70,11 +70,11 @@ img {
     font-family: "Anton";
 }
 
-.barra-superior div {
+.topnavbarclass div {
     width: auto;
 }
 
-.barra-superior .space {
+.topnavbarclass .space {
     width: 50%;
 }
 
