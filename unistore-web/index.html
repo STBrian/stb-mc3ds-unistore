@@ -20,24 +20,7 @@
         <script src="assets/common_functions.js"></script>
     </head>
     <body>
-        <div class="barra-superior">
-            <div class="logo">
-                <a href="index.html" title="Main page"></a>
-            </div>
-            <div class="space"></div>
-            <div>
-                <a href="index.html">Home</a>
-            </div>
-            <div style="display: flex;">
-                <a class="clickable" onclick="goToPage('modsList.html', 'type', 'resource_packs')">Resource packs</a>
-            </div>
-            <div>
-                <a href="">Misc</a>
-            </div>
-            <div>
-                <a href="">About</a>
-            </div>
-        </div>
+        <div id="topnavbar"></div>
 
         <div class="cuerpo">
             <div class="banner" style="background-image: url('assets/bat_model_1.20.3.png');">
@@ -66,6 +49,7 @@
             <div class="space"></div>
         </div>
 
+        <script src="assets/topnavbar_load.js"></script>
         <script src="assets/homePage.js"></script>
     </body>
 </html>
