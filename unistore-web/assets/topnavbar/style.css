@@ -1,0 +1,77 @@
+div .topnavbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    background-color: rgba(255, 153, 0, 0.75);
+    color: white;
+    padding: 10px 0;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    z-index: 1000;
+    overflow: hidden;
+}
+
+div .topnavbar .logo {
+    width: auto;
+    height: 40px;
+    background-image: url("/assets/logo.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 0 10px;
+    display: flex;
+    overflow: hidden;
+}
+
+div .topnavbar a {
+    background-color: transparent;
+    border: none;
+    color: white;
+    text-decoration: none;
+    padding: 100% 20px;
+    width: auto;
+    font-family: "Anton";
+    user-select: none;
+}
+
+div .topnavbar .nvbutton a:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+div .topnavbar .toggle-icon button#btn-toggle {
+    background-color: transparent;
+    border: none;
+    color: white;
+    text-decoration: none;
+    padding: 100% 20px;
+    width: auto;
+    font-family: "Anton";
+    user-select: none;
+}
+
+div .topnavbar .toggle-icon {
+    width: auto;
+    height: 40px;
+    background-image: url("/assets/day-and-night.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 0 15px;
+    display: flex;
+    overflow: hidden;
+}
+body.light-theme div .topnavbar .toggle-icon {
+    background-image: url("/assets/day-and-night-light.png");
+}
+
+div .topnavbar div {
+    width: auto;
+}
+
+div .topnavbar .space {
+    width: 100%;
+}

@@ -11,7 +11,21 @@
 }
 
 body {
-    background-color: white;
+    --bg-color: white;
+    --text-color: black;
+}
+body.dark-theme {
+    --bg-color: rgb(14, 14, 14);
+    --text-color: white;
+}
+body.light-theme {
+    --bg-color: white;
+    --text-color: black;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
     padding: 0 0;
     margin: 0 0;
     font-family: sans-serif;
@@ -29,53 +43,6 @@ img {
 
 .space {
     height: 40px;
-}
-
-.topnavbarclass {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 40px;
-    background-color: rgba(255, 153, 0, 0.75);
-    color: white;
-    padding: 10px 0;
-    justify-content: space-between;
-    align-items: center;
-    text-align: center;
-    display: flex;
-    z-index: 1000;
-    overflow: hidden;
-}
-
-.topnavbarclass .logo {
-    width: auto;
-    height: 40px;
-    background-image: url("assets/logo.png");
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 0 10px;
-    display: flex;
-    overflow: hidden;
-}
-
-.topnavbarclass a {
-    background-color: transparent;
-    border: none;
-    color: white;
-    text-decoration: none;
-    padding: 100% 20px;
-    width: auto;
-    font-family: "Anton";
-}
-
-.topnavbarclass div {
-    width: auto;
-}
-
-.topnavbarclass .space {
-    width: 50%;
 }
 
 .button {
@@ -101,7 +68,7 @@ img {
     cursor: pointer;
 }
 
-.banner {
+div .banner {
     position: relative;
     margin: 0px 0px;
     text-align: center;
@@ -120,7 +87,7 @@ img {
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(to bottom, transparent 50%, white 100%);
+    background: linear-gradient(to bottom, transparent 50%, var(--bg-color) 100%);
 }
 
 .super-texto {
