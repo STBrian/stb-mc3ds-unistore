@@ -253,7 +253,49 @@ class ScriptViewFrame(customtkinter.CTkFrame):
             self.selectBlockWindow = None
 
     def addBlockSelected(self, type: str, idx: int):
-        print(type, idx)
+        newBlock = {"type": type}
+        match type:
+            case "downloadFile":
+                newBlock["file"] = ""
+                newBlock["output"] = ""
+            case "downloadRelease":
+                newBlock["repo"] = ""
+                newBlock["file"] = ""
+                newBlock["output"] = ""
+                newBlock["includePrereleases"] = False
+            case "extractFile":
+                newBlock["file"] = ""
+                newBlock["input"] = ""
+                newBlock["output"] = ""
+            case "installCia":
+                newBlock["file"] = ""
+            case "bootTitle":
+                newBlock["TitleID"] = ""
+                newBlock["NAND"] = False
+            case "mkdir":
+                newBlock["directory"] = ""
+            case "rmdir":
+                newBlock["directory"] = ""
+                newBlock["required"] = False
+            case "move":
+                newBlock["old"] = ""
+                newBlock["new"] = ""
+            case "copy":
+                newBlock["source"] = ""
+                newBlock["destination"] = ""
+            case "deleteFile":
+                newBlock["file"] = ""
+            case "promptMessage":
+                newBlock["message"] = ""
+                newBlock["count"] = ""
+            case "skip":
+                newBlock["count"] = ""
+            case "exit":
+                pass
+            case _:
+                raise ValueError(f"Invalid block type {type}")
+        self.elementData[self.lastElementName].insert(idx, newBlock)
+        self.reloadBlocks()
 
 class ScriptBlock(customtkinter.CTkFrame):
     def __init__(self, master, blocksList: list, key: int, deleteCommand = None, **kwargs):
@@ -299,9 +341,9 @@ class ScriptBlock(customtkinter.CTkFrame):
             self.newStringEntry("file", self.stringVar1, 1)
         elif type == "bootTitle":
             self.stringVar1 = customtkinter.StringVar(self, blockData["TitleID"])
-            self.stringVar2 = customtkinter.StringVar(self, blockData["NAND"])
+            self.booleanVar1 = customtkinter.StringVar(self, blockData["NAND"])
             self.newStringEntry("TitleID", self.stringVar1, 1)
-            self.newStringEntry("NAND", self.stringVar2, 2)
+            self.newBooleanCheckbox("NAND", self.booleanVar1, 2)
         elif type == "mkdir":
             self.stringVar1 = customtkinter.StringVar(self, blockData["directory"])
             self.newStringEntry("directory", self.stringVar1, 1)
@@ -333,6 +375,8 @@ class ScriptBlock(customtkinter.CTkFrame):
             self.newStringEntry("count", self.stringVar1, 1)
         elif type == "exit":
             pass
+        else:
+            raise ValueError(f"Invalid block type {type}")
     
     def newStringEntry(self, name, var, r):
         self.newLabel(name, 0, r)
