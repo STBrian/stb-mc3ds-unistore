@@ -262,7 +262,7 @@ class ScriptViewFrame(customtkinter.CTkFrame):
                 newBlock["repo"] = ""
                 newBlock["file"] = ""
                 newBlock["output"] = ""
-                newBlock["includePrereleases"] = False
+                newBlock["includePrereleases"] = False # type: ignore
             case "extractFile":
                 newBlock["file"] = ""
                 newBlock["input"] = ""
@@ -271,12 +271,12 @@ class ScriptViewFrame(customtkinter.CTkFrame):
                 newBlock["file"] = ""
             case "bootTitle":
                 newBlock["TitleID"] = ""
-                newBlock["NAND"] = False
+                newBlock["NAND"] = False # type: ignore
             case "mkdir":
                 newBlock["directory"] = ""
             case "rmdir":
                 newBlock["directory"] = ""
-                newBlock["required"] = False
+                newBlock["required"] = False # type: ignore
             case "move":
                 newBlock["old"] = ""
                 newBlock["new"] = ""
